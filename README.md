@@ -1,7 +1,7 @@
 # Programa Top v14 -  Tiempo Parcial
 
 ## Mentores 👩🏻‍🏫👨🏼‍🏫
-- [Nombre del mentor](profiles/mentor-principal.md)
+- [Shymmy W. Garcia](profiles/mentor-principal.md)
 - Mentor 2
 - Mentor 3
 
@@ -11,40 +11,6 @@
 - Estudiante 3
 - ...
 
-## Como es un dia de estudio durante el programa TOP?
-
-### 8:30 am - 10:00 am:
-Clase Magistral con mentor principal
-
-### 10:00 am - 1:30 pm:
-Pueden ocurrir varias actividades en este rango de tiempo
-- Clase de habilidades blandas
-- Clase de ingles
-- Reuniones con mentores de apoyo
-- Trabajar, codificar, en tu proyecto grupal/personal
-- Resolver dudas con los mentores.
-- Planeacion del sprint
-- Demo del entregable anterior
-- Retrospectiva del spint
-- Terminar los retos o misiones que son asignados en clase
-
-### 01:00 pm - 2:30 pm
-Tiempo para almorzar
-
-### 02:30 pm - 03:30 pm:
-Clase Magistral con mentor principal
-
-### 03:30 pm - 6:30 pm:
-Pueden ocurrir varias actividades en este rango de tiempo
-- Clase de habilidades blandas
-- Clase de ingles
-- Reuniones con mentores de apoyo
-- Trabajar, codificar, en tu proyecto grupal/personal
-- Resolver dudas con los mentores.
-- Planeacion del sprint
-- Demo del entregable anterior
-- Retrospectiva del spint
-- Terminar los retos o misiones que son asignados en clase
 
 ## Entregables proyecto grupal 💻🤝
 
