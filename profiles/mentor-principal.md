@@ -1,6 +1,6 @@
 # Mentor Principal
 
-Cuentanos algo sobre ti que te gustara todos conocieramos: Quien eres? que te gusta hacer? De donde eres?
+Soy Shymmy Fullstack developer tech lead ...Soy de Colombia, me gusta programar.
 
 ## Perfiles sociales
 
@@ -11,8 +11,8 @@ Cuentanos algo sobre ti que te gustara todos conocieramos: Quien eres? que te gu
 ## Experiencia Tecnica
 > En una escala de 1 a 5 como te sientes tecnicamente en esto temas:  ⭐️⭐️⭐️⭐️⭐️
 
-- Programacion: ⭐️
-- Javascript: ⭐️
-- CSS: ⭐️
-- HTML: ⭐️
-- Git: ⭐️
+- Programacion: ⭐️⭐️⭐️
+- Javascript: ⭐️⭐️⭐️⭐️
+- CSS: ⭐️⭐️
+- HTML: ⭐️⭐️⭐️⭐️
+- Git: ⭐️⭐️
