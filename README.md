@@ -1,16 +1,17 @@
-# Programa Top v14 -  Tiempo Parcial
+# Programa Top v14 - Tiempo Parcial
 
 ## Mentores 👩🏻‍🏫👨🏼‍🏫
+
 - [Shymmy W. Garcia](profiles/mentor-principal.md)
 - Mentor 2
 - Mentor 3
 
 ## Estudiantes 👩🏻‍💻🧑🏼‍💻
-- Estudiante 1
+
+- [Estephany Paniagua](profiles/estudiante-epaniagua.md)
 - Estudiante 2
 - Estudiante 3
 - ...
-
 
 ## Entregables proyecto grupal 💻🤝
 
@@ -24,4 +25,3 @@
 - **Modulo 8**: Envio de email e Integración con pasarela de pagos.
 - **Modulo 9**: CI/CD del backend y el frontend.
 - **Modulo 10**: `DEMO Publico` 🎊🎉💻🎊🎉
-
