@@ -2,14 +2,15 @@
 
 ## Mentores 👩🏻‍🏫👨🏼‍🏫
 - [Shymmy W. Garcia](profiles/mentor-principal.md)
-- Mentor 2
-- Mentor 3
+- Luis David Hernandez Del Valle
+- Carolina Mejia
+- Bonnie Rojas
 
 ## Estudiantes 👩🏻‍💻🧑🏼‍💻
-- Estudiante 1
-- Estudiante 2
-- Estudiante 3
-- ...
+- Jean Ramos
+- Reynaldo Q.
+- [Diego Gr. Cabanillas](profiles/dgcabanillas.md)
+- Miguel Enrique Saca Accostupa
 
 
 ## Entregables proyecto grupal 💻🤝
