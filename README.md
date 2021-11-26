@@ -6,7 +6,7 @@
 - Mentor 3
 
 ## Estudiantes 👩🏻‍💻🧑🏼‍💻
-- Anthony Will Solsol Soplin
+- [Anthony Will Solsol Soplin](profiles/AnthonyWill.md)
 - Estudiante 2
 - Estudiante 3
 - ...
