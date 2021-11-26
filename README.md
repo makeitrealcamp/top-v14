@@ -6,8 +6,7 @@
 - Mentor 3
 
 ## Estudiantes 👩🏻‍💻🧑🏼‍💻
-- Estudiante 1
-- Estudiante 2
+- [REYNALDO QUISPE SOCA](profiles/reynaldo.md)
 - Estudiante 3
 - ...
 
