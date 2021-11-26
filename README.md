@@ -7,6 +7,7 @@
 
 ## Estudiantes 👩🏻‍💻🧑🏼‍💻
 - [Anthony Will Solsol Soplin](profiles/AnthonyWill.md)
+- [Fernando](profiles/Fernando.md)
 - Estudiante 2
 - Estudiante 3
 - ...
