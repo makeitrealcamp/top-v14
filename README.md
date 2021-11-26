@@ -11,6 +11,7 @@
 - Estudiante 2
 - Estudiante 3
 - ...
+- [anthony Bacilio](profiles/a-bacilio.md)
 
 
 ## Entregables proyecto grupal 💻🤝
