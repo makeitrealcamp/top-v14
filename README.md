@@ -11,7 +11,7 @@
 - Estudiante 3
 - ...
 
-
+- [REYNALDO QUISPE](profiles/reynaldo.md)
 ## Entregables proyecto grupal 💻🤝
 
 - **Modulo 1**: Wireframes y backlog del proyecto e Historias de usuario.
