@@ -9,7 +9,7 @@
 - Estudiante 1
 - Estudiante 2
 - Estudiante 3
-- ...
+- [Jhon W. Pariona](profiles/estudiante-jhonwpv.md)
 
 
 ## Entregables proyecto grupal 💻🤝
