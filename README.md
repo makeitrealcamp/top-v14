@@ -7,8 +7,7 @@
 
 ## Estudiantes 👩🏻‍💻🧑🏼‍💻
 - [REYNALDO QUISPE SOCA](profiles/reynaldo.md)
-- Estudiante 3
-- ...
+
 
 
 ## Entregables proyecto grupal 💻🤝
