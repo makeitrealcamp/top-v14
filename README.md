@@ -6,7 +6,7 @@
 - Mentor 3
 
 ## Estudiantes 👩🏻‍💻🧑🏼‍💻
-- Estudiante 1
+- [Pedro de Jesus Quiñones Paternina] (https://www.linkedin.com/in/pedro-qui%C3%B1ones-paternina-5436b1161/)
 - Estudiante 2
 - Estudiante 3
 - ...
