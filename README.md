@@ -2,14 +2,15 @@
 
 ## Mentores 👩🏻‍🏫👨🏼‍🏫
 - [Shymmy W. Garcia](profiles/mentor-principal.md)
-- Mentor 2
-- Mentor 3
+- [Luis David Hernandez del Valle](profiles/mentor-apoyo.md)
 
 ## Estudiantes 👩🏻‍💻🧑🏼‍💻
-- Estudiante 1
+- [Anthony Will Solsol Soplin](profiles/AnthonyWill.md)
+- [Pedro de Jesus Quiñones Paternina](https://www.linkedin.com/in/pedro-qui%C3%B1ones-paternina-5436b1161/)
 - Estudiante 2
 - Estudiante 3
 - [Jhon W. Pariona](profiles/estudiante-jhonwpv.md)
+- [Anthony Bacilio](profiles/a-bacilio.md)
 
 
 ## Entregables proyecto grupal 💻🤝
