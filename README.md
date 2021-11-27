@@ -2,16 +2,17 @@
 
 ## Mentores 👩🏻‍🏫👨🏼‍🏫
 - [Shymmy W. Garcia](profiles/mentor-principal.md)
-- Mentor 2
-- Mentor 3
+- [Luis David Hernandez del Valle](profiles/mentor-apoyo.md)
 
 ## Estudiantes 👩🏻‍💻🧑🏼‍💻
 - [Anthony Will Solsol Soplin](profiles/AnthonyWill.md)
-- Estudiante 2
-- Estudiante 3
-- ...
-
+- [Fernando](profiles/Fernando.md)
+- [Pedro de Jesus Quiñones Paternina](https://www.linkedin.com/in/pedro-qui%C3%B1ones-paternina-5436b1161/)
+- [Diego Gr. Cabanillas](profiles/dgcabanillas.md)
 - [REYNALDO QUISPE](profiles/reynaldo.md)
+- [Jhon W. Pariona](profiles/estudiante-jhonwpv.md)
+- [Anthony Bacilio](profiles/a-bacilio.md)
+
 ## Entregables proyecto grupal 💻🤝
 
 - **Modulo 1**: Wireframes y backlog del proyecto e Historias de usuario.
