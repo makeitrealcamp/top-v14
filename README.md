@@ -6,6 +6,7 @@
 
 ## Estudiantes 👩🏻‍💻🧑🏼‍💻
 - [Anthony Will Solsol Soplin](profiles/AnthonyWill.md)
+- [Fernando](profiles/Fernando.md)
 - [Pedro de Jesus Quiñones Paternina](https://www.linkedin.com/in/pedro-qui%C3%B1ones-paternina-5436b1161/)
 - [Diego Gr. Cabanillas](profiles/dgcabanillas.md)
 - Estudiante 3
