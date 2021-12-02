@@ -2,7 +2,7 @@
 
 Este ejercicio consiste en una lista de tareas (Todo list). Ya el HTML y CSS estan definidos, solo les toca agregar la interaccion con javascript.
 
-La idea es tener la capacidad de agregar las tareas digitadas en el input (elemento con id = addToDo) a la lista de abajo. Tambien debe tener la capacidad de eliminar dichas tareas al undir el icono de papelera (elemento con id = fa-trash).
+La idea es tener la capacidad de agregar las tareas digitadas en el input a la lista de abajo (esto debe ocurrir al hacer click al boton "Add to do", elemento con id = addToDo). Tambien debe tener la capacidad de eliminar dichas tareas al undir el icono de papelera (elemento con id = fa-trash).
 
 ## 📝 Instrucciones:
 
