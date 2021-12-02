@@ -1,0 +1,8 @@
+$color:(
+  myBlack:gray,
+  myBlue:blue
+);
+
+@function color($variable){
+  @return map-get($color, $variable);
+}

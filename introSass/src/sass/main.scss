@@ -1,0 +1,67 @@
+// //variables -> $variableName: value;
+// $redColor:red;
+// //maps 
+// $color:(
+//   myBlack:white,
+//   myBlue:blue
+// );
+// @use './partials/colors' as *; // namespace
+
+// @use './partials/functions' as *;
+
+@use './partials/' as *;
+
+body {
+  // background-color: color(myBlack);
+  color:red;
+  // font-size: 80% + 20%;
+  
+}
+
+@mixin withBorder {
+  border: 2px solid $light;
+}
+
+
+
+.main{
+@include withBorder;
+.feature{
+  @include darkMode(false);
+//  background-color: green;
+ @include paragraph;
+ p{
+   color: white
+ }
+}
+.article{
+  @include paragraph;
+  &_text{
+    color: gray;
+    &:hover{
+      color: $yellow;
+      cursor: pointer;
+    }
+  }
+}
+}
+
+.button{
+  display: inline-block;
+    border-radius: 3px;
+    padding: 7px 12px;
+    border: 1px solid #D5D5D5;
+    background-image: linear-gradient(#EEE, #DDD);
+    font: 700 13px/18px Helvetica, arial;
+    &__alert{
+      color: #FFF;
+      background: #569E3D linear-gradient(#79D858, #569E3D) repeat-x;
+      border-color: #4A993E;
+  }
+  
+  &__danger{
+    color: #FFF;
+    background: #9e3d3d linear-gradient(#d85858, #9e3d3d) repeat-x;
+    border-color: #993e3e;
+  }
+}
