@@ -1,0 +1,18 @@
+{
+    "env": {
+        "commonjs": true,
+        "es2021": true,
+        "node": true
+    },
+    "extends": [
+        "airbnb-base",
+        "prettier"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 6
+    },
+    "rules": {
+        "no-restricted-syntax": [0, "FunctionExpression", "WithStatement", "BinaryExpression[operator='in']"],
+        "func-names": ["error", "always"]
+    }
+}
