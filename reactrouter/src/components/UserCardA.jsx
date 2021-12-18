@@ -1,7 +1,7 @@
 import React from 'react'
 import { Button, Card } from 'react-bootstrap'
 import { Link, Route, Routes } from 'react-router-dom'
-import { UserDetails } from './UserDetails';
+import { UserDetails } from './UserDetailsA';
 
 export const UserCard = ({ user }) => {
 
