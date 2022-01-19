@@ -1,9 +1,10 @@
 
 import React, { useReducer, useRef, useState } from 'react'
-import { Button, Form } from 'react-bootstrap'
+import { Button, Form } from 'react-bootstrap';
+import { BsCheckCircle, BsCheckCircleFill, BsFillPencilFill, BsFillTrashFill } from "react-icons/bs";
 
 
-const intialState = [{ id: 1, title: 'Demo task', status: false }]
+const intialState = [{ id: 1, title: 'Demo task', description: '', status: false }]
 /**
  * Object {
  * id:
@@ -15,7 +16,8 @@ const intialState = [{ id: 1, title: 'Demo task', status: false }]
  */
 
 export const TaskInput = () => {
-  const ref = useRef()
+  const titleRef = useRef();
+  const descriptionRef = useRef();
 
   const [editMode, setEditMode] = useState(false)
 
@@ -34,6 +36,15 @@ export const TaskInput = () => {
             return task
           }
         })
+      case 'status':
+        return state.map(task => {
+          const id = action.payload
+          if (task.id === id) {
+            return { ...task, status: !task.status }
+          } else {
+            return task
+          }
+        })
       default:
         return state
     }
@@ -45,59 +56,96 @@ export const TaskInput = () => {
     e.preventDefault()
 
     if (editMode) {
-
       dispatch({
         type: 'edit',
-        payload: { id: Number(ref.current.id), title: ref.current.value }
-      })
-      setEditMode(false)
+        payload: {
+          id: Number(titleRef.current.id),
+          title: titleRef.current.value,
+          description: descriptionRef.current.value
+        }
+      });
+      setEditMode(false);
     } else {
       dispatch({
         type: 'create',
-        payload: { id: Date.now(), title: ref.current.value, status: false }
-      })
+        payload: {
+          id: Date.now(), title: titleRef.current.value,
+          description: descriptionRef.current.value,
+          status: false
+        }
+      });
     }
-    ref.current.value = '';
+    titleRef.current.value = '';
+    descriptionRef.current.value = '';
   }
 
   const handleDelete = (id) => {
     dispatch({
       type: 'delete',
       payload: id
-    })
+    });
   }
-
+  const handleStatus = (id) => {
+    dispatch({
+      type: 'status',
+      payload: id
+    });
+  }
 
   const handleEdit = (id) => {
     setEditMode(true);
-    const [currentTask] = state.filter(task => task.id === id)
-
-    ref.current.value = currentTask.title;
-    ref.current.id = id
-
+    const [currentTask] = state.filter(task => task.id === id);
+    titleRef.current.value = currentTask.title;
+    descriptionRef.current.value = currentTask.description;
+    titleRef.current.id = id;
   }
 
   return (<>
     <Form onSubmit={handleSubmit}>
       <Form.Group className="mb-3" >
         <Form.Label>Task Title</Form.Label>
-        <Form.Control type="text" placeholder="Title" name='title' ref={ref} />
+        <Form.Control type="text" placeholder="Title" name='title' ref={titleRef} />
+      </Form.Group>
+      <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+        <Form.Label>Description</Form.Label>
+        <Form.Control as="textarea" rows={3} ref={descriptionRef} />
       </Form.Group>
       <Button type='submit' >{editMode ? 'Edit Task' : 'Create task'}</Button>
     </Form>
     <ul>
 
       {state.map(({ id, title, status }) => (
-        <li key={id}>
+        <li key={id} >
           {title}
-          <Button variant='danger' onClick={() => handleDelete(id)} >
+
+          {/* <Button variant='danger' onClick={() => handleDelete(id)} >
             Delete
-          </Button>
+          </Button> */}
+          {/* <Button onClick={() => handleEdit(id)} >
+              Edit
+            </Button> */}
+          {!editMode &&
+            (<>
+              <BsFillTrashFill fontVariant={''} onClick={() => handleDelete(id)} style={{ color: 'red', cursor: 'pointer' }} />
 
-          <Button onClick={() => handleEdit(id)} >
-            Edit
-          </Button>
+              <BsFillPencilFill
+                color='green'
+                onClick={() => handleEdit(id)}
+                style={{ cursor: 'pointer' }} />
 
+              {status ?
+                <BsCheckCircleFill
+                  color='green'
+                  onClick={() => handleStatus(id)}
+                  style={{ cursor: 'pointer' }}
+                /> :
+                <BsCheckCircle
+                  color='red'
+                  onClick={() => handleStatus(id)}
+                  style={{ cursor: 'pointer' }} />}
+            </>
+            )
+          }
         </li>
       ))}
     </ul>

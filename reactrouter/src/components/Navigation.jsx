@@ -14,6 +14,7 @@ export const Navigation = () => {
             <Link  className="nav-link" to='/about'>About </Link>
             <Link  className="nav-link" to='/users'>Users </Link>
             <Link  className="nav-link" to='/posts'>Posts </Link>
+            <Link  className="nav-link" to='/tasks'>Tasks </Link>
           </Nav>
         </Container>
       </Navbar>
