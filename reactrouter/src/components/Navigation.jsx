@@ -15,6 +15,7 @@ export const Navigation = () => {
             <Link  className="nav-link" to='/users'>Users </Link>
             <Link  className="nav-link" to='/posts'>Posts </Link>
             <Link  className="nav-link" to='/tasks'>Tasks </Link>
+            <Link  className="nav-link" to='/done'>Done </Link>
           </Nav>
         </Container>
       </Navbar>
