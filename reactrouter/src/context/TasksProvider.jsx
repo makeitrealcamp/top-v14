@@ -1,14 +1,22 @@
-import React from 'react'
-import { useState } from 'react'
-import { TaskContext } from './TasksContext'
+import React, { useReducer } from 'react';
+
+import { TaskContext } from './TasksContext';
+
+import taskReducer from '../components/tasks/reducers/taskReducer';
+
+import intialState from '../utils/tasksDb';
 
 export const TasksProvider = ({ children }) => {
-  const [state, setState] = useState('')
+  const [tasks, dispatch] = useReducer(taskReducer, intialState)
 
-  const changeText = (text) => setState(text)
+
+  const value = {
+    dispatch,
+    tasks
+  }
 
   return (
-    <TaskContext.Provider value={{ task: ' This is value from custom provider', state, changeText }}>
+    <TaskContext.Provider value={value}>
       {children}
     </TaskContext.Provider>
   )

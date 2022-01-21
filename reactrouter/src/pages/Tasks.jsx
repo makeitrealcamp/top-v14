@@ -1,25 +1,15 @@
-import React, { useContext, useReducer, useRef, useState } from 'react'
+import React, { useContext, useRef, useState } from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
-
 import { TaskFormContainer } from '../components/tasks/TaskFormContainer'
-
-import taskReducer from '../components/tasks/reducers/taskReducer'
 import { TaskView } from '../components/tasks/TaskView'
 import { TaskContext } from '../context/TasksContext'
 
-const intialState = [{ id: 1, title: 'Demo task', description: '', status: false }]
-
-
 export const Tasks = () => {
-
-  const context = useContext(TaskContext);
-  console.log(context)
+  const {tasks, dispatch} = useContext(TaskContext);
 
   const titleRef = useRef();
   const descriptionRef = useRef();
-  const [editMode, setEditMode] = useState(false)
-
-  const [state, dispatch] = useReducer(taskReducer, intialState)
+  const [editMode, setEditMode] = useState(false);
 
 
   const handleDelete = (id) => {
@@ -37,7 +27,7 @@ export const Tasks = () => {
 
   const handleEdit = (id) => {
     setEditMode(true);
-    const [currentTask] = state.filter(task => task.id === id);
+    const [currentTask] = tasks.filter(task => task.id === id);
     titleRef.current.value = currentTask.title;
     descriptionRef.current.value = currentTask.description;
     titleRef.current.id = id;
@@ -57,7 +47,7 @@ export const Tasks = () => {
         </Col>
         <Col xs={8} id="page-content-wrapper">
           <ul>
-            {state.map((task) => (<TaskView
+            {tasks.map((task) => (<TaskView
               key={task.id}
               task={task}
               handleEdit={handleEdit}

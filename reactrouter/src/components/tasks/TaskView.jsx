@@ -1,7 +1,7 @@
-import React, { useContext } from 'react'
-import { Button, Card } from 'react-bootstrap';
+import React from 'react'
+import { Card } from 'react-bootstrap';
 import { BsCheckCircle, BsCheckCircleFill, BsFillPencilFill, BsFillTrashFill } from 'react-icons/bs'
-import { TaskContext } from '../../context/TasksContext';
+
 
 export const TaskView = ({
   task,
@@ -10,8 +10,7 @@ export const TaskView = ({
   handleStatus,
   editMode }) => {
   const { title, id, status, description } = task;
-  const ctx = useContext(TaskContext)
-  console.log(ctx)
+
   return (
     <li>
       <Card style={{ width: '18rem' }}>
@@ -40,7 +39,7 @@ export const TaskView = ({
             </>
             )
           }
-          <Button onClick={() => ctx.changeText(id)}  > Change Text </Button>
+
         </Card.Body>
       </Card>
     </li>
