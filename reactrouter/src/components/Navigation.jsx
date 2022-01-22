@@ -21,6 +21,7 @@ export const Navigation = ({ isLoggedIn }) => {
             <Link className="nav-link" to='/about'>About </Link>
             <Link className="nav-link" to='/users'>Users </Link>
             <Link className="nav-link" to='/posts'>Posts </Link>
+            <Link className="nav-link" to='/movies'>Movies </Link>
 
             {
               isLoggedIn ? (

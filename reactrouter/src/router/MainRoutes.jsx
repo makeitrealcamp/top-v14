@@ -8,6 +8,8 @@ import { PrivateB } from '../components/PrivateB'
 import { UserDetails } from '../components/UserDetailsA'
 import { UsersContainer } from '../components/Users/UsersContainer'
 import { AuthContext } from '../context/authContext'
+import { MovieList } from '../movies/MovieList'
+import { MoviePages } from '../movies/MoviePages'
 import { About } from '../pages/About'
 import { Home } from '../pages/Home'
 import { LoginPage } from '../pages/LoginPage'
@@ -39,6 +41,7 @@ export const MainRoutes = () => {
         <Route path='tasks' element={<Tasks />} />
         <Route path='done' element={<TasksDone />} />
         <Route path='login' element={<LoginPage />} />
+        <Route path='movies' element={<MoviePages />} />
         {/* <Route path='private'
           element={
             <PrivateRouteA user={true} >
