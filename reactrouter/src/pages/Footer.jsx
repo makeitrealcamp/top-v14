@@ -6,11 +6,8 @@ export const Footer = () => {
   const { task, state, changeText } = useContext(TaskContext)
   return (
     <div>
-      <p>This is context value {task}</p>
+      Footer
 
-      <p> This is state ={state}</p>
-
-      <Button onClick={() => changeText('Text from footer')}  > Change Text </Button>
     </div>
   )
 }
