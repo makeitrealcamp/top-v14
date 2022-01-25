@@ -6,7 +6,6 @@ export const useGetMovies = (URL, apiKey) => {
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(false)
 
-
   useEffect(() => {
     fetch(`${URL}?api_key=${apiKey}`)
       .then(response => response.json())

@@ -3,4 +3,5 @@ export const movies = {
 
   popular: `${URL}movie/popular`,
   latest: `${URL}movie/latest`,
+  upcoming: `${URL}movie/upcoming`
 }
