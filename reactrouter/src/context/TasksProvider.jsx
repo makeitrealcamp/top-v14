@@ -4,10 +4,12 @@ import { TaskContext } from './TasksContext';
 
 import taskReducer from '../components/tasks/reducers/taskReducer';
 
-import intialState from '../utils/tasksDb';
+// import intialState from '../utils/tasksDb';
+import { useLocalStorage } from '../customHooks/useLocalStorage';
 
 export const TasksProvider = ({ children }) => {
-  const [tasks, dispatch] = useReducer(taskReducer, intialState)
+  const [initialState] = useLocalStorage('tasks',[])
+  const [tasks, dispatch] = useReducer(taskReducer, initialState);
 
 
   const value = {
