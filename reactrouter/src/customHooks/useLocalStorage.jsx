@@ -23,7 +23,7 @@ export const useLocalStorage = (key, initialValue = null) => {
   //     setStoredValue(initialValue)
   //   }
 
-  // }, []);
+  // }, [storedValue]);
 
 
 
