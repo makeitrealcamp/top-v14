@@ -19,7 +19,6 @@ export const TaskFormContainer = () => {
     setTitle('');
     setDescription('');
   }
-
   return (
     <TaskFormView
       handleTitle={(e) => setTitle(e.target.value)}

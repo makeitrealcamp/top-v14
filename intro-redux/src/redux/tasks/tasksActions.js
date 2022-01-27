@@ -12,3 +12,10 @@ export const deleteTask = (id) => {
     payload: id
   }
 };
+
+export const editTask = (task) => {
+  return {
+    type: tasksTypes.EDIT_TASK,
+    payload: task
+  }
+}

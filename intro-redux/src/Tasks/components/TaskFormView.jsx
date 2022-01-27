@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button, Form } from 'react-bootstrap';
 
-export const TaskFormView = ({ handleDescription, handleTitle, handleSubmit, title, description }) => {
+export const TaskFormView = ({ handleDescription, handleTitle, handleSubmit, title, description, editMode }) => {
   return (
     <Form onSubmit={handleSubmit}>
       <Form.Group className='mb-3' >
@@ -24,7 +24,7 @@ export const TaskFormView = ({ handleDescription, handleTitle, handleSubmit, tit
           value={description}
         />
       </Form.Group>
-      <Button type='submit' >Save task</Button>
+      {!editMode && <Button type='submit'>Save task</Button>}
     </Form>
   )
 };
