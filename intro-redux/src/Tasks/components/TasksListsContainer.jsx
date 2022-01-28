@@ -9,6 +9,7 @@ export const TasksListsContainer = () => {
   const dispatch = useDispatch();
 
   const [showModal, setShowModal] = useState(false);
+
   const [taskToEdit, setTaskToEdit] = useState();
   const [title, setTitle] = useState('');
   const [description, setDescription] = useState('');
@@ -16,12 +17,13 @@ export const TasksListsContainer = () => {
   const handleDeleteTask = (id) => {
     dispatch(deleteTask(id))
   }
+
   const handleEditTask = (id) => {
     const [task] = tasks.filter(task => task.id === id);
     setTaskToEdit(task)
     setTitle(task.title);
-    setDescription(task.description)
-    setShowModal(true)
+    setDescription(task.description);
+    setShowModal(true);
   }
 
   const saveEditTask = () => {

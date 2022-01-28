@@ -13,7 +13,8 @@ export const TaskFormContainer = () => {
     const task = {
       id: Date.now(),
       title,
-      description
+      description,
+      status: false
     }
     dispatch(createTask(task));
     setTitle('');
