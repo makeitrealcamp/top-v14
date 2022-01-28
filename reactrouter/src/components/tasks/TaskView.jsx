@@ -33,8 +33,8 @@ export const TaskView = ({
                   style={{ cursor: 'pointer' }}
                 /> :
                 <BsCheckCircle
+                onClick={() => handleStatus(id)}
                   color='red'
-                  onClick={() => handleStatus(id)}
                   style={{ cursor: 'pointer' }} />}
             </>
             )
