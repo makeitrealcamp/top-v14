@@ -8,7 +8,8 @@ export const TaskView = ({
   handleDelete,
   handleEdit,
   handleStatus,
-  editMode }) => {
+  editMode
+}) => {
   const { title, id, status, description } = task;
 
   return (
@@ -28,18 +29,23 @@ export const TaskView = ({
                 style={{ cursor: 'pointer' }} />
               {status ?
                 <BsCheckCircleFill
+                  data-testid="status-done"
+                  role={'button'}
                   color='green'
+                  name='status'
                   onClick={() => handleStatus(id)}
                   style={{ cursor: 'pointer' }}
                 /> :
                 <BsCheckCircle
-                onClick={() => handleStatus(id)}
+                  data-testid="status-undone"
+                  role={'button'}
+                  name='status'
+                  onClick={() => handleStatus(id)}
                   color='red'
                   style={{ cursor: 'pointer' }} />}
             </>
             )
           }
-
         </Card.Body>
       </Card>
     </li>

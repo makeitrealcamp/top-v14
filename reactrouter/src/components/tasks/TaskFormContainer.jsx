@@ -6,7 +6,6 @@ export const TaskFormContainer = ({ editMode, setEditMode, dispatch, titleRef, d
 
 
 
-
   const handleSubmit = (e) => {
     e.preventDefault();
 
