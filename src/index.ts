@@ -1,40 +1,10 @@
-import express, { Application, NextFunction, Request, Response, ErrorRequestHandler } from 'express';
+import { createDbConnection } from './config/databaseConfig';
+import dotenv from 'dotenv';
+import app from './app';
+dotenv.config();
 
-import userRoutes from './routes/userRoutes';
+createDbConnection(`${process.env.MONGO_URI}`);
 
-const app: Application = express();
+// app.listen(app.get('port'), () => console.log(`Server started on port ${app.get('port')}`))
 
-
-// const add = (a: number, b: number): number => a + b
-
-app.use(express.json());
-
-
-
-app.use(userRoutes);
-
-// app.get('/users', (req: Request, res: Response) => {
-
-//   res.status(201).json({ result: ['1'] });
-
-// });
-// app.post('/users', (req: Request, res: Response) => {
-
-//   res.status(201).json({ result: ['1'] });
-
-// });
-
-// app.post('/users/:id', (req: Request, res: Response) => {
-//   console.log(req.body);
-//   console.log(req.params);
-//   console.log(req.query);
-//   res.status(200).send()
-// })
-
-
-app.use(function (err:ErrorRequestHandler, req:Request, res:Response, next:NextFunction) {
-  // console.error(err.stack)
-  res.status(500).send('Something broke!')
-})
-
-app.listen(3000, () => console.log('Server started'))
+app.listen(process.env.PORT, () => console.log(`Server started on port ${process.env.PORT}`))
