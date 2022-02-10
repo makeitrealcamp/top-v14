@@ -1,0 +1,3 @@
+{"level":"error","message":"hello world","service":"user-service"}
+{"level":"error","message":"hello E11000 duplicate key error collection: test.users index: email_1 dup key: { email: \"ok@test.com\" }","service":"user-service"}
+{"level":"error","message":"CreateUserFN E11000 duplicate key error collection: test.users index: email_1 dup key: { email: \"ok@tessat.com\" }","service":"user-service","type":"mongoose"}

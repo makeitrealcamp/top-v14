@@ -1,5 +1,5 @@
-export type UserType = {
-  id: number,
+export type userRequest = {
   name: string,
-  age: number
+  email: string,
+  age?: number
 }

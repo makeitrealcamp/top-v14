@@ -1,17 +1,18 @@
-import mongoose, { Document } from 'mongoose';
+import mongoose, { Document, Types } from 'mongoose';
 
 const Schema = mongoose.Schema;
 
 
-interface IUser extends Document {
+export interface IUser {
+  // _id: Types.ObjectId;
   name: string,
   email: string,
   age: number,
-  created_at: Date
+  created_at: Date;
 }
 
 
-const UserSchemma = new Schema({
+const UserSchemma = new Schema<IUser>({
   name: {
     type: String,
     required: true
@@ -24,7 +25,7 @@ const UserSchemma = new Schema({
   age: Number,
   created_at: {
     type: Date,
-    default: Date.now()
+    default: new Date()
   }
 });
 

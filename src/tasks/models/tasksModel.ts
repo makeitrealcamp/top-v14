@@ -3,7 +3,7 @@ import { ITask } from 'tasks/types/TaskInterface';
 
 const Schema = mongoose.Schema;
 
-const TaskSchema = new Schema({
+const TaskSchema = new Schema<ITask>({
   title: {
     type: String,
     required: true
@@ -17,7 +17,7 @@ const TaskSchema = new Schema({
   },
   create_at: {
     type: Date,
-    default: Date.now()
+    default: new Date()
   },
   edited_at: {
     type: Date,
