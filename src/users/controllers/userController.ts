@@ -1,6 +1,6 @@
 import { Request, Response } from 'express';
-import { UserType } from 'users/types/User';
-import { UserModel } from '../models/userModel';
+import { CreateUser } from 'users/entity/types/User';
+import { UserModel } from '../entity/models/userModel';
 
 
 
@@ -35,7 +35,7 @@ export const createUser = async (req: Request, res: Response) => {
 
 export const editUser = (req: Request, res: Response) => {
   // nueva data 
-  const newUser: UserType = req.body;
+  const newUser: CreateUser = req.body;
   console.log(newUser);
   // id -> params
   const { id } = req.params

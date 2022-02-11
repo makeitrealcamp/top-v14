@@ -1,4 +1,4 @@
-import { User } from "users/types/User";
+import { User } from "users/entity/types/User";
 
 const db: User[] = []
 
