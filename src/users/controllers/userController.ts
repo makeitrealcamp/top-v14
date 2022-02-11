@@ -1,7 +1,9 @@
 import { ApplicationError } from '../../customErrors/ApplicationError';
 import { NextFunction, Request, Response } from 'express';
 
-import { IUser, UserModel } from '../models/userModel';
+import { CreateUser } from 'users/entity/types/User';
+import { UserModel } from '../entity/models/userModel';
+
 import { logger } from '../../logger/appLogger';
 import { createUserService } from '../services/createUserService';
 import { userRequest } from 'users/types/User';
@@ -36,7 +38,7 @@ export const createUser = async (req: Request <{},{},userRequest>, res: Response
 
 export const editUser = (req: Request, res: Response) => {
   // nueva data 
-  const newUser = req.body;
+  const newUser: CreateUser = req.body;
   console.log(newUser);
   // id -> params
   const { id } = req.params
