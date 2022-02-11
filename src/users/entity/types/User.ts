@@ -6,7 +6,7 @@ export interface User {
   email: string;
   password: string;
   createdAt: Date;
-  editedAt: Date;
+  editedAt: Date | null;
 };
 
 export type UserIdType = {

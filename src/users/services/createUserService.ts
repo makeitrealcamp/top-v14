@@ -1,11 +1,14 @@
 import { logger } from "../../logger/appLogger";
-import { userRequest } from "../types/User";
+
 import { ApplicationError } from "../../customErrors/ApplicationError";
-import { IUser } from "../../users/models/userModel";
-import { UserModel } from "../../users/models/userModel";
 
-export const createUserService = async (userRequest: userRequest): Promise<IUser> => {
 
+import { UserModel } from "../entity/models/userModel";
+import { CreateUser, User } from "../entity/types/User";
+
+
+
+export const createUserService = async (userRequest: CreateUser): Promise<User> => {
   try {
     const user = new UserModel(userRequest);
     return await user.save();

@@ -1,5 +1,5 @@
-import { Schema } from "mongoose";
-import { User } from "../types/User";
+import { Schema } from 'mongoose';
+import { User } from '../types/User';
 
 export const UserSchemma = new Schema<User>({
   name: {
@@ -12,13 +12,13 @@ export const UserSchemma = new Schema<User>({
   },
   password: {
     type: String,
-    required: [true, ' password is required']
+    required: [true, ' password is required'],
   },
   createdAt: {
     type: Date,
-    default: new Date()
+    default: new Date(),
   },
   editedAt: {
     type: Date,
-  }
+  },
 });
