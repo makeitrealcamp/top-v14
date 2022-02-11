@@ -1,4 +1,4 @@
-import { Types } from "mongoose"
+import { Types } from 'mongoose';
 
 export interface User {
   id: UserIdType;
@@ -7,10 +7,10 @@ export interface User {
   password: string;
   createdAt: Date;
   editedAt: Date | null;
-};
+}
 
 export type UserIdType = {
-  id: Types.ObjectId
+  _id: Types.ObjectId;
 };
 
-export type CreateUser = Omit<User, 'id' | 'createdAt' | 'editedAt'>
+export type CreateUser = Omit<User, 'id' | 'createdAt' | 'editedAt'>;

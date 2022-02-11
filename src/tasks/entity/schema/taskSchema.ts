@@ -1,24 +1,24 @@
-import { Schema } from "mongoose";
-import { Task } from "tasks/entity/types/TaskInterface";
+import { Schema } from 'mongoose';
+import { Task } from 'tasks/entity/types/TaskInterface';
 
 export const TaskSchema = new Schema<Task>({
   title: {
     type: String,
-    required: true
+    required: true,
   },
   description: {
-    type: String
+    type: String,
   },
   status: {
     type: Boolean,
-    default: false
+    default: false,
   },
   createdAt: {
     type: Date,
-    default: new Date()
+    default: new Date(),
   },
   editedAt: {
     type: Date,
   },
-  projectOwner: { type: Schema.Types.ObjectId, ref: 'Project', required: true }
+  owner: { type: Schema.Types.ObjectId, ref: 'User', required: true },
 });

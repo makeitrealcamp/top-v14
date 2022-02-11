@@ -1,5 +1,5 @@
-import { Schema } from "mongoose";
-import { Project } from "projects/entityProject/types/ProjectType";
+import { Schema } from 'mongoose';
+import { Project } from 'projects/entityProject/types/ProjectType';
 
 export const ProjectSchema = new Schema<Project>({
   title: {
@@ -8,7 +8,7 @@ export const ProjectSchema = new Schema<Project>({
   },
   createdAt: {
     type: Date,
-    default: new Date()
+    default: new Date(),
   },
   updatedAt: {
     type: Date,
@@ -16,6 +16,6 @@ export const ProjectSchema = new Schema<Project>({
   owner: {
     type: Schema.Types.ObjectId,
     ref: 'User',
-    required: [true, 'an user is required to create a project']
-  }
+    required: [true, 'an user is required to create a project'],
+  },
 });
