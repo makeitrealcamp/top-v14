@@ -10,7 +10,7 @@ import {
 
 const router: Router = Router();
 
-router.get('/users', userValidationMidleware, getUsers);
+router.get('/users', getUsers);
 router.get('/users/:id', getUserById);
 // get one task
 router.post('/users', userValidationMidleware, createUser);

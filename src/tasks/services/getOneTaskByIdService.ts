@@ -4,13 +4,10 @@ import { Task } from '../entity/types/TaskInterface';
 
 export const getOneTaskByIdService = async (
   id: string
-): Promise<Task | undefined> => {
+): Promise<Task | null> => {
   try {
-    const task = await TaskModel.findById(id);
-    console.log(task);
-    // await task?.populate('owner');
-    task && (await task.populate('owner'));
-    return task as Task;
+    const task = await TaskModel.findById(id).populate('owner');
+    return task;
   } catch (error: any) {
     throw new ApplicationError(400, `error finding the task ${error.message}`);
   }

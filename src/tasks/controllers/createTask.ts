@@ -11,18 +11,11 @@ export const createTask = async (
 ): Promise<void> => {
   const { title, description } = req.body;
   const { projectId } = req.params;
-
   try {
-    // const task = new TaskModel({
-    //   title,
-    //   description,
-    //   created_by: '6201b0c2184e10f01f379733',
-    // });
-
     const newTask = await createNewTaskService({
       title,
       description,
-      owner: '6201b0c2184e10f01f379733',
+      owner: '62070a3a3de76e739ae5445f',
     });
 
     res.status(201).json({ data: newTask });

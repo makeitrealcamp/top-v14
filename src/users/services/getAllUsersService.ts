@@ -13,6 +13,6 @@ export const getAllUsersService = async (): Promise<User[]> => {
       message: error.message,
       type: 'mongoose',
     });
-    throw new ApplicationError(404, error.message);
+    throw new Error(error.message);
   }
 };

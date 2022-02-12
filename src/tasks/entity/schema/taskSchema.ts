@@ -4,7 +4,7 @@ import { Task } from 'tasks/entity/types/TaskInterface';
 export const TaskSchema = new Schema<Task>({
   title: {
     type: String,
-    required: true,
+    required: [true, 'title is required'],
   },
   description: {
     type: String,
@@ -20,5 +20,9 @@ export const TaskSchema = new Schema<Task>({
   editedAt: {
     type: Date,
   },
-  owner: { type: Schema.Types.ObjectId, ref: 'User', required: true },
+  owner: {
+    type: Schema.Types.ObjectId,
+    ref: 'User',
+    required: [true, 'task owner is required'],
+  },
 });
