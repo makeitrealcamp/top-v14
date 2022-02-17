@@ -12,3 +12,9 @@
 {"level":"error","message":"CreateUserFN E11000 duplicate key error collection: test.users index: email_1 dup key: { email: \"to be deleted\" }","service":"user-service","type":"mongoose"}
 {"level":"error","message":"CreateUserFN E11000 duplicate key error collection: test.users index: email_1 dup key: { email: \"to be deleted\" }","service":"user-service","type":"mongoose"}
 {"level":"error","message":"CreateUserFN E11000 duplicate key error collection: test.users index: email_1 dup key: { email: \"to q deleted\" }","service":"user-service","type":"mongoose"}
+{"level":"error","message":"createNewTaskService Task validation failed: title: title is required","service":"user-service","type":"mongoose"}
+{"level":"error","message":"createNewTaskService Task validation failed: title: title is required","service":"user-service","type":"mongoose"}
+{"level":"error","message":"createNewTaskService Task validation failed: title: title is required","service":"user-service","type":"mongoose"}
+{"level":"error","message":"createNewTaskService Task validation failed: title: title is required","service":"user-service","type":"mongoose"}
+{"level":"error","message":"createNewTaskService Task validation failed: title: title is required","service":"user-service","type":"mongoose"}
+{"level":"error","message":"createNewTaskService Task validation failed: title: title is required","service":"user-service","type":"mongoose"}

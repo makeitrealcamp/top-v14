@@ -1,5 +1,4 @@
 import { logger } from '../../shared/logger/appLogger';
-import bcrypt from 'bcrypt';
 import { ApplicationError } from '../../shared/customErrors/ApplicationError';
 
 import { UserModel } from '../entity/models/userModel';
@@ -11,9 +10,6 @@ export const createUserService = async (
   userRequest: CreateUser
 ): Promise<User> => {
   try {
-    //hash password
-    const salt = await bcrypt.genSalt(10);
-
     userRequest.password = await encryptPassword(userRequest.password);
 
     const user = await createResource(UserModel)(userRequest);
