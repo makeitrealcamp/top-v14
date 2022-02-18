@@ -1,4 +1,4 @@
-import { logger } from '../../shared/logger/appLogger';
+import logger from '../../shared/logger/appLogger';
 import { ApplicationError } from '../../shared/customErrors/ApplicationError';
 
 import { UserModel } from '../entity/models/userModel';
@@ -10,19 +10,14 @@ export const createUserService = async (
   userRequest: CreateUser
 ): Promise<User> => {
   try {
-    userRequest.password = await encryptPassword(userRequest.password);
-
+    userRequest['password'] = await encryptPassword(userRequest.password);
     const user = await createResource(UserModel)(userRequest);
     return user as User;
   } catch (error: any) {
-    logger.log('error', 'CreateUserFN', {
-      message: error.message,
-      type: 'mongoose',
+    logger.error(`error creating user with email ${userRequest.email}`, {
+      service: 'createUserService',
+      trace: error.message,
     });
-    throw new ApplicationError(
-      403,
-      error.message,
-      error.code === 11000 ? 'db error' : ''
-    );
+    throw new Error(`error creating user with email ${userRequest.email}`);
   }
 };

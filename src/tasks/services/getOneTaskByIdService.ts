@@ -1,6 +1,6 @@
 import { ApplicationError } from '../../shared/customErrors/ApplicationError';
 import { TaskModel } from '../entity/models/taskModel';
-import { Task } from '../entity/types/TaskInterface';
+import { Task } from '../entity/types/Task';
 
 export const getOneTaskByIdService = async (
   id: string

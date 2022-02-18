@@ -8,7 +8,6 @@ export const userTokenValidation = (
 ) => {
   try {
     const { authorization } = req.headers;
-
     if (authorization) {
       const isValid = validateToken(authorization);
       if (isValid) {

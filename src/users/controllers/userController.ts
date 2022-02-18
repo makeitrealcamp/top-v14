@@ -1,5 +1,5 @@
 import { NextFunction, Request, Response } from 'express';
-import { logger } from '../../shared/logger/appLogger';
+
 import { createUserService } from '../services/createUserService';
 import { CreateUser } from '../entity/types/User';
 import { getAllUsersService } from '../services/getAllUsersService';
@@ -7,6 +7,7 @@ import { getOneUserByIdService } from '../services/getOneUserByIdService';
 import { ApplicationError } from '../../shared/customErrors/ApplicationError';
 import { deleteUserService } from '../services/deleteUserService';
 import { createToken } from '../utils/tokenManager';
+import logger from '../../shared/logger/appLogger';
 
 export const getUsers = async (
   _req: Request,
@@ -17,7 +18,7 @@ export const getUsers = async (
     const users = await getAllUsersService();
     res.status(200).json(users);
   } catch (error: any) {
-    logger.log('error', 'hello', { message: error.message });
+    logger.error('error', 'hello', { message: error.message });
     next(new ApplicationError(400, 'error getting the users'));
   }
 };

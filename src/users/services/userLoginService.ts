@@ -7,6 +7,7 @@ import { getOneUserByEmail } from './getOneUserByEmail';
 export const userLoginService = async (
   userRequest: LoginUser
 ): Promise<string> => {
+  //TODO: refactor errors and add logger
   try {
     const user = await getOneUserByEmail(userRequest.email);
     if (user) {

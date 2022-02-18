@@ -1,5 +1,5 @@
 import { Schema } from 'mongoose';
-import { Task } from 'tasks/entity/types/TaskInterface';
+import { Task } from 'tasks/entity/types/Task';
 
 export const TaskSchema = new Schema<Task>({
   title: {
@@ -20,9 +20,9 @@ export const TaskSchema = new Schema<Task>({
   editedAt: {
     type: Date,
   },
-  owner: {
+  project: {
     type: Schema.Types.ObjectId,
-    ref: 'User',
-    required: [true, 'task owner is required'],
+    ref: 'Project',
+    required: [true, 'a project must be provided for a task'],
   },
 });

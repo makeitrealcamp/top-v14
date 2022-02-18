@@ -1,5 +1,5 @@
 import { Schema } from 'mongoose';
-import { TaskModel } from '../../../tasks/entity/models/taskModel';
+import { ProjectModel } from '../../../projects/entity/models/projectModel';
 import { User } from '../types/User';
 
 export const UserSchemma = new Schema<User>({
@@ -26,8 +26,8 @@ export const UserSchemma = new Schema<User>({
   },
 });
 
-UserSchemma.virtual('tasks', {
-  ref: 'Task',
+UserSchemma.virtual('projects', {
+  ref: 'Project',
   localField: '_id',
   foreignField: 'owner',
 });
@@ -37,7 +37,7 @@ UserSchemma.virtual('tasks', {
 // middlewares
 UserSchemma.pre('deleteOne', async function (next) {
   const user = this.getFilter();
-  await TaskModel.deleteMany({ owner: user.id });
+  await ProjectModel.deleteMany({ owner: user.id });
   next();
 });
 

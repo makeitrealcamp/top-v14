@@ -1,8 +1,8 @@
-import { ApplicationError } from '../../shared/customErrors/ApplicationError';
+import logger from '../../shared/logger/appLogger';
 import { createResource } from '../../shared/factory/createResource';
-import { logger } from '../../shared/logger/appLogger';
+
 import { TaskModel } from '../entity/models/taskModel';
-import { CreateTask, Task } from '../entity/types/TaskInterface';
+import { CreateTask, Task } from '../entity/types/Task';
 
 export const createNewTaskService = async (
   taskRequest: CreateTask
@@ -11,14 +11,10 @@ export const createNewTaskService = async (
     const task = await createResource(TaskModel)(taskRequest);
     return task as Task;
   } catch (error: any) {
-    logger.log('error', 'createNewTaskService', {
-      message: error.message,
-      type: 'mongoose',
+    logger.error('error creating a new task', {
+      service: 'createNewTaskService',
+      trace: error.message,
     });
-    throw new ApplicationError(
-      403,
-      error.message,
-      error.code === 11000 ? 'db error' : ''
-    );
+    throw new Error('error creating a new task');
   }
 };

@@ -1,0 +1,151 @@
+2022-02-18 13:15:06:156
+       [31merror[39m: [31muncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/users/services/getOneUserByEmail.ts[0m:[93m10[0m:[93m48[0m - [91merror[0m[90m TS2769: [0mNo overload matches this call.[39m
+[31m  Overload 1 of 3, '(filter?: FilterQuery<User> | undefined, options?: QueryOptions | undefined, callback?: CallbackWithoutResult | undefined): Query<...>', gave the following error.[39m
+[31m    Argument of type 'string' is not assignable to parameter of type 'FilterQuery<User> | undefined'.[39m
+[31m  Overload 2 of 3, '(callback: CallbackWithoutResult): Query<DeleteResult, Document<unknown, any, User> & User & { _id: ObjectId; }, {}, User>', gave the following error.[39m
+[31m    Argument of type 'string' is not assignable to parameter of type 'CallbackWithoutResult'.[39m
+
+[31m[7m10[0m     const deleted = await UserModel.deleteMany(email);[39m
+[31m[7m  [0m [91m                                               ~~~~~[0m[39m
+
+
+[31mError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/users/services/getOneUserByEmail.ts[0m:[93m10[0m:[93m48[0m - [91merror[0m[90m TS2769: [0mNo overload matches this call.[39m
+[31m  Overload 1 of 3, '(filter?: FilterQuery<User> | undefined, options?: QueryOptions | undefined, callback?: CallbackWithoutResult | undefined): Query<...>', gave the following error.[39m
+[31m    Argument of type 'string' is not assignable to parameter of type 'FilterQuery<User> | undefined'.[39m
+[31m  Overload 2 of 3, '(callback: CallbackWithoutResult): Query<DeleteResult, Document<unknown, any, User> & User & { _id: ObjectId; }, {}, User>', gave the following error.[39m
+[31m    Argument of type 'string' is not assignable to parameter of type 'CallbackWithoutResult'.[39m
+
+[31m[7m10[0m     const deleted = await UserModel.deleteMany(email);[39m
+[31m[7m  [0m [91m                                               ~~~~~[0m[39m
+
+
+[31m    at Object.<anonymous> (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/src/users/services/getOneUserByEmail.ts:1:7)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1095:14)[39m
+[31m    at Module._compile (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/node_modules/source-map-support/source-map-support.js:568:25)[39m
+[31m    at Module.m._compile (/private/var/folders/x3/3cg46_fx7r59n29lkywd1rmc0000gn/T/ts-node-dev-hook-5481734077488079.js:69:33)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1147:10)[39m
+[31m    at require.extensions.<computed> (/private/var/folders/x3/3cg46_fx7r59n29lkywd1rmc0000gn/T/ts-node-dev-hook-5481734077488079.js:71:20)[39m
+[31m    at Object.nodeDevHook [as .ts] (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/node_modules/ts-node-dev/lib/hook.js:63:13)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:975:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:999:19)[39m  
+       service: undefined
+       trace: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2022-02-18 13:22:28:2228
+       [31merror[39m: [31muncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/users/services/getOneUserByEmail.ts[0m:[93m13[0m:[93m17[0m - [91merror[0m[90m TS2582: [0mCannot find name 'test'. Do you need to install type definitions for a test runner? Try `npm i --save-dev @types/jest` or `npm i --save-dev @types/mocha`.[39m
+
+[31m[7m13[0m     console.log(test);[39m
+[31m[7m  [0m [91m                ~~~~[0m[39m
+
+[31mError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/users/services/getOneUserByEmail.ts[0m:[93m13[0m:[93m17[0m - [91merror[0m[90m TS2582: [0mCannot find name 'test'. Do you need to install type definitions for a test runner? Try `npm i --save-dev @types/jest` or `npm i --save-dev @types/mocha`.[39m
+
+[31m[7m13[0m     console.log(test);[39m
+[31m[7m  [0m [91m                ~~~~[0m[39m
+
+[31m    at Object.<anonymous> (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/src/users/services/getOneUserByEmail.ts:1:7)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1095:14)[39m
+[31m    at Module._compile (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/node_modules/source-map-support/source-map-support.js:568:25)[39m
+[31m    at Module.m._compile (/private/var/folders/x3/3cg46_fx7r59n29lkywd1rmc0000gn/T/ts-node-dev-hook-5481734077488079.js:69:33)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1147:10)[39m
+[31m    at require.extensions.<computed> (/private/var/folders/x3/3cg46_fx7r59n29lkywd1rmc0000gn/T/ts-node-dev-hook-5481734077488079.js:71:20)[39m
+[31m    at Object.nodeDevHook [as .ts] (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/node_modules/ts-node-dev/lib/hook.js:63:13)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:975:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:999:19)[39m  
+       service: undefined
+       trace: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2022-02-18 13:30:40:3040
+       [31merror[39m: [31muncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/tasks/entity/schema/taskSchema.ts[0m:[93m23[0m:[93m3[0m - [91merror[0m[90m TS2345: [0mArgument of type '{ title: { type: StringConstructor; required: [true, string]; }; description: { type: StringConstructor; }; status: { type: BooleanConstructor; default: false; }; createdAt: { ...; }; editedAt: { ...; }; project: { ...; }; }' is not assignable to parameter of type '{ id?: SchemaDefinitionProperty<TaskId> | undefined; title?: SchemaDefinitionProperty<string> | undefined; description?: SchemaDefinitionProperty<...> | undefined; status?: SchemaDefinitionProperty<...> | undefined; createdAt?: SchemaDefinitionProperty<...> | undefined; editedAt?: SchemaDefinitionProperty<...> | und...'.[39m
+[31m  Object literal may only specify known properties, and 'project' does not exist in type '{ id?: SchemaDefinitionProperty<TaskId> | undefined; title?: SchemaDefinitionProperty<string> | undefined; description?: SchemaDefinitionProperty<...> | undefined; status?: SchemaDefinitionProperty<...> | undefined; createdAt?: SchemaDefinitionProperty<...> | undefined; editedAt?: SchemaDefinitionProperty<...> | und...'.[39m
+
+[31m[7m 23[0m   project: {[39m
+[31m[7m   [0m [91m  ~~~~~~~~~~[0m[39m
+[31m[7m 24[0m     type: Schema.Types.ObjectId,[39m
+[31m[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+[31m[7m...[0m [39m
+[31m[7m 26[0m     required: [true, 'a project must be provided for a task'],[39m
+[31m[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+[31m[7m 27[0m   },[39m
+[31m[7m   [0m [91m~~~[0m[39m
+
+[31mError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/tasks/entity/schema/taskSchema.ts[0m:[93m23[0m:[93m3[0m - [91merror[0m[90m TS2345: [0mArgument of type '{ title: { type: StringConstructor; required: [true, string]; }; description: { type: StringConstructor; }; status: { type: BooleanConstructor; default: false; }; createdAt: { ...; }; editedAt: { ...; }; project: { ...; }; }' is not assignable to parameter of type '{ id?: SchemaDefinitionProperty<TaskId> | undefined; title?: SchemaDefinitionProperty<string> | undefined; description?: SchemaDefinitionProperty<...> | undefined; status?: SchemaDefinitionProperty<...> | undefined; createdAt?: SchemaDefinitionProperty<...> | undefined; editedAt?: SchemaDefinitionProperty<...> | und...'.[39m
+[31m  Object literal may only specify known properties, and 'project' does not exist in type '{ id?: SchemaDefinitionProperty<TaskId> | undefined; title?: SchemaDefinitionProperty<string> | undefined; description?: SchemaDefinitionProperty<...> | undefined; status?: SchemaDefinitionProperty<...> | undefined; createdAt?: SchemaDefinitionProperty<...> | undefined; editedAt?: SchemaDefinitionProperty<...> | und...'.[39m
+
+[31m[7m 23[0m   project: {[39m
+[31m[7m   [0m [91m  ~~~~~~~~~~[0m[39m
+[31m[7m 24[0m     type: Schema.Types.ObjectId,[39m
+[31m[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+[31m[7m...[0m [39m
+[31m[7m 26[0m     required: [true, 'a project must be provided for a task'],[39m
+[31m[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+[31m[7m 27[0m   },[39m
+[31m[7m   [0m [91m~~~[0m[39m
+
+[31m    at Object.<anonymous> (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/src/tasks/entity/schema/taskSchema.ts:1:7)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1095:14)[39m
+[31m    at Module._compile (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/node_modules/source-map-support/source-map-support.js:568:25)[39m
+[31m    at Module.m._compile (/private/var/folders/x3/3cg46_fx7r59n29lkywd1rmc0000gn/T/ts-node-dev-hook-5481734077488079.js:69:33)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1147:10)[39m
+[31m    at require.extensions.<computed> (/private/var/folders/x3/3cg46_fx7r59n29lkywd1rmc0000gn/T/ts-node-dev-hook-5481734077488079.js:71:20)[39m
+[31m    at Object.nodeDevHook [as .ts] (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/node_modules/ts-node-dev/lib/hook.js:63:13)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:975:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:999:19)[39m  
+       service: undefined
+       trace: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2022-02-18 13:33:12:3312
+       [31merror[39m: [31muncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/projects/entity/models/projectModel.ts[0m:[93m3[0m:[93m25[0m - [91merror[0m[90m TS2307: [0mCannot find module '../types/ProjectType' or its corresponding type declarations.[39m
+
+[31m[7m3[0m import { Project } from '../types/ProjectType';[39m
+[31m[7m [0m [91m                        ~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+
+[31mError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/projects/entity/models/projectModel.ts[0m:[93m3[0m:[93m25[0m - [91merror[0m[90m TS2307: [0mCannot find module '../types/ProjectType' or its corresponding type declarations.[39m
+
+[31m[7m3[0m import { Project } from '../types/ProjectType';[39m
+[31m[7m [0m [91m                        ~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+
+[31m    at Object.<anonymous> (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/src/projects/entity/models/projectModel.ts:1:7)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1095:14)[39m
+[31m    at Module._compile (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/node_modules/source-map-support/source-map-support.js:568:25)[39m
+[31m    at Module.m._compile (/private/var/folders/x3/3cg46_fx7r59n29lkywd1rmc0000gn/T/ts-node-dev-hook-5481734077488079.js:69:33)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1147:10)[39m
+[31m    at require.extensions.<computed> (/private/var/folders/x3/3cg46_fx7r59n29lkywd1rmc0000gn/T/ts-node-dev-hook-5481734077488079.js:71:20)[39m
+[31m    at Object.nodeDevHook [as .ts] (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/node_modules/ts-node-dev/lib/hook.js:63:13)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:975:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:999:19)[39m  
+       service: undefined
+       trace: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2022-02-18 13:36:03:363
+       [31merror[39m: [31muncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/projects/entity/schemas/projectSchema.ts[0m:[93m34[0m:[93m9[0m - [91merror[0m[90m TS2304: [0mCannot find name 'ProjectModel'.[39m
+
+[31m[7m34[0m   await ProjectModel.deleteMany({ owner: user.id });[39m
+[31m[7m  [0m [91m        ~~~~~~~~~~~~[0m[39m
+
+[31mError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/projects/entity/schemas/projectSchema.ts[0m:[93m34[0m:[93m9[0m - [91merror[0m[90m TS2304: [0mCannot find name 'ProjectModel'.[39m
+
+[31m[7m34[0m   await ProjectModel.deleteMany({ owner: user.id });[39m
+[31m[7m  [0m [91m        ~~~~~~~~~~~~[0m[39m
+
+[31m    at Object.<anonymous> (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/src/projects/entity/schemas/projectSchema.ts:1:7)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1095:14)[39m
+[31m    at Module._compile (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/node_modules/source-map-support/source-map-support.js:568:25)[39m
+[31m    at Module.m._compile (/private/var/folders/x3/3cg46_fx7r59n29lkywd1rmc0000gn/T/ts-node-dev-hook-5481734077488079.js:69:33)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1147:10)[39m
+[31m    at require.extensions.<computed> (/private/var/folders/x3/3cg46_fx7r59n29lkywd1rmc0000gn/T/ts-node-dev-hook-5481734077488079.js:71:20)[39m
+[31m    at Object.nodeDevHook [as .ts] (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/node_modules/ts-node-dev/lib/hook.js:63:13)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:975:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:999:19)[39m  
+       service: undefined
+       trace: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]

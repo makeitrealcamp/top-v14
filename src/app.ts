@@ -1,22 +1,20 @@
-import express, {
-  Application,
-  NextFunction,
-  Request,
-  Response,
-  ErrorRequestHandler,
-} from 'express';
-import userRoutes from './users/routes/userRoutes';
+import express, { Application, NextFunction, Request, Response } from 'express';
 import dotenv from 'dotenv';
+import morgan from './shared/logger/morganLogger';
+
+import userRoutes from './users/routes/userRoutes';
 import tasksRoutes from './tasks/routes/taskRouter';
-import morgan from 'morgan';
+import projectsRoutes from './projects/routes/projectsRouter';
+
 dotenv.config();
 
 const app: Application = express();
 
-app.use(morgan('dev'));
+app.use(morgan);
 app.use(express.json());
 
 app.use(tasksRoutes);
+app.use(projectsRoutes);
 app.use(userRoutes);
 
 // app.set('port', process.env.PORT)

@@ -1,5 +1,5 @@
 import { Types } from 'mongoose';
-import { UserIdType } from '../../../users/entity/types/User';
+import { ProjectId } from '../../../projects/entity/types/Project';
 
 export interface Task {
   id: TaskId;
@@ -8,10 +8,13 @@ export interface Task {
   status: boolean;
   createdAt: Date;
   editedAt: Date;
-  owner: string | UserIdType;
+  project: string | ProjectId;
 }
 
 export type TaskId = {
   id: Types.ObjectId;
 };
-export type CreateTask = Omit<Task, 'createdAt' | 'editedAt' | 'status' | 'id'>;
+export type CreateTask = Omit<
+  Task,
+  'createdAt' | 'editedAt' | 'status' | 'id' | 'project'
+>;
