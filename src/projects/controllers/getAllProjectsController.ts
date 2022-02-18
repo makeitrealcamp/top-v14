@@ -1,5 +1,6 @@
 import { NextFunction, Request, Response } from 'express';
-import Logger from '../../shared/logger/appLogger';
+import { ApplicationError } from '../../shared/customErrors/ApplicationError';
+import logger from '../../shared/logger/appLogger';
 import { getAllProjectsService } from '../services/getAllprojectsService';
 
 export const getAllProjects = async (
@@ -10,9 +11,15 @@ export const getAllProjects = async (
   try {
     const tasks = await getAllProjectsService();
     res.status(200).json({ data: tasks });
-  } catch (error) {
-    Logger.error('Error getting projects');
+  } catch (error: any) {
+    logger.error('Error on get all projects controller', {
+      instance: 'controllers',
+      fn: 'getAllProjects',
+      trace: error.message,
+    });
 
-    next(error);
+    next(
+      new ApplicationError(400, `Error getting the projects ${error.message}`)
+    );
   }
 };

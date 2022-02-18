@@ -15,7 +15,7 @@ export const createTask = async (
     const newTask = await createNewTaskService({
       title,
       description,
-      owner: '62070a3a3de76e739ae5445f',
+      project: '62070a3a3de76e739ae5445f',
     });
 
     res.status(201).json({ data: newTask });

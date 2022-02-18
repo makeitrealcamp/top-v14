@@ -169,3 +169,101 @@
 [35m[39m  
        service: undefined
        trace: undefined
+2022-02-18 16:33:02:332
+       [35mhttp[39m: [35mPOST /projects 201 178 - 157.816 ms[39m
+[35m[39m  
+       service: undefined
+       trace: undefined
+2022-02-18 17:04:31:431
+       [31merror[39m: [31merror[39m  
+       service: undefined
+       trace: undefined
+2022-02-18 17:04:31:431
+       [31merror[39m: [31merror on create project controller[39m  
+       service: undefined
+       trace: Project validation failed: owner: Cast to ObjectId failed for value "" (type string) at path "owner"
+2022-02-18 17:04:31:431
+       [35mhttp[39m: [35mPOST /projects 403 128 - 23.276 ms[39m
+[35m[39m  
+       service: undefined
+       trace: undefined
+2022-02-18 17:20:30:2030
+       [35mhttp[39m: [35mPOST /projects 201 178 - 146.276 ms[39m
+[35m[39m  
+       service: undefined
+       trace: undefined
+2022-02-18 17:24:20:2420
+       [31merror[39m: [31merror creating a new project[39m  
+       service: undefined
+       trace: Project validation failed: owner: Cast to ObjectId failed for value "" (type string) at path "owner"
+2022-02-18 17:24:20:2420
+       [31merror[39m: [31merror on create project controller[39m  
+       service: undefined
+       trace: error creating a new project
+2022-02-18 17:24:20:2420
+       [35mhttp[39m: [35mPOST /projects 500 42 - 28.089 ms[39m
+[35m[39m  
+       service: undefined
+       trace: undefined
+2022-02-18 17:30:50:3050 
+
+       [31merror[39m: [31merror creating a new project[39m 
+  
+       instance: user services 
+
+       fn:createNewProjectService 
+
+       trace: Project validation failed: owner: Cast to ObjectId failed for value "" (type string) at path "owner"
+2022-02-18 17:30:50:3050 
+
+       [31merror[39m: [31merror on create project controller[39m 
+  
+       instance: controller 
+
+       fn:createProjectController 
+
+       trace: error creating a new project Project validation failed: owner: Cast to ObjectId failed for value "" (type string) at path "owner"
+2022-02-18 17:30:50:3050 
+
+       [35mhttp[39m: [35mPOST /projects 403 147 - 24.699 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-18 17:38:43:3843 
+       [31merror[39m: [31merror creating a new project service[39m 
+  
+       instance: services 
+
+       fn:createNewProjectService 
+
+       trace: Project validation failed: owner: Cast to ObjectId failed for value "" (type string) at path "owner"
+2022-02-18 17:38:43:3843 
+       [31merror[39m: [31merror on create project controller[39m 
+  
+       instance: controller 
+
+       fn:createProjectController 
+
+       trace: Error creating a new project Project validation failed: owner: Cast to ObjectId failed for value "" (type string) at path "owner"
+2022-02-18 17:38:43:3843 
+       [35mhttp[39m: [35mPOST /projects 403 147 - 18.927 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-18 17:38:43:3843 
+       [31merror[39m: [31mPOST /projects 403 147 - 18.927 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined

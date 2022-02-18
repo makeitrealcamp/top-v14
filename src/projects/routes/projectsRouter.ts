@@ -12,7 +12,7 @@ router
   .post(
     // userTokenValidation,
     bodyRequestValidator(createProjectSchema),
-    projectController.createProject
+    projectController.createProjectController
   );
 // .put(userTokenValidation, projectController.editProject)
 // .delete(userTokenValidation, projectController.deleteProject);

@@ -30,9 +30,10 @@ const format = winston.format.combine(
   winston.format.label({ label: '[app-server]' }),
   winston.format.printf(
     (info) =>
-      `${info.timestamp}
-       ${info.level}: ${info.message}  
-       service: ${info.service}
+      `${info.timestamp} 
+       ${info.level}: ${info.message} \n  
+       instance: ${info.instance} \n
+       fn:${info.service} \n
        trace: ${info.trace}`
   )
 );
@@ -42,7 +43,7 @@ const transports = [
   new winston.transports.File({
     filename: 'logs/error.log',
     level: 'error',
-    handleExceptions: true,
+    handleExceptions: false,
   }),
   new winston.transports.File({ filename: 'logs/all.log' }),
 ];

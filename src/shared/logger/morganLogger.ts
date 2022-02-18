@@ -8,7 +8,7 @@ const stream: StreamOptions = {
   // Use the http severity
   write: (message) => {
     Logger.http(message);
-    // Logger.error(message);
+    Logger.error(message);
   },
 };
 

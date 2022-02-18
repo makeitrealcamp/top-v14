@@ -1,6 +1,5 @@
 import logger from '../../shared/logger/appLogger';
 import { createResource } from '../../shared/factory/createResource';
-
 import { TaskModel } from '../entity/models/taskModel';
 import { CreateTask, Task } from '../entity/types/Task';
 

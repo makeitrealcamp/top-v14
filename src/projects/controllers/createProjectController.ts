@@ -1,20 +1,27 @@
-import { Request, Response } from 'express';
+import { NextFunction, Request, Response } from 'express';
+import { ApplicationError } from '../../shared/customErrors/ApplicationError';
+import logger from '../../shared/logger/appLogger';
 import { CreateProject } from '../entity/types/Project';
 import { createNewProjectService } from '../services/createNewProjectService';
 
-export const createProject = async (
+export const createProjectController = async (
   req: Request<{}, {}, CreateProject>,
-  res: Response
+  res: Response,
+  next: NextFunction
 ): Promise<void> => {
   const { title } = req.body;
   try {
-    const newTask = await createNewProjectService({
+    const newProject = await createNewProjectService({
       title,
-      owner: '620fe2fd41c2882838182940',
+      owner: '',
     });
-
-    res.status(201).json({ data: newTask });
-  } catch (error) {
-    res.status(400).json({ error: ' error saving task' });
+    res.status(201).json({ data: newProject });
+  } catch (error: any) {
+    logger.error('error on create project controller', {
+      instance: 'controller',
+      service: 'createProjectController',
+      trace: error.message,
+    });
+    next(new ApplicationError(403, error.message));
   }
 };

@@ -14,7 +14,4 @@ export interface Task {
 export type TaskId = {
   id: Types.ObjectId;
 };
-export type CreateTask = Omit<
-  Task,
-  'createdAt' | 'editedAt' | 'status' | 'id' | 'project'
->;
+export type CreateTask = Omit<Task, 'createdAt' | 'editedAt' | 'status' | 'id'>;
