@@ -1237,3 +1237,2289 @@
        fn:undefined 
 
        trace: undefined
+2022-02-19 06:07:29:729 
+       [35mhttp[39m: [35mPOST /signup 200 11 - 121.361 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 06:07:29:729 
+       [31merror[39m: [31mPOST /signup 200 11 - 121.361 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 06:07:48:748 
+       [31merror[39m: [31merror creating user with email asdfs@email.com[39m 
+  
+       instance: undefined 
+
+       fn:authCreateUserService 
+
+       trace: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "asdfs@email.com" }
+2022-02-19 06:07:48:748 
+       [35mhttp[39m: [35mPOST /signup 500 60 - 103.763 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 06:07:48:748 
+       [31merror[39m: [31mPOST /signup 500 60 - 103.763 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 06:10:30:1030 
+       [35mhttp[39m: [35mPOST /signup 200 386 - 95.121 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 06:10:30:1030 
+       [31merror[39m: [31mPOST /signup 200 386 - 95.121 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 06:10:49:1049 
+       [35mhttp[39m: [35mPOST /login 200 386 - 129.503 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 06:10:49:1049 
+       [31merror[39m: [31mPOST /login 200 386 - 129.503 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 06:10:52:1052 
+       [35mhttp[39m: [35mPOST /login 200 386 - 80.541 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 06:10:52:1052 
+       [31merror[39m: [31mPOST /login 200 386 - 80.541 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 06:11:04:114 
+       [35mhttp[39m: [35mPOST /login 200 386 - 89.152 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 06:11:04:114 
+       [31merror[39m: [31mPOST /login 200 386 - 89.152 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 06:11:33:1133 
+       [35mhttp[39m: [35mPOST /login 200 386 - 87.980 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 06:11:33:1133 
+       [31merror[39m: [31mPOST /login 200 386 - 87.980 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 06:13:17:1317 
+       [35mhttp[39m: [35mPOST /login 200 386 - 103.404 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 06:13:17:1317 
+       [31merror[39m: [31mPOST /login 200 386 - 103.404 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 06:13:33:1333 
+       [35mhttp[39m: [35mPOST /login 200 386 - 106.763 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 06:13:33:1333 
+       [31merror[39m: [31mPOST /login 200 386 - 106.763 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 06:14:19:1419 
+       [35mhttp[39m: [35mPOST /login 200 386 - 108.779 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 06:14:19:1419 
+       [31merror[39m: [31mPOST /login 200 386 - 108.779 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 06:20:18:2018 
+       [35mhttp[39m: [35mPOST /login 200 386 - 149.398 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 06:20:18:2018 
+       [31merror[39m: [31mPOST /login 200 386 - 149.398 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 06:21:20:2120 
+       [35mhttp[39m: [35mPOST /login 200 386 - 94.801 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 06:21:20:2120 
+       [31merror[39m: [31mPOST /login 200 386 - 94.801 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 06:22:25:2225 
+       [31merror[39m: [31mError login user[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: user email or password is incorrect
+2022-02-19 06:22:25:2225 
+       [35mhttp[39m: [35mPOST /login 500 56 - 53.252 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 06:22:25:2225 
+       [31merror[39m: [31mPOST /login 500 56 - 53.252 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 06:22:56:2256 
+       [31merror[39m: [31mError login user[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: user email or password is incorrect
+2022-02-19 06:22:56:2256 
+       [35mhttp[39m: [35mPOST /login 500 56 - 37.978 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 06:22:56:2256 
+       [31merror[39m: [31mPOST /login 500 56 - 37.978 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 06:23:04:234 
+       [31merror[39m: [31mError login user[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: user email or password is incorrect
+2022-02-19 06:23:04:234 
+       [35mhttp[39m: [35mPOST /login 500 56 - 132.047 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 06:23:04:234 
+       [31merror[39m: [31mPOST /login 500 56 - 132.047 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 06:23:30:2330 
+       [35mhttp[39m: [35mPOST /login 200 386 - 105.375 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 06:23:30:2330 
+       [31merror[39m: [31mPOST /login 200 386 - 105.375 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 06:24:37:2437 
+       [35mhttp[39m: [35mPOST /projects 401 25 - 17.362 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 06:24:37:2437 
+       [31merror[39m: [31mPOST /projects 401 25 - 17.362 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 06:25:06:256 
+       [35mhttp[39m: [35mPOST /refreshtoken 401 27 - 3.224 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 06:25:06:256 
+       [31merror[39m: [31mPOST /refreshtoken 401 27 - 3.224 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 06:25:11:2511 
+       [35mhttp[39m: [35mPOST /refreshtoken 401 27 - 1.787 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 06:25:11:2511 
+       [31merror[39m: [31mPOST /refreshtoken 401 27 - 1.787 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 06:25:55:2555 
+       [35mhttp[39m: [35mPOST /login 200 386 - 156.823 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 06:25:55:2555 
+       [31merror[39m: [31mPOST /login 200 386 - 156.823 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 06:26:17:2617 
+       [35mhttp[39m: [35mPOST /projects 500 31 - 1.850 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 06:26:17:2617 
+       [31merror[39m: [31mPOST /projects 500 31 - 1.850 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 06:26:23:2623 
+       [35mhttp[39m: [35mPOST /projects 500 31 - 1.493 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 06:26:23:2623 
+       [31merror[39m: [31mPOST /projects 500 31 - 1.493 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 06:38:41:3841 
+       [35mhttp[39m: [35mPOST /login 200 386 - 116.758 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 06:38:41:3841 
+       [31merror[39m: [31mPOST /login 200 386 - 116.758 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 06:39:04:394 
+       [35mhttp[39m: [35mPOST /refreshtoken 401 27 - 4.002 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 06:39:04:394 
+       [31merror[39m: [31mPOST /refreshtoken 401 27 - 4.002 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 06:39:21:3921 
+       [35mhttp[39m: [35mPOST /refreshtoken 401 27 - 2.974 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 06:39:21:3921 
+       [31merror[39m: [31mPOST /refreshtoken 401 27 - 2.974 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 06:39:49:3949 
+       [35mhttp[39m: [35mPOST /refreshtoken 401 27 - 31.321 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 06:39:49:3949 
+       [31merror[39m: [31mPOST /refreshtoken 401 27 - 31.321 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 06:40:08:408 
+       [35mhttp[39m: [35mPOST /login 200 386 - 119.667 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 06:40:08:408 
+       [31merror[39m: [31mPOST /login 200 386 - 119.667 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 06:40:21:4021 
+       [35mhttp[39m: [35mPOST /projects 500 31 - 2.296 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 06:40:21:4021 
+       [31merror[39m: [31mPOST /projects 500 31 - 2.296 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 06:41:10:4110 
+       [35mhttp[39m: [35mPOST /projects 500 31 - 20.616 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 06:41:10:4110 
+       [31merror[39m: [31mPOST /projects 500 31 - 20.616 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 06:44:02:442 
+       [35mhttp[39m: [35mPOST /projects 500 31 - 33.964 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 06:44:02:442 
+       [31merror[39m: [31mPOST /projects 500 31 - 33.964 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 06:44:55:4455 
+       [35mhttp[39m: [35mPOST /projects 500 31 - 21.616 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 06:44:55:4455 
+       [31merror[39m: [31mPOST /projects 500 31 - 21.616 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 06:46:48:4648 
+       [35mhttp[39m: [35mPOST /refreshtoken 401 27 - 18.211 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 06:46:48:4648 
+       [31merror[39m: [31mPOST /refreshtoken 401 27 - 18.211 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 06:49:49:4949 
+       [35mhttp[39m: [35mPOST /login 200 386 - 252.083 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 06:49:49:4949 
+       [31merror[39m: [31mPOST /login 200 386 - 252.083 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 06:50:34:5034 
+       [35mhttp[39m: [35mPOST /login 200 386 - 120.464 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 06:50:34:5034 
+       [31merror[39m: [31mPOST /login 200 386 - 120.464 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 06:50:56:5056 
+       [35mhttp[39m: [35mPOST /refreshtoken 401 27 - 7.350 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 06:50:56:5056 
+       [31merror[39m: [31mPOST /refreshtoken 401 27 - 7.350 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 06:54:25:5425 
+       [35mhttp[39m: [35mPOST /login 200 386 - 116.872 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 06:54:25:5425 
+       [31merror[39m: [31mPOST /login 200 386 - 116.872 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 06:54:42:5442 
+       [35mhttp[39m: [35mPOST /refreshtoken 200 197 - 87.359 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 06:54:42:5442 
+       [31merror[39m: [31mPOST /refreshtoken 200 197 - 87.359 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 06:57:20:5720 
+       [35mhttp[39m: [35mPOST /projects 401 25 - 24.163 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 06:57:20:5720 
+       [31merror[39m: [31mPOST /projects 401 25 - 24.163 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 06:57:26:5726 
+       [35mhttp[39m: [35mPOST /refreshtoken 200 197 - 47.974 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 06:57:26:5726 
+       [31merror[39m: [31mPOST /refreshtoken 200 197 - 47.974 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 06:58:07:587 
+       [35mhttp[39m: [35mPOST /projects 201 178 - 27.280 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 06:58:07:587 
+       [31merror[39m: [31mPOST /projects 201 178 - 27.280 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 06:58:17:5817 
+       [35mhttp[39m: [35mGET /projects 200 3580 - 28.443 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 06:58:17:5817 
+       [31merror[39m: [31mGET /projects 200 3580 - 28.443 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 07:02:57:257 
+       [35mhttp[39m: [35mGET /projects 200 3580 - 34.852 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 07:02:57:257 
+       [31merror[39m: [31mGET /projects 200 3580 - 34.852 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 07:03:58:358 
+       [35mhttp[39m: [35mGET /projects 401 25 - 23.704 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 07:03:58:358 
+       [31merror[39m: [31mGET /projects 401 25 - 23.704 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 07:04:07:47 
+       [35mhttp[39m: [35mPOST /refreshtoken 200 197 - 45.049 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 07:04:07:47 
+       [31merror[39m: [31mPOST /refreshtoken 200 197 - 45.049 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 07:04:19:419 
+       [35mhttp[39m: [35mGET /projects 200 3580 - 9.013 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 07:04:19:419 
+       [31merror[39m: [31mGET /projects 200 3580 - 9.013 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 07:05:40:540 
+       [35mhttp[39m: [35mGET /projects 200 180 - 38.418 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 07:05:40:540 
+       [31merror[39m: [31mGET /projects 200 180 - 38.418 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 09:42:39:4239 
+       [35mhttp[39m: [35mGET /projects 401 25 - 15.235 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 09:42:39:4239 
+       [31merror[39m: [31mGET /projects 401 25 - 15.235 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 09:42:44:4244 
+       [35mhttp[39m: [35mPOST /refreshtoken 200 197 - 149.389 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 09:42:44:4244 
+       [31merror[39m: [31mPOST /refreshtoken 200 197 - 149.389 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 09:42:56:4256 
+       [35mhttp[39m: [35mGET /projects 200 180 - 15.724 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 09:42:56:4256 
+       [31merror[39m: [31mGET /projects 200 180 - 15.724 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 09:43:41:4341 
+       [35mhttp[39m: [35mPOST /projects 201 180 - 409.451 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 09:43:41:4341 
+       [31merror[39m: [31mPOST /projects 201 180 - 409.451 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 09:43:47:4347 
+       [35mhttp[39m: [35mPOST /projects 201 180 - 135.234 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 09:43:47:4347 
+       [31merror[39m: [31mPOST /projects 201 180 - 135.234 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 09:43:52:4352 
+       [35mhttp[39m: [35mGET /projects 200 524 - 31.267 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 09:43:52:4352 
+       [31merror[39m: [31mGET /projects 200 524 - 31.267 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 09:47:03:473 
+       [31merror[39m: [31merror validating body request[39m 
+  
+       instance: middlewares schema validation 
+
+       fn:undefined 
+
+       trace:  a project id is required
+2022-02-19 09:47:03:473 
+       [35mhttp[39m: [35mPOST /tasks 403 59 - 13.580 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 09:47:03:473 
+       [31merror[39m: [31mPOST /tasks 403 59 - 13.580 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 09:47:46:4746 
+       [31merror[39m: [31merror validating body request[39m 
+  
+       instance: middlewares schema validation 
+
+       fn:undefined 
+
+       trace: title is required
+2022-02-19 09:47:46:4746 
+       [35mhttp[39m: [35mPOST /tasks 403 51 - 25.239 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 09:47:46:4746 
+       [31merror[39m: [31mPOST /tasks 403 51 - 25.239 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 09:48:06:486 
+       [35mhttp[39m: [35mPOST /tasks 201 160 - 44.345 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 09:48:06:486 
+       [31merror[39m: [31mPOST /tasks 201 160 - 44.345 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 09:48:32:4832 
+       [35mhttp[39m: [35mGET /users 200 639 - 35.427 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 09:48:32:4832 
+       [31merror[39m: [31mGET /users 200 639 - 35.427 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 09:48:52:4852 
+       [35mhttp[39m: [35mGET /users/6210d026e7d2fa722757a409 200 218 - 97.043 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 09:48:52:4852 
+       [31merror[39m: [31mGET /users/6210d026e7d2fa722757a409 200 218 - 97.043 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 09:55:15:5515 
+       [35mhttp[39m: [35mGET /users/6210d026e7d2fa722757a409 200 745 - 53.409 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 09:55:15:5515 
+       [31merror[39m: [31mGET /users/6210d026e7d2fa722757a409 200 745 - 53.409 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 10:06:38:638 
+       [35mhttp[39m: [35mGET /users/6210d026e7d2fa722757a409 200 537 - 45.764 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 10:06:38:638 
+       [31merror[39m: [31mGET /users/6210d026e7d2fa722757a409 200 537 - 45.764 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 10:07:17:717 
+       [31merror[39m: [31merror getting user with id 6210d026e7d2fa722757a409[39m 
+  
+       instance: undefined 
+
+       fn:getOneUserByIdService 
+
+       trace: Cannot populate path `all` because it is not in your schema. Set the `strictPopulate` option to false to override.
+2022-02-19 10:07:17:717 
+       [35mhttp[39m: [35mGET /users/6210d026e7d2fa722757a409 500 128 - 28.891 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 10:07:17:717 
+       [31merror[39m: [31mGET /users/6210d026e7d2fa722757a409 500 128 - 28.891 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 10:07:42:742 
+       [31merror[39m: [31merror getting user with id 6210d026e7d2fa722757a409[39m 
+  
+       instance: undefined 
+
+       fn:getOneUserByIdService 
+
+       trace: utils.populate: invalid path. Expected string. Got typeof `object`
+2022-02-19 10:07:42:742 
+       [35mhttp[39m: [35mGET /users/6210d026e7d2fa722757a409 500 80 - 30.589 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 10:07:42:742 
+       [31merror[39m: [31mGET /users/6210d026e7d2fa722757a409 500 80 - 30.589 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 10:08:49:849 
+       [35mhttp[39m: [35mGET /users/6210d026e7d2fa722757a409 200 745 - 2783.509 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 10:08:49:849 
+       [31merror[39m: [31mGET /users/6210d026e7d2fa722757a409 200 745 - 2783.509 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 10:09:37:937 
+       [31merror[39m: [31merror getting user with id 6210d026e7d2fa722757a409[39m 
+  
+       instance: undefined 
+
+       fn:getOneUserByIdService 
+
+       trace: Cannot populate path `tasks` because it is not in your schema. Set the `strictPopulate` option to false to override.
+2022-02-19 10:09:37:937 
+       [35mhttp[39m: [35mGET /users/6210d026e7d2fa722757a409 500 130 - 32.192 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 10:09:37:937 
+       [31merror[39m: [31mGET /users/6210d026e7d2fa722757a409 500 130 - 32.192 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 10:10:42:1042 
+       [35mhttp[39m: [35mGET /users/6210d026e7d2fa722757a409 200 756 - 51.556 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 10:10:42:1042 
+       [31merror[39m: [31mGET /users/6210d026e7d2fa722757a409 200 756 - 51.556 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 10:14:51:1451 
+       [35mhttp[39m: [35mGET /users/6210d026e7d2fa722757a409 200 778 - 84.369 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 10:14:51:1451 
+       [31merror[39m: [31mGET /users/6210d026e7d2fa722757a409 200 778 - 84.369 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 10:15:13:1513 
+       [35mhttp[39m: [35mPOST /tasks 401 25 - 23.794 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 10:15:13:1513 
+       [31merror[39m: [31mPOST /tasks 401 25 - 23.794 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 10:15:20:1520 
+       [35mhttp[39m: [35mPOST /refreshtoken 200 197 - 60.270 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 10:15:20:1520 
+       [31merror[39m: [31mPOST /refreshtoken 200 197 - 60.270 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 10:15:31:1531 
+       [35mhttp[39m: [35mPOST /refreshtoken 500 31 - 4.664 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 10:15:31:1531 
+       [31merror[39m: [31mPOST /refreshtoken 500 31 - 4.664 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 10:15:36:1536 
+       [35mhttp[39m: [35mPOST /refreshtoken 500 31 - 1.304 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 10:15:36:1536 
+       [31merror[39m: [31mPOST /refreshtoken 500 31 - 1.304 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 10:15:41:1541 
+       [35mhttp[39m: [35mPOST /refreshtoken 200 197 - 14.271 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 10:15:41:1541 
+       [31merror[39m: [31mPOST /refreshtoken 200 197 - 14.271 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 10:15:56:1556 
+       [35mhttp[39m: [35mPOST /tasks 201 160 - 59.982 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 10:15:56:1556 
+       [31merror[39m: [31mPOST /tasks 201 160 - 59.982 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 10:15:58:1558 
+       [35mhttp[39m: [35mPOST /tasks 201 160 - 7.532 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 10:15:58:1558 
+       [31merror[39m: [31mPOST /tasks 201 160 - 7.532 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 10:15:59:1559 
+       [35mhttp[39m: [35mPOST /tasks 201 160 - 10.617 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 10:15:59:1559 
+       [31merror[39m: [31mPOST /tasks 201 160 - 10.617 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 10:16:00:160 
+       [35mhttp[39m: [35mPOST /tasks 201 160 - 8.038 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 10:16:00:160 
+       [31merror[39m: [31mPOST /tasks 201 160 - 8.038 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 10:16:01:161 
+       [35mhttp[39m: [35mPOST /tasks 201 160 - 14.028 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 10:16:01:161 
+       [31merror[39m: [31mPOST /tasks 201 160 - 14.028 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 10:16:47:1647 
+       [31merror[39m: [31merror creating a new task[39m 
+  
+       instance: undefined 
+
+       fn:createNewTaskService 
+
+       trace: Task validation failed: project: a project must be provided for a task
+2022-02-19 10:16:47:1647 
+       [35mhttp[39m: [35mPOST /tasks 400 30 - 33.485 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 10:16:47:1647 
+       [31merror[39m: [31mPOST /tasks 400 30 - 33.485 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 10:17:48:1748 
+       [35mhttp[39m: [35mPOST /tasks 201 160 - 37.701 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 10:17:48:1748 
+       [31merror[39m: [31mPOST /tasks 201 160 - 37.701 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 10:17:49:1749 
+       [35mhttp[39m: [35mPOST /tasks 201 160 - 10.891 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 10:17:49:1749 
+       [31merror[39m: [31mPOST /tasks 201 160 - 10.891 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 10:17:50:1750 
+       [35mhttp[39m: [35mPOST /tasks 201 160 - 9.943 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 10:17:50:1750 
+       [31merror[39m: [31mPOST /tasks 201 160 - 9.943 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 10:18:00:180 
+       [35mhttp[39m: [35mGET /users/6210d026e7d2fa722757a409 200 1233 - 60.685 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 10:18:00:180 
+       [31merror[39m: [31mGET /users/6210d026e7d2fa722757a409 200 1233 - 60.685 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 14:33:20:3320 
+       [35mhttp[39m: [35mGET /users/6210d026e7d2fa722757a409 200 1233 - 48.256 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 14:33:20:3320 
+       [31merror[39m: [31mGET /users/6210d026e7d2fa722757a409 200 1233 - 48.256 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 14:33:24:3324 
+       [35mhttp[39m: [35mGET /users/6210d026e7d2fa722757a409 200 1233 - 28.194 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 14:33:24:3324 
+       [31merror[39m: [31mGET /users/6210d026e7d2fa722757a409 200 1233 - 28.194 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 15:09:30:930 
+       [35mhttp[39m: [35mPUT /projects/6210d026e7d2fa722757a409 204 - - 32.302 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 15:09:30:930 
+       [31merror[39m: [31mPUT /projects/6210d026e7d2fa722757a409 204 - - 32.302 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 15:38:40:3840 
+       [31merror[39m: [31merror validating body request[39m 
+  
+       instance: middlewares schema validation 
+
+       fn:undefined 
+
+       trace: At least one of the fields is required
+2022-02-19 15:38:40:3840 
+       [35mhttp[39m: [35mPUT /projects/6210d026e7d2fa722757a409 403 72 - 5.360 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 15:38:40:3840 
+       [31merror[39m: [31mPUT /projects/6210d026e7d2fa722757a409 403 72 - 5.360 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 15:39:42:3942 
+       [31merror[39m: [31merror validating body request[39m 
+  
+       instance: middlewares schema validation 
+
+       fn:undefined 
+
+       trace: Title or description is required
+2022-02-19 15:39:42:3942 
+       [35mhttp[39m: [35mPUT /projects/6210d026e7d2fa722757a409 403 66 - 20.804 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 15:39:42:3942 
+       [31merror[39m: [31mPUT /projects/6210d026e7d2fa722757a409 403 66 - 20.804 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 15:40:59:4059 
+       [31merror[39m: [31merror validating body request[39m 
+  
+       instance: middlewares schema validation 
+
+       fn:undefined 
+
+       trace: Title or description is required
+2022-02-19 15:40:59:4059 
+       [35mhttp[39m: [35mPUT /projects/6210d026e7d2fa722757a409 403 66 - 17.646 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 15:40:59:4059 
+       [31merror[39m: [31mPUT /projects/6210d026e7d2fa722757a409 403 66 - 17.646 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 15:41:34:4134 
+       [35mhttp[39m: [35mPUT /projects/6210d026e7d2fa722757a409 204 - - 33.509 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 15:41:34:4134 
+       [31merror[39m: [31mPUT /projects/6210d026e7d2fa722757a409 204 - - 33.509 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 15:43:08:438 
+       [35mhttp[39m: [35mPUT /projects/6210d026e7d2fa722757a409 204 - - 29.638 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 15:43:08:438 
+       [31merror[39m: [31mPUT /projects/6210d026e7d2fa722757a409 204 - - 29.638 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 15:43:11:4311 
+       [35mhttp[39m: [35mPUT /projects/6210d026e7d2fa722757a409 204 - - 15.617 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 15:43:11:4311 
+       [31merror[39m: [31mPUT /projects/6210d026e7d2fa722757a409 204 - - 15.617 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 15:44:13:4413 
+       [35mhttp[39m: [35mPUT /projects/6210d026e7d2fa722757a409 204 - - 32.028 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 15:44:13:4413 
+       [31merror[39m: [31mPUT /projects/6210d026e7d2fa722757a409 204 - - 32.028 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 15:46:25:4625 
+       [35mhttp[39m: [35mPUT /projects/ 404 148 - 20.463 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 15:46:25:4625 
+       [31merror[39m: [31mPUT /projects/ 404 148 - 20.463 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 15:46:31:4631 
+       [31merror[39m: [31merror validating body request project id is required[39m 
+  
+       instance: middlewares schema validation 
+
+       fn:undefined 
+
+       trace: project id is required
+2022-02-19 15:46:31:4631 
+       [35mhttp[39m: [35mPUT /projects/1 403 56 - 21.413 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 15:46:31:4631 
+       [31merror[39m: [31mPUT /projects/1 403 56 - 21.413 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 15:46:52:4652 
+       [31merror[39m: [31merror updating the project with id undefined[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: Cast to ObjectId failed for value "1" (type string) at path "owner" for model "Project"
+2022-02-19 15:46:52:4652 
+       [31merror[39m: [31mError editing the project projects[39m 
+  
+       instance: controllers 
+
+       fn:undefined 
+
+       trace: error updating the project with id undefined
+2022-02-19 15:46:52:4652 
+       [35mhttp[39m: [35mPUT /projects/1 400 58 - 21.875 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 15:46:52:4652 
+       [31merror[39m: [31mPUT /projects/1 400 58 - 21.875 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 15:47:05:475 
+       [35mhttp[39m: [35mPUT /projects/6210d026e7d2fa722757a409 204 - - 33.024 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 15:47:05:475 
+       [31merror[39m: [31mPUT /projects/6210d026e7d2fa722757a409 204 - - 33.024 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 16:34:30:3430 
+       [35mhttp[39m: [35mPUT /projects/6210d026e7d2fa722757a409 204 - - 25.959 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 16:34:30:3430 
+       [31merror[39m: [31mPUT /projects/6210d026e7d2fa722757a409 204 - - 25.959 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 16:34:40:3440 
+       [35mhttp[39m: [35mPUT /projects/6210d026e7d2fa722757a409 204 - - 25.968 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 16:34:40:3440 
+       [31merror[39m: [31mPUT /projects/6210d026e7d2fa722757a409 204 - - 25.968 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 16:35:13:3513 
+       [35mhttp[39m: [35mPUT /projects/6210d026e7d2fa722757a409 204 - - 39.233 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 16:35:13:3513 
+       [31merror[39m: [31mPUT /projects/6210d026e7d2fa722757a409 204 - - 39.233 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 16:36:30:3630 
+       [35mhttp[39m: [35mPUT /projects/6210d026e7d2fa722757a409 204 - - 32.557 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 16:36:30:3630 
+       [31merror[39m: [31mPUT /projects/6210d026e7d2fa722757a409 204 - - 32.557 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 16:37:03:373 
+       [35mhttp[39m: [35mPUT /projects/6210d026e7d2fa722757a409 204 - - 35.764 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 16:37:03:373 
+       [31merror[39m: [31mPUT /projects/6210d026e7d2fa722757a409 204 - - 35.764 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 16:39:23:3923 
+       [35mhttp[39m: [35mPUT /projects/6210d026e7d2fa722757a409 204 - - 27.234 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 16:39:23:3923 
+       [31merror[39m: [31mPUT /projects/6210d026e7d2fa722757a409 204 - - 27.234 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 16:42:17:4217 
+       [35mhttp[39m: [35mPUT /projects/6210d026e7d2fa722757a409 204 - - 35.206 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 16:42:17:4217 
+       [31merror[39m: [31mPUT /projects/6210d026e7d2fa722757a409 204 - - 35.206 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 16:44:37:4437 
+       [35mhttp[39m: [35mPUT /projects/6210d026e7d2fa722757a409 204 - - 29.297 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 16:44:37:4437 
+       [31merror[39m: [31mPUT /projects/6210d026e7d2fa722757a409 204 - - 29.297 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 16:45:27:4527 
+       [35mhttp[39m: [35mPUT /projects/6210d026e7d2fa722757a409 204 - - 29.368 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 16:45:27:4527 
+       [31merror[39m: [31mPUT /projects/6210d026e7d2fa722757a409 204 - - 29.368 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 16:47:35:4735 
+       [35mhttp[39m: [35mPUT /projects/6210d026e7d2fa722757a409 204 - - 31.622 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 16:47:35:4735 
+       [31merror[39m: [31mPUT /projects/6210d026e7d2fa722757a409 204 - - 31.622 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 16:51:08:518 
+       [35mhttp[39m: [35mPUT /projects/6210d026e7d2fa722757a409 204 - - 38.794 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 16:51:08:518 
+       [31merror[39m: [31mPUT /projects/6210d026e7d2fa722757a409 204 - - 38.794 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 16:54:08:548 
+       [35mhttp[39m: [35mPUT /projects/6210d026e7d2fa722757a409 204 - - 31.528 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 16:54:08:548 
+       [31merror[39m: [31mPUT /projects/6210d026e7d2fa722757a409 204 - - 31.528 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 16:54:30:5430 
+       [35mhttp[39m: [35mPUT /projects/6210d026e7d2fa722757a409 201 177 - 28.911 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 16:54:30:5430 
+       [31merror[39m: [31mPUT /projects/6210d026e7d2fa722757a409 201 177 - 28.911 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 16:56:09:569 
+       [35mhttp[39m: [35mPUT /projects/6210d026e7d2fa722757a409 200 179 - 30.896 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 16:56:09:569 
+       [31merror[39m: [31mPUT /projects/6210d026e7d2fa722757a409 200 179 - 30.896 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 17:07:35:735 
+       [31merror[39m: [31merror deleting project with id 6210d026e7d2fa722757a409[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: the user cannot delete this proyect
+2022-02-19 17:07:35:735 
+       [31merror[39m: [31mError getting projects[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 17:07:35:735 
+       [35mhttp[39m: [35mDELETE /projects/6210d026e7d2fa722757a409 500 69 - 27.756 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 17:07:35:735 
+       [31merror[39m: [31mDELETE /projects/6210d026e7d2fa722757a409 500 69 - 27.756 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 17:08:22:822 
+       [35mhttp[39m: [35mDELETE /projects/6210d026e7d2fa722757a409 401 31 - 17.478 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 17:08:22:822 
+       [31merror[39m: [31mDELETE /projects/6210d026e7d2fa722757a409 401 31 - 17.478 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 17:08:34:834 
+       [35mhttp[39m: [35mPOST /refreshtoken 200 197 - 37.835 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 17:08:34:834 
+       [31merror[39m: [31mPOST /refreshtoken 200 197 - 37.835 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 17:08:54:854 
+       [35mhttp[39m: [35mDELETE /projects/6210d026e7d2fa722757a409 200 19 - 54.162 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 17:08:54:854 
+       [31merror[39m: [31mDELETE /projects/6210d026e7d2fa722757a409 200 19 - 54.162 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 17:09:32:932 
+       [35mhttp[39m: [35mGET /projects 401 25 - 1.719 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 17:09:32:932 
+       [31merror[39m: [31mGET /projects 401 25 - 1.719 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 17:09:48:948 
+       [35mhttp[39m: [35mGET /projects 200 524 - 26.532 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 17:09:48:948 
+       [31merror[39m: [31mGET /projects 200 524 - 26.532 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 17:10:07:107 
+       [35mhttp[39m: [35mDELETE /projects/6210db4f6f144372bf0a2f18 200 19 - 12.439 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 17:10:07:107 
+       [31merror[39m: [31mDELETE /projects/6210db4f6f144372bf0a2f18 200 19 - 12.439 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 17:15:22:1522 
+       [35mhttp[39m: [35mDELETE /projects/6210db4f6f144372bf0a2f18 401 25 - 21.103 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 17:15:22:1522 
+       [31merror[39m: [31mDELETE /projects/6210db4f6f144372bf0a2f18 401 25 - 21.103 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 17:15:22:1522 
+       [35mhttp[39m: [35mDELETE /projects/6210db4f6f144372bf0a2f18 401 25 - 3.339 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 17:15:22:1522 
+       [31merror[39m: [31mDELETE /projects/6210db4f6f144372bf0a2f18 401 25 - 3.339 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 17:15:29:1529 
+       [35mhttp[39m: [35mPOST /refreshtoken 200 197 - 32.110 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 17:15:29:1529 
+       [31merror[39m: [31mPOST /refreshtoken 200 197 - 32.110 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 17:15:42:1542 
+       [35mhttp[39m: [35mDELETE /projects/6210db4f6f144372bf0a2f18 200 16 - 22.332 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 17:15:42:1542 
+       [31merror[39m: [31mDELETE /projects/6210db4f6f144372bf0a2f18 200 16 - 22.332 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined

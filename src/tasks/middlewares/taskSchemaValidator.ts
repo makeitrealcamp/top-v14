@@ -8,5 +8,6 @@ export const createTaskSchema = yup.object({
       .max(40, 'title must be at max 40 characters')
       .required('title is required'),
     descriptiop: yup.string(),
+    projectId: yup.string().required(' a project id is required'),
   }),
 });

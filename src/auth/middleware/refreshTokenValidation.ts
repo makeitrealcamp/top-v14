@@ -11,15 +11,15 @@ export const refreshTokenValidation = (
     const { authorization } = req.headers;
     if (!authorization)
       return next(new ApplicationError(401, 'No token provided'));
-    const { userId } = validateRefreshToken(authorization);
+    const { id } = validateRefreshToken(authorization);
 
-    if (!userId) return next(new ApplicationError(401, 'Unvalid token'));
+    if (!id) return next(new ApplicationError(401, 'Unvalid token'));
 
-    req.userId = userId;
+    req.userId = id;
 
     next();
   } catch (error: any) {
-    if (error.message == 'jwt expired')
+    if (error.message === 'jwt expired')
       return next(new ApplicationError(401, error.message));
     next(error);
   }

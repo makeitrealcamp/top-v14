@@ -22,7 +22,7 @@ export const AuthTokenSchema = new Schema<Token>({
   expireAt: {
     type: Date,
     default: new Date(),
-    index: { expires: 60 },
+    index: { expires: 60 * 60 * 24 },
   },
   owner: {
     type: Schema.Types.ObjectId,

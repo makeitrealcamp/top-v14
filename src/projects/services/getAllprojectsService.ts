@@ -1,18 +1,19 @@
 import { findAllResources } from '../../shared/factory/findAllResources';
 
-import Logger from '../../shared/logger/appLogger';
+import logger from '../../shared/logger/appLogger';
 import { ProjectModel } from '../entity/models/projectModel';
 import { Project } from '../entity/types/Project';
 
-export const getAllProjectsService = async (): Promise<Project[]> => {
+export const getAllProjectsService = async (query: any): Promise<Project[]> => {
   try {
-    const users: Project[] = await findAllResources(ProjectModel);
-    return users;
+    const projects: Project[] = await findAllResources(ProjectModel)(query);
+    return projects;
   } catch (error: any) {
-    Logger.error('error', 'getAllProjectsService', {
-      message: error.message,
-      type: 'mongoose',
+    logger.error('error getting all the projects', {
+      instance: 'services',
+      fn: 'getAllProjectsService',
+      trace: error.message,
     });
-    throw new Error(error.message);
+    throw new Error(`error getting all the projects${error.message}`);
   }
 };

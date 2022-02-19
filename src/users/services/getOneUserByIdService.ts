@@ -6,10 +6,10 @@ import { findOneResourceById } from '../../shared/factory/findOneResourceById';
 
 export const getOneUserByIdService = async (
   id: string
-): Promise<User[] | null> => {
+): Promise<User | null> => {
   try {
-    const user = await findOneResourceById(UserModel)(id);
-    return user;
+    const user: User[] = await findOneResourceById(UserModel)(id);
+    return user[0];
   } catch (error: any) {
     logger.error(`error getting user with id ${id}`, {
       service: 'getOneUserByIdService',

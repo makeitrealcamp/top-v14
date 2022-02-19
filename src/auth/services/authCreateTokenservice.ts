@@ -2,9 +2,9 @@ import logger from '../../shared/logger/appLogger';
 import { UserIdType } from '../../users/entity/types/User';
 import { createAuthToken, createRefreshToken } from '../utils/tokenManager';
 
-export const authCreateTokenService = async (
+export const authCreateTokenService = (
   userId: string | UserIdType
-): Promise<{ authToken: string; refreshToken: string }> => {
+): { authToken: string; refreshToken: string } => {
   try {
     return {
       authToken: createAuthToken({ id: userId }),

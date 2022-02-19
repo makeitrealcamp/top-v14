@@ -7,6 +7,7 @@ import { ApplicationError } from '../../shared/customErrors/ApplicationError';
 import { deleteUserService } from '../services/deleteUserService';
 
 import logger from '../../shared/logger/appLogger';
+import { getUserWithProjectsAndTasksService } from '../services/getUserWithProjectsAndTasksService';
 
 export const getUsers = async (
   _req: Request,
@@ -29,8 +30,10 @@ export const getUserById = async (
 ) => {
   const { id } = req.params;
   try {
+    const all = await getUserWithProjectsAndTasksService(id);
+
     const user = await getOneUserByIdService(id);
-    res.status(200).json({ data: user });
+    res.status(200).json({ data: all });
   } catch (error) {
     next(error);
   }

@@ -1,19 +1,12 @@
-import { ApplicationError } from '../../shared/customErrors/ApplicationError';
 import { deleteOneResourceById } from '../../shared/factory';
-import { createResource } from '../../shared/factory/createResource';
 import { findOneResourceByField } from '../../shared/factory/findOneResourceByField';
-import Logger from '../../shared/logger/appLogger';
-
+import logger from '../../shared/logger/appLogger';
 import { ProjectModel } from '../entity/models/projectModel';
-import { CreateProject, Project } from '../entity/types/Project';
 
-export const deleteOneProjectService = async ({
-  projectId,
-  userId,
-}: {
-  projectId: string;
-  userId: string;
-}): Promise<void> => {
+export const deleteOneProjectService = async (
+  projectId: string,
+  userId: string
+): Promise<boolean> => {
   try {
     const exists = await findOneResourceByField(ProjectModel)({
       owner: userId,
@@ -21,17 +14,15 @@ export const deleteOneProjectService = async ({
 
     if (!exists) throw new Error('the user cannot delete this proyect');
 
-    // const project = await deleteOneResourceById(ProjectModel)(projectId);
-    // return project as Project;
+    const result = await deleteOneResourceById(ProjectModel)(projectId);
+
+    return result && result?.deletedCount > 0 ? true : false;
   } catch (error: any) {
-    Logger.error('error', 'createNewProjectService', {
-      message: error.message,
-      type: 'mongoose',
+    logger.error(`error deleting project with id ${projectId}`, {
+      instance: 'services',
+      fn: 'deleteOneProjectService',
+      trace: error.message,
     });
-    throw new ApplicationError(
-      403,
-      error.message,
-      error.code === 11000 ? 'db error' : ''
-    );
+    throw new Error(`error deleting project with id ${projectId}`);
   }
 };

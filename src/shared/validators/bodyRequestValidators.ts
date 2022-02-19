@@ -9,10 +9,11 @@ export const bodyRequestValidator =
     try {
       await schema.validate({
         body: req.body,
+        params: req.params,
       });
       next();
     } catch (error: any) {
-      logger.error('error validating body request', {
+      logger.error(`error validating body request ${error.message}`, {
         instance: 'middlewares schema validation',
         fn: 'bodyRequestValidator',
         trace: error.message,

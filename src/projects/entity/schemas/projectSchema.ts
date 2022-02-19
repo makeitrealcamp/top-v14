@@ -31,10 +31,8 @@ ProjectSchema.virtual('tasks', {
 
 // middlewares
 ProjectSchema.pre('deleteOne', async function (next) {
-  const user = this.getFilter();
-  console.log('🚀 ~ file: projectSchema.ts ~ line 35 ~ user', user);
-
-  await TaskModel.deleteMany({ project: user.id });
+  const project = this.getFilter();
+  await TaskModel.deleteMany({ project: project.id });
   next();
 });
 

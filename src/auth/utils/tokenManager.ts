@@ -2,7 +2,7 @@ import jwt from 'jsonwebtoken';
 
 export const createAuthToken = (payload: {}): string => {
   return jwt.sign(payload, `${process.env.JWT_AUTH_SECRET}`, {
-    expiresIn: '30s',
+    expiresIn: '360s',
   });
 };
 export const createRefreshToken = (payload: {}): string => {
@@ -18,8 +18,7 @@ export const validateToken = (token: string) => {
 };
 
 export const validateRefreshToken = (token: string) => {
-  return jwt.verify(
-    token,
-    `${process.env.JWT_REFRESH_SECRET}`
-  ) as jwt.UserIDJwtPayload;
+  return <jwt.UserIDJwtPayload>(
+    jwt.verify(token, `${process.env.JWT_REFRESH_SECRET}`)
+  );
 };

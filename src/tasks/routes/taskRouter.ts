@@ -1,6 +1,7 @@
 import { Router } from 'express';
+import { userTokenValidation } from '../../auth/middleware';
 import { bodyRequestValidator } from '../../shared/validators/bodyRequestValidators';
-import { userTokenValidation } from '../../users/middlewares/userTokenValidation';
+
 import { createTask, findTask, getAllTasks } from '../controllers';
 import { createTaskSchema } from '../middlewares/taskSchemaValidator';
 

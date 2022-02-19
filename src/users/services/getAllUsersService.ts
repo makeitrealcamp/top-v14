@@ -5,7 +5,7 @@ import logger from '../../shared/logger/appLogger';
 
 export const getAllUsersService = async (): Promise<User[]> => {
   try {
-    const users: User[] = await findAllResources(UserModel);
+    const users: User[] = await findAllResources(UserModel)();
     return users;
   } catch (error: any) {
     logger.error('error getting the users', {

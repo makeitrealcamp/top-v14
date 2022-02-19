@@ -5,17 +5,17 @@ export const createTask = async (
   req: Request<
     { projectId: string },
     {},
-    { title: string; description: string }
+    { title: string; description: string; projectId: string }
   >,
   res: Response
 ): Promise<void> => {
-  const { title, description } = req.body;
-  const { projectId } = req.params;
+  const { title, description, projectId } = req.body;
+
   try {
     const newTask = await createNewTaskService({
       title,
       description,
-      project: '62070a3a3de76e739ae5445f',
+      project: projectId,
     });
 
     res.status(201).json({ data: newTask });

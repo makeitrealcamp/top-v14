@@ -1,4 +1,6 @@
 import { Model as ModelType } from 'mongoose';
 
-export const findAllResources = async <T>(Model: ModelType<T>): Promise<T[]> =>
-  await Model.find({});
+export const findAllResources =
+  <T>(Model: ModelType<T>) =>
+  async <K>(query?: K): Promise<T[]> =>
+    await Model.find({ ...query });
