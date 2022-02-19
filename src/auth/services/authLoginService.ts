@@ -1,10 +1,7 @@
 import logger from '../../shared/logger/appLogger';
 import { LoginUser } from '../../users/entity/types/User';
-import { validatePassword } from '../../users/utils/passwordManager';
-import {
-  createAuthToken,
-  createRefreshToken,
-} from '../../users/utils/tokenManager';
+import { validatePassword } from '../utils/passwordManager';
+import { createAuthToken, createRefreshToken } from '../utils/tokenManager';
 
 import { getOneUserByEmail } from '../../users/services/getOneUserByEmail';
 import { authCreateRefreshToken } from './authCreateRefreshToken';
@@ -14,7 +11,7 @@ export type TokenResponse = {
   refreshToken: string;
 };
 
-export const userLoginService = async (
+export const authLoginService = async (
   userRequest: LoginUser
 ): Promise<TokenResponse> => {
   try {
@@ -35,7 +32,7 @@ export const userLoginService = async (
   } catch (error: any) {
     logger.error('Error login user', {
       instance: 'services',
-      fn: 'userLoginService',
+      fn: 'authLoginService',
       trace: error.message,
     });
     throw new Error(error);

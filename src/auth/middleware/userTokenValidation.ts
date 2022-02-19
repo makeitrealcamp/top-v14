@@ -1,25 +1,25 @@
 import { NextFunction, Request, Response } from 'express';
 import { ApplicationError } from '../../shared/customErrors/ApplicationError';
-import { validateToken } from '../utils/tokenManager';
+import { validateToken } from '../../auth/utils/tokenManager';
 export const userTokenValidation = (
   req: Request,
-  res: Response,
+  _res: Response,
   next: NextFunction
 ) => {
   try {
     const { authorization } = req.headers;
     if (!authorization)
       return next(new ApplicationError(401, 'No token provided'));
-    //TODO: get the correct type
-    const isValid: any = validateToken(authorization);
 
-    if (!isValid) return next(new ApplicationError(401, 'Unvalid token'));
+    const { userId } = validateToken(authorization);
 
-    req.userId = isValid.id;
+    if (!userId) return next(new ApplicationError(401, 'Unvalid token'));
+
+    req.userId = userId;
 
     next();
   } catch (error: any) {
-    if (error.message == 'jwt expired')
+    if (error.message === 'jwt expired')
       return next(new ApplicationError(401, error.message));
     next(error);
   }

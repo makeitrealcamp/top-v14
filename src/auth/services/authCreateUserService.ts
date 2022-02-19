@@ -1,12 +1,10 @@
 import logger from '../../shared/logger/appLogger';
-import { ApplicationError } from '../../shared/customErrors/ApplicationError';
-
-import { UserModel } from '../entity/models/userModel';
-import { CreateUser, User } from '../entity/types/User';
+import { UserModel } from '../../users/entity/models/userModel';
+import { CreateUser, User } from '../../users/entity/types/User';
 import { createResource } from '../../shared/factory/createResource';
 import { encryptPassword } from '../utils/passwordManager';
 
-export const createUserService = async (
+export const authCreateUserService = async (
   userRequest: CreateUser
 ): Promise<User> => {
   try {
@@ -15,7 +13,7 @@ export const createUserService = async (
     return user as User;
   } catch (error: any) {
     logger.error(`error creating user with email ${userRequest.email}`, {
-      service: 'createUserService',
+      service: 'authCreateUserService',
       trace: error.message,
     });
     throw new Error(`error creating user with email ${userRequest.email}`);

@@ -1,14 +1,14 @@
 import { NextFunction, Request, Response } from 'express';
 import { LoginUser } from '../../users/entity/types/User';
-import { userLoginService } from '../services/authLoginService';
+import { authLoginService } from '../services';
 
-export const userLogin = async (
+export const authLogin = async (
   req: Request<{}, {}, LoginUser>,
   res: Response,
   next: NextFunction
 ) => {
   try {
-    const token = await userLoginService(req.body);
+    const token = await authLoginService(req.body);
     res.status(200).json({
       token,
     });

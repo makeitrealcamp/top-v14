@@ -1,12 +1,11 @@
 import { NextFunction, Request, Response } from 'express';
 
-import { createUserService } from '../services/createUserService';
 import { CreateUser } from '../entity/types/User';
 import { getAllUsersService } from '../services/getAllUsersService';
 import { getOneUserByIdService } from '../services/getOneUserByIdService';
 import { ApplicationError } from '../../shared/customErrors/ApplicationError';
 import { deleteUserService } from '../services/deleteUserService';
-import { createAuthToken } from '../utils/tokenManager';
+
 import logger from '../../shared/logger/appLogger';
 
 export const getUsers = async (
@@ -32,20 +31,6 @@ export const getUserById = async (
   try {
     const user = await getOneUserByIdService(id);
     res.status(200).json({ data: user });
-  } catch (error) {
-    next(error);
-  }
-};
-
-export const createUser = async (
-  req: Request<{}, {}, CreateUser>,
-  res: Response,
-  next: NextFunction
-) => {
-  try {
-    const newUser = await createUserService(req.body);
-    const token = createAuthToken({ id: newUser.id });
-    res.status(200).json({ data: token });
   } catch (error) {
     next(error);
   }

@@ -12,9 +12,14 @@ export const createRefreshToken = (payload: {}): string => {
 };
 
 export const validateToken = (token: string) => {
-  return jwt.verify(token, `${process.env.JWT_AUTH_SECRET}`);
+  return <jwt.UserIDJwtPayload>(
+    jwt.verify(token, `${process.env.JWT_AUTH_SECRET}`)
+  );
 };
 
 export const validateRefreshToken = (token: string) => {
-  return jwt.verify(token, `${process.env.JWT_REFRESH_SECRET}`);
+  return jwt.verify(
+    token,
+    `${process.env.JWT_REFRESH_SECRET}`
+  ) as jwt.UserIDJwtPayload;
 };

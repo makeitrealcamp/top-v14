@@ -1,7 +1,7 @@
 import { createResource } from '../../shared/factory/createResource';
 import logger from '../../shared/logger/appLogger';
 import { UserIdType } from '../../users/entity/types/User';
-import { createRefreshToken } from '../../users/utils/tokenManager';
+import { createRefreshToken } from '../utils/tokenManager';
 import { TokenModel } from '../entity/model/authTokenModel';
 
 export const authCreateRefreshToken = async (
