@@ -5,6 +5,7 @@ import morgan from './shared/logger/morganLogger';
 import userRoutes from './users/routes/userRoutes';
 import tasksRoutes from './tasks/routes/taskRouter';
 import projectsRoutes from './projects/routes/projectsRouter';
+import authRoutes from './auth/router/authRouter';
 
 dotenv.config();
 
@@ -16,6 +17,7 @@ app.use(express.json());
 app.use(tasksRoutes);
 app.use(projectsRoutes);
 app.use(userRoutes);
+app.use(authRoutes);
 
 // app.set('port', process.env.PORT)
 

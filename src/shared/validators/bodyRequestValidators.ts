@@ -1,6 +1,7 @@
 import { NextFunction, Request, Response } from 'express';
 import * as yup from 'yup';
 import { ApplicationError } from '../../shared/customErrors/ApplicationError';
+import logger from '../logger/appLogger';
 
 export const bodyRequestValidator =
   (schema: yup.ObjectSchema<any>) =>
@@ -11,6 +12,12 @@ export const bodyRequestValidator =
       });
       next();
     } catch (error: any) {
+      logger.error('error validating body request', {
+        instance: 'middlewares schema validation',
+        fn: 'bodyRequestValidator',
+        trace: error.message,
+      });
+
       next(new ApplicationError(403, error.message, 'validation'));
     }
   };

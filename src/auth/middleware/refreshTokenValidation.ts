@@ -1,7 +1,8 @@
 import { NextFunction, Request, Response } from 'express';
 import { ApplicationError } from '../../shared/customErrors/ApplicationError';
-import { validateToken } from '../utils/tokenManager';
-export const userTokenValidation = (
+import { validateRefreshToken } from '../../users/utils/tokenManager';
+
+export const refreshTokenValidation = (
   req: Request,
   res: Response,
   next: NextFunction
@@ -11,7 +12,7 @@ export const userTokenValidation = (
     if (!authorization)
       return next(new ApplicationError(401, 'No token provided'));
     //TODO: get the correct type
-    const isValid: any = validateToken(authorization);
+    const isValid: any = validateRefreshToken(authorization);
 
     if (!isValid) return next(new ApplicationError(401, 'Unvalid token'));
 

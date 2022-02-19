@@ -7,7 +7,7 @@ import {
   getUserById,
   getUsers,
 } from '../controllers';
-import { userLogin } from '../controllers/userLoginController';
+import { userLogin } from '../../auth/controllers/authLoginController';
 import {
   loginUserSchema,
   signUpUserSchema,

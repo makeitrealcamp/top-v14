@@ -1,6 +1,6 @@
 import { NextFunction, Request, Response } from 'express';
-import { LoginUser } from '../entity/types/User';
-import { userLoginService } from '../services/userLoginService';
+import { LoginUser } from '../../users/entity/types/User';
+import { userLoginService } from '../services/authLoginService';
 
 export const userLogin = async (
   req: Request<{}, {}, LoginUser>,

@@ -6,7 +6,7 @@ import { getAllUsersService } from '../services/getAllUsersService';
 import { getOneUserByIdService } from '../services/getOneUserByIdService';
 import { ApplicationError } from '../../shared/customErrors/ApplicationError';
 import { deleteUserService } from '../services/deleteUserService';
-import { createToken } from '../utils/tokenManager';
+import { createAuthToken } from '../utils/tokenManager';
 import logger from '../../shared/logger/appLogger';
 
 export const getUsers = async (
@@ -44,7 +44,7 @@ export const createUser = async (
 ) => {
   try {
     const newUser = await createUserService(req.body);
-    const token = createToken({ id: newUser.id });
+    const token = createAuthToken({ id: newUser.id });
     res.status(200).json({ data: token });
   } catch (error) {
     next(error);

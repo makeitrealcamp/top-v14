@@ -5,7 +5,7 @@ import { CreateProject } from '../entity/types/Project';
 import { createNewProjectService } from '../services/createNewProjectService';
 
 export const createProjectController = async (
-  req: Request<{}, {}, CreateProject>,
+  req: Request<{}, {}, { title: string }>,
   res: Response,
   next: NextFunction
 ): Promise<void> => {
@@ -13,7 +13,7 @@ export const createProjectController = async (
   try {
     const newProject = await createNewProjectService({
       title,
-      owner: '',
+      owner: req.userId,
     });
     res.status(201).json({ data: newProject });
   } catch (error: any) {

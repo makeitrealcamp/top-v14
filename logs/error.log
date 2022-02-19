@@ -1,282 +1,84 @@
-2022-02-18 13:15:06:156
-       [31merror[39m: [31muncaughtException: ⨯ Unable to compile TypeScript:[39m
-[31m[96msrc/users/services/getOneUserByEmail.ts[0m:[93m10[0m:[93m48[0m - [91merror[0m[90m TS2769: [0mNo overload matches this call.[39m
-[31m  Overload 1 of 3, '(filter?: FilterQuery<User> | undefined, options?: QueryOptions | undefined, callback?: CallbackWithoutResult | undefined): Query<...>', gave the following error.[39m
-[31m    Argument of type 'string' is not assignable to parameter of type 'FilterQuery<User> | undefined'.[39m
-[31m  Overload 2 of 3, '(callback: CallbackWithoutResult): Query<DeleteResult, Document<unknown, any, User> & User & { _id: ObjectId; }, {}, User>', gave the following error.[39m
-[31m    Argument of type 'string' is not assignable to parameter of type 'CallbackWithoutResult'.[39m
+2022-02-18 18:41:43:4143 
+       [31merror[39m: [31mPOST /login 400 55 - 15.864 ms[39m
+[31m[39m 
+  
+       instance: undefined 
 
-[31m[7m10[0m     const deleted = await UserModel.deleteMany(email);[39m
-[31m[7m  [0m [91m                                               ~~~~~[0m[39m
+       fn:undefined 
 
-
-[31mError: ⨯ Unable to compile TypeScript:[39m
-[31m[96msrc/users/services/getOneUserByEmail.ts[0m:[93m10[0m:[93m48[0m - [91merror[0m[90m TS2769: [0mNo overload matches this call.[39m
-[31m  Overload 1 of 3, '(filter?: FilterQuery<User> | undefined, options?: QueryOptions | undefined, callback?: CallbackWithoutResult | undefined): Query<...>', gave the following error.[39m
-[31m    Argument of type 'string' is not assignable to parameter of type 'FilterQuery<User> | undefined'.[39m
-[31m  Overload 2 of 3, '(callback: CallbackWithoutResult): Query<DeleteResult, Document<unknown, any, User> & User & { _id: ObjectId; }, {}, User>', gave the following error.[39m
-[31m    Argument of type 'string' is not assignable to parameter of type 'CallbackWithoutResult'.[39m
-
-[31m[7m10[0m     const deleted = await UserModel.deleteMany(email);[39m
-[31m[7m  [0m [91m                                               ~~~~~[0m[39m
-
-
-[31m    at Object.<anonymous> (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/src/users/services/getOneUserByEmail.ts:1:7)[39m
-[31m    at Module._compile (node:internal/modules/cjs/loader:1095:14)[39m
-[31m    at Module._compile (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/node_modules/source-map-support/source-map-support.js:568:25)[39m
-[31m    at Module.m._compile (/private/var/folders/x3/3cg46_fx7r59n29lkywd1rmc0000gn/T/ts-node-dev-hook-5481734077488079.js:69:33)[39m
-[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1147:10)[39m
-[31m    at require.extensions.<computed> (/private/var/folders/x3/3cg46_fx7r59n29lkywd1rmc0000gn/T/ts-node-dev-hook-5481734077488079.js:71:20)[39m
-[31m    at Object.nodeDevHook [as .ts] (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/node_modules/ts-node-dev/lib/hook.js:63:13)[39m
-[31m    at Module.load (node:internal/modules/cjs/loader:975:32)[39m
-[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
-[31m    at Module.require (node:internal/modules/cjs/loader:999:19)[39m  
-       service: undefined
-       trace: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
-2022-02-18 13:22:28:2228
-       [31merror[39m: [31muncaughtException: ⨯ Unable to compile TypeScript:[39m
-[31m[96msrc/users/services/getOneUserByEmail.ts[0m:[93m13[0m:[93m17[0m - [91merror[0m[90m TS2582: [0mCannot find name 'test'. Do you need to install type definitions for a test runner? Try `npm i --save-dev @types/jest` or `npm i --save-dev @types/mocha`.[39m
-
-[31m[7m13[0m     console.log(test);[39m
-[31m[7m  [0m [91m                ~~~~[0m[39m
-
-[31mError: ⨯ Unable to compile TypeScript:[39m
-[31m[96msrc/users/services/getOneUserByEmail.ts[0m:[93m13[0m:[93m17[0m - [91merror[0m[90m TS2582: [0mCannot find name 'test'. Do you need to install type definitions for a test runner? Try `npm i --save-dev @types/jest` or `npm i --save-dev @types/mocha`.[39m
-
-[31m[7m13[0m     console.log(test);[39m
-[31m[7m  [0m [91m                ~~~~[0m[39m
-
-[31m    at Object.<anonymous> (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/src/users/services/getOneUserByEmail.ts:1:7)[39m
-[31m    at Module._compile (node:internal/modules/cjs/loader:1095:14)[39m
-[31m    at Module._compile (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/node_modules/source-map-support/source-map-support.js:568:25)[39m
-[31m    at Module.m._compile (/private/var/folders/x3/3cg46_fx7r59n29lkywd1rmc0000gn/T/ts-node-dev-hook-5481734077488079.js:69:33)[39m
-[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1147:10)[39m
-[31m    at require.extensions.<computed> (/private/var/folders/x3/3cg46_fx7r59n29lkywd1rmc0000gn/T/ts-node-dev-hook-5481734077488079.js:71:20)[39m
-[31m    at Object.nodeDevHook [as .ts] (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/node_modules/ts-node-dev/lib/hook.js:63:13)[39m
-[31m    at Module.load (node:internal/modules/cjs/loader:975:32)[39m
-[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
-[31m    at Module.require (node:internal/modules/cjs/loader:999:19)[39m  
-       service: undefined
-       trace: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
-2022-02-18 13:30:40:3040
-       [31merror[39m: [31muncaughtException: ⨯ Unable to compile TypeScript:[39m
-[31m[96msrc/tasks/entity/schema/taskSchema.ts[0m:[93m23[0m:[93m3[0m - [91merror[0m[90m TS2345: [0mArgument of type '{ title: { type: StringConstructor; required: [true, string]; }; description: { type: StringConstructor; }; status: { type: BooleanConstructor; default: false; }; createdAt: { ...; }; editedAt: { ...; }; project: { ...; }; }' is not assignable to parameter of type '{ id?: SchemaDefinitionProperty<TaskId> | undefined; title?: SchemaDefinitionProperty<string> | undefined; description?: SchemaDefinitionProperty<...> | undefined; status?: SchemaDefinitionProperty<...> | undefined; createdAt?: SchemaDefinitionProperty<...> | undefined; editedAt?: SchemaDefinitionProperty<...> | und...'.[39m
-[31m  Object literal may only specify known properties, and 'project' does not exist in type '{ id?: SchemaDefinitionProperty<TaskId> | undefined; title?: SchemaDefinitionProperty<string> | undefined; description?: SchemaDefinitionProperty<...> | undefined; status?: SchemaDefinitionProperty<...> | undefined; createdAt?: SchemaDefinitionProperty<...> | undefined; editedAt?: SchemaDefinitionProperty<...> | und...'.[39m
-
-[31m[7m 23[0m   project: {[39m
-[31m[7m   [0m [91m  ~~~~~~~~~~[0m[39m
-[31m[7m 24[0m     type: Schema.Types.ObjectId,[39m
-[31m[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
-[31m[7m...[0m [39m
-[31m[7m 26[0m     required: [true, 'a project must be provided for a task'],[39m
-[31m[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
-[31m[7m 27[0m   },[39m
-[31m[7m   [0m [91m~~~[0m[39m
-
-[31mError: ⨯ Unable to compile TypeScript:[39m
-[31m[96msrc/tasks/entity/schema/taskSchema.ts[0m:[93m23[0m:[93m3[0m - [91merror[0m[90m TS2345: [0mArgument of type '{ title: { type: StringConstructor; required: [true, string]; }; description: { type: StringConstructor; }; status: { type: BooleanConstructor; default: false; }; createdAt: { ...; }; editedAt: { ...; }; project: { ...; }; }' is not assignable to parameter of type '{ id?: SchemaDefinitionProperty<TaskId> | undefined; title?: SchemaDefinitionProperty<string> | undefined; description?: SchemaDefinitionProperty<...> | undefined; status?: SchemaDefinitionProperty<...> | undefined; createdAt?: SchemaDefinitionProperty<...> | undefined; editedAt?: SchemaDefinitionProperty<...> | und...'.[39m
-[31m  Object literal may only specify known properties, and 'project' does not exist in type '{ id?: SchemaDefinitionProperty<TaskId> | undefined; title?: SchemaDefinitionProperty<string> | undefined; description?: SchemaDefinitionProperty<...> | undefined; status?: SchemaDefinitionProperty<...> | undefined; createdAt?: SchemaDefinitionProperty<...> | undefined; editedAt?: SchemaDefinitionProperty<...> | und...'.[39m
-
-[31m[7m 23[0m   project: {[39m
-[31m[7m   [0m [91m  ~~~~~~~~~~[0m[39m
-[31m[7m 24[0m     type: Schema.Types.ObjectId,[39m
-[31m[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
-[31m[7m...[0m [39m
-[31m[7m 26[0m     required: [true, 'a project must be provided for a task'],[39m
-[31m[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
-[31m[7m 27[0m   },[39m
-[31m[7m   [0m [91m~~~[0m[39m
-
-[31m    at Object.<anonymous> (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/src/tasks/entity/schema/taskSchema.ts:1:7)[39m
-[31m    at Module._compile (node:internal/modules/cjs/loader:1095:14)[39m
-[31m    at Module._compile (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/node_modules/source-map-support/source-map-support.js:568:25)[39m
-[31m    at Module.m._compile (/private/var/folders/x3/3cg46_fx7r59n29lkywd1rmc0000gn/T/ts-node-dev-hook-5481734077488079.js:69:33)[39m
-[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1147:10)[39m
-[31m    at require.extensions.<computed> (/private/var/folders/x3/3cg46_fx7r59n29lkywd1rmc0000gn/T/ts-node-dev-hook-5481734077488079.js:71:20)[39m
-[31m    at Object.nodeDevHook [as .ts] (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/node_modules/ts-node-dev/lib/hook.js:63:13)[39m
-[31m    at Module.load (node:internal/modules/cjs/loader:975:32)[39m
-[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
-[31m    at Module.require (node:internal/modules/cjs/loader:999:19)[39m  
-       service: undefined
-       trace: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
-2022-02-18 13:33:12:3312
-       [31merror[39m: [31muncaughtException: ⨯ Unable to compile TypeScript:[39m
-[31m[96msrc/projects/entity/models/projectModel.ts[0m:[93m3[0m:[93m25[0m - [91merror[0m[90m TS2307: [0mCannot find module '../types/ProjectType' or its corresponding type declarations.[39m
-
-[31m[7m3[0m import { Project } from '../types/ProjectType';[39m
-[31m[7m [0m [91m                        ~~~~~~~~~~~~~~~~~~~~~~[0m[39m
-
-[31mError: ⨯ Unable to compile TypeScript:[39m
-[31m[96msrc/projects/entity/models/projectModel.ts[0m:[93m3[0m:[93m25[0m - [91merror[0m[90m TS2307: [0mCannot find module '../types/ProjectType' or its corresponding type declarations.[39m
-
-[31m[7m3[0m import { Project } from '../types/ProjectType';[39m
-[31m[7m [0m [91m                        ~~~~~~~~~~~~~~~~~~~~~~[0m[39m
-
-[31m    at Object.<anonymous> (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/src/projects/entity/models/projectModel.ts:1:7)[39m
-[31m    at Module._compile (node:internal/modules/cjs/loader:1095:14)[39m
-[31m    at Module._compile (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/node_modules/source-map-support/source-map-support.js:568:25)[39m
-[31m    at Module.m._compile (/private/var/folders/x3/3cg46_fx7r59n29lkywd1rmc0000gn/T/ts-node-dev-hook-5481734077488079.js:69:33)[39m
-[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1147:10)[39m
-[31m    at require.extensions.<computed> (/private/var/folders/x3/3cg46_fx7r59n29lkywd1rmc0000gn/T/ts-node-dev-hook-5481734077488079.js:71:20)[39m
-[31m    at Object.nodeDevHook [as .ts] (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/node_modules/ts-node-dev/lib/hook.js:63:13)[39m
-[31m    at Module.load (node:internal/modules/cjs/loader:975:32)[39m
-[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
-[31m    at Module.require (node:internal/modules/cjs/loader:999:19)[39m  
-       service: undefined
-       trace: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
-2022-02-18 13:36:03:363
-       [31merror[39m: [31muncaughtException: ⨯ Unable to compile TypeScript:[39m
-[31m[96msrc/projects/entity/schemas/projectSchema.ts[0m:[93m34[0m:[93m9[0m - [91merror[0m[90m TS2304: [0mCannot find name 'ProjectModel'.[39m
-
-[31m[7m34[0m   await ProjectModel.deleteMany({ owner: user.id });[39m
-[31m[7m  [0m [91m        ~~~~~~~~~~~~[0m[39m
-
-[31mError: ⨯ Unable to compile TypeScript:[39m
-[31m[96msrc/projects/entity/schemas/projectSchema.ts[0m:[93m34[0m:[93m9[0m - [91merror[0m[90m TS2304: [0mCannot find name 'ProjectModel'.[39m
-
-[31m[7m34[0m   await ProjectModel.deleteMany({ owner: user.id });[39m
-[31m[7m  [0m [91m        ~~~~~~~~~~~~[0m[39m
-
-[31m    at Object.<anonymous> (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/src/projects/entity/schemas/projectSchema.ts:1:7)[39m
-[31m    at Module._compile (node:internal/modules/cjs/loader:1095:14)[39m
-[31m    at Module._compile (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/node_modules/source-map-support/source-map-support.js:568:25)[39m
-[31m    at Module.m._compile (/private/var/folders/x3/3cg46_fx7r59n29lkywd1rmc0000gn/T/ts-node-dev-hook-5481734077488079.js:69:33)[39m
-[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1147:10)[39m
-[31m    at require.extensions.<computed> (/private/var/folders/x3/3cg46_fx7r59n29lkywd1rmc0000gn/T/ts-node-dev-hook-5481734077488079.js:71:20)[39m
-[31m    at Object.nodeDevHook [as .ts] (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/node_modules/ts-node-dev/lib/hook.js:63:13)[39m
-[31m    at Module.load (node:internal/modules/cjs/loader:975:32)[39m
-[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
-[31m    at Module.require (node:internal/modules/cjs/loader:999:19)[39m  
-       service: undefined
-       trace: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
-2022-02-18 16:31:51:3151
-       [31merror[39m: [31muncaughtException: ⨯ Unable to compile TypeScript:[39m
-[31m[96msrc/tasks/controllers/createTask.ts[0m:[93m18[0m:[93m7[0m - [91merror[0m[90m TS2345: [0mArgument of type '{ title: string; description: string; owner: string; }' is not assignable to parameter of type 'CreateTask'.[39m
-[31m  Object literal may only specify known properties, and 'owner' does not exist in type 'CreateTask'.[39m
-
-[31m[7m18[0m       owner: '62070a3a3de76e739ae5445f',[39m
-[31m[7m  [0m [91m      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
-
-[31mError: ⨯ Unable to compile TypeScript:[39m
-[31m[96msrc/tasks/controllers/createTask.ts[0m:[93m18[0m:[93m7[0m - [91merror[0m[90m TS2345: [0mArgument of type '{ title: string; description: string; owner: string; }' is not assignable to parameter of type 'CreateTask'.[39m
-[31m  Object literal may only specify known properties, and 'owner' does not exist in type 'CreateTask'.[39m
-
-[31m[7m18[0m       owner: '62070a3a3de76e739ae5445f',[39m
-[31m[7m  [0m [91m      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
-
-[31m    at Object.<anonymous> (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/src/tasks/controllers/createTask.ts:1:7)[39m
-[31m    at Module._compile (node:internal/modules/cjs/loader:1095:14)[39m
-[31m    at Module._compile (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/node_modules/source-map-support/source-map-support.js:568:25)[39m
-[31m    at Module.m._compile (/private/var/folders/x3/3cg46_fx7r59n29lkywd1rmc0000gn/T/ts-node-dev-hook-1839135448102338.js:69:33)[39m
-[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1147:10)[39m
-[31m    at require.extensions.<computed> (/private/var/folders/x3/3cg46_fx7r59n29lkywd1rmc0000gn/T/ts-node-dev-hook-1839135448102338.js:71:20)[39m
-[31m    at Object.nodeDevHook [as .ts] (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/node_modules/ts-node-dev/lib/hook.js:63:13)[39m
-[31m    at Module.load (node:internal/modules/cjs/loader:975:32)[39m
-[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
-[31m    at Module.require (node:internal/modules/cjs/loader:999:19)[39m  
-       service: undefined
-       trace: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
-2022-02-18 17:02:46:246
-       [31merror[39m: [31muncaughtException: ⨯ Unable to compile TypeScript:[39m
-[31m[96msrc/projects/controllers/createProjectController.ts[0m:[93m22[0m:[93m14[0m - [91merror[0m[90m TS2571: [0mObject is of type 'unknown'.[39m
-
-[31m[7m22[0m       trace: error.message,[39m
-[31m[7m  [0m [91m             ~~~~~[0m[39m
-
-[31mError: ⨯ Unable to compile TypeScript:[39m
-[31m[96msrc/projects/controllers/createProjectController.ts[0m:[93m22[0m:[93m14[0m - [91merror[0m[90m TS2571: [0mObject is of type 'unknown'.[39m
-
-[31m[7m22[0m       trace: error.message,[39m
-[31m[7m  [0m [91m             ~~~~~[0m[39m
-
-[31m    at Object.<anonymous> (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/src/projects/controllers/createProjectController.ts:1:7)[39m
-[31m    at Module._compile (node:internal/modules/cjs/loader:1095:14)[39m
-[31m    at Module._compile (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/node_modules/source-map-support/source-map-support.js:568:25)[39m
-[31m    at Module.m._compile (/private/var/folders/x3/3cg46_fx7r59n29lkywd1rmc0000gn/T/ts-node-dev-hook-1839135448102338.js:69:33)[39m
-[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1147:10)[39m
-[31m    at require.extensions.<computed> (/private/var/folders/x3/3cg46_fx7r59n29lkywd1rmc0000gn/T/ts-node-dev-hook-1839135448102338.js:71:20)[39m
-[31m    at Object.nodeDevHook [as .ts] (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/node_modules/ts-node-dev/lib/hook.js:63:13)[39m
-[31m    at Module.load (node:internal/modules/cjs/loader:975:32)[39m
-[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
-[31m    at Module.require (node:internal/modules/cjs/loader:999:19)[39m  
-       service: undefined
-       trace: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
-2022-02-18 17:03:42:342
-       [31merror[39m: [31muncaughtException: Route.post() requires a callback function but got a [object Undefined][39m
-[31mError: Route.post() requires a callback function but got a [object Undefined][39m
-[31m    at Route.<computed> [as post] (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/node_modules/express/lib/router/route.js:202:15)[39m
-[31m    at Object.<anonymous> (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/src/projects/routes/projectsRouter.ts:12:4)[39m
-[31m    at Module._compile (node:internal/modules/cjs/loader:1095:14)[39m
-[31m    at Module._compile (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/node_modules/source-map-support/source-map-support.js:568:25)[39m
-[31m    at Module.m._compile (/private/var/folders/x3/3cg46_fx7r59n29lkywd1rmc0000gn/T/ts-node-dev-hook-1839135448102338.js:69:33)[39m
-[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1147:10)[39m
-[31m    at require.extensions.<computed> (/private/var/folders/x3/3cg46_fx7r59n29lkywd1rmc0000gn/T/ts-node-dev-hook-1839135448102338.js:71:20)[39m
-[31m    at Object.nodeDevHook [as .ts] (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/node_modules/ts-node-dev/lib/hook.js:63:13)[39m
-[31m    at Module.load (node:internal/modules/cjs/loader:975:32)[39m
-[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m  
-       service: undefined
-       trace: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
-2022-02-18 17:04:31:431
-       [31merror[39m: [31merror[39m  
-       service: undefined
        trace: undefined
-2022-02-18 17:04:31:431
-       [31merror[39m: [31merror on create project controller[39m  
-       service: undefined
-       trace: Project validation failed: owner: Cast to ObjectId failed for value "" (type string) at path "owner"
-2022-02-18 17:06:15:615
-       [31merror[39m: [31muncaughtException: ⨯ Unable to compile TypeScript:[39m
-[31m[96msrc/projects/services/createNewProjectService.ts[0m:[93m17[0m:[93m7[0m - [91merror[0m[90m TS1005: [0m',' expected.[39m
+2022-02-18 18:43:59:4359 
+       [31merror[39m: [31mPOST /login 400 55 - 17.240 ms[39m
+[31m[39m 
+  
+       instance: undefined 
 
-[31m[7m17[0m       tra: error.message,[39m
-[31m[7m  [0m [91m      ~~~[0m[39m
+       fn:undefined 
+
+       trace: undefined
+2022-02-18 18:44:23:4423 
+       [31merror[39m: [31mPOST /login 400 55 - 15.935 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-18 18:45:23:4523 
+       [31merror[39m: [31mPOST /login 403 51 - 22.320 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-18 18:47:48:4748 
+       [31merror[39m: [31merror validating body request[39m 
+  
+       instance: middlewares schema validation 
+
+       fn:undefined 
+
+       trace: Email is required
+2022-02-18 18:47:48:4748 
+       [31merror[39m: [31mPOST /login 403 51 - 50.299 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-18 18:49:24:4924 
+       [31merror[39m: [31mPOST /login 200 160 - 144.160 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-18 18:52:19:5219 
+       [31merror[39m: [31muncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/users/utils/tokenManager.ts[0m:[93m4[0m:[93m68[0m - [91merror[0m[90m TS1109: [0mExpression expected.[39m
+
+[31m[7m4[0m   return jwt.sign(payload, `${process.env.JWT_SECRET}` ,{expiresIn:});[39m
+[31m[7m [0m [91m                                                                   ~[0m[39m
 
 [31mError: ⨯ Unable to compile TypeScript:[39m
-[31m[96msrc/projects/services/createNewProjectService.ts[0m:[93m17[0m:[93m7[0m - [91merror[0m[90m TS1005: [0m',' expected.[39m
+[31m[96msrc/users/utils/tokenManager.ts[0m:[93m4[0m:[93m68[0m - [91merror[0m[90m TS1109: [0mExpression expected.[39m
 
-[31m[7m17[0m       tra: error.message,[39m
-[31m[7m  [0m [91m      ~~~[0m[39m
+[31m[7m4[0m   return jwt.sign(payload, `${process.env.JWT_SECRET}` ,{expiresIn:});[39m
+[31m[7m [0m [91m                                                                   ~[0m[39m
 
-[31m    at Object.<anonymous> (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/src/projects/services/createNewProjectService.ts:1:7)[39m
+[31m    at Object.<anonymous> (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/src/users/utils/tokenManager.ts:1:7)[39m
 [31m    at Module._compile (node:internal/modules/cjs/loader:1095:14)[39m
 [31m    at Module._compile (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/node_modules/source-map-support/source-map-support.js:568:25)[39m
-[31m    at Module.m._compile (/private/var/folders/x3/3cg46_fx7r59n29lkywd1rmc0000gn/T/ts-node-dev-hook-1839135448102338.js:69:33)[39m
+[31m    at Module.m._compile (/private/var/folders/x3/3cg46_fx7r59n29lkywd1rmc0000gn/T/ts-node-dev-hook-7412436398226925.js:69:33)[39m
 [31m    at Module._extensions..js (node:internal/modules/cjs/loader:1147:10)[39m
-[31m    at require.extensions.<computed> (/private/var/folders/x3/3cg46_fx7r59n29lkywd1rmc0000gn/T/ts-node-dev-hook-1839135448102338.js:71:20)[39m
-[31m    at Object.nodeDevHook [as .ts] (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/node_modules/ts-node-dev/lib/hook.js:63:13)[39m
-[31m    at Module.load (node:internal/modules/cjs/loader:975:32)[39m
-[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
-[31m    at Module.require (node:internal/modules/cjs/loader:999:19)[39m  
-       service: undefined
-       trace: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
-2022-02-18 17:24:20:2420
-       [31merror[39m: [31merror creating a new project[39m  
-       service: undefined
-       trace: Project validation failed: owner: Cast to ObjectId failed for value "" (type string) at path "owner"
-2022-02-18 17:24:20:2420
-       [31merror[39m: [31merror on create project controller[39m  
-       service: undefined
-       trace: error creating a new project
-2022-02-18 17:29:33:2933 
-
-       [31merror[39m: [31muncaughtException: ⨯ Unable to compile TypeScript:[39m
-[31m[96msrc/projects/services/createNewProjectService.ts[0m:[93m17[0m:[93m49[0m - [91merror[0m[90m TS1005: [0m':' expected.[39m
-
-[31m[7m17[0m       trace: error.message ? error.message || '',[39m
-[31m[7m  [0m [91m                                                ~[0m[39m
-
-[31mError: ⨯ Unable to compile TypeScript:[39m
-[31m[96msrc/projects/services/createNewProjectService.ts[0m:[93m17[0m:[93m49[0m - [91merror[0m[90m TS1005: [0m':' expected.[39m
-
-[31m[7m17[0m       trace: error.message ? error.message || '',[39m
-[31m[7m  [0m [91m                                                ~[0m[39m
-
-[31m    at Object.<anonymous> (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/src/projects/services/createNewProjectService.ts:1:7)[39m
-[31m    at Module._compile (node:internal/modules/cjs/loader:1095:14)[39m
-[31m    at Module._compile (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/node_modules/source-map-support/source-map-support.js:568:25)[39m
-[31m    at Module.m._compile (/private/var/folders/x3/3cg46_fx7r59n29lkywd1rmc0000gn/T/ts-node-dev-hook-1839135448102338.js:69:33)[39m
-[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1147:10)[39m
-[31m    at require.extensions.<computed> (/private/var/folders/x3/3cg46_fx7r59n29lkywd1rmc0000gn/T/ts-node-dev-hook-1839135448102338.js:71:20)[39m
+[31m    at require.extensions.<computed> (/private/var/folders/x3/3cg46_fx7r59n29lkywd1rmc0000gn/T/ts-node-dev-hook-7412436398226925.js:71:20)[39m
 [31m    at Object.nodeDevHook [as .ts] (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/node_modules/ts-node-dev/lib/hook.js:63:13)[39m
 [31m    at Module.load (node:internal/modules/cjs/loader:975:32)[39m
 [31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
@@ -287,44 +89,186 @@
        fn:undefined 
 
        trace: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
-2022-02-18 17:30:50:3050 
-
-       [31merror[39m: [31merror creating a new project[39m 
+2022-02-18 19:18:16:1816 
+       [31merror[39m: [31mError login user[39m 
   
-       instance: user services 
+       instance: services 
 
-       fn:createNewProjectService 
+       fn:undefined 
 
-       trace: Project validation failed: owner: Cast to ObjectId failed for value "" (type string) at path "owner"
-2022-02-18 17:30:50:3050 
-
-       [31merror[39m: [31merror on create project controller[39m 
+       trace: (0 , tokenManager_1.createToken) is not a function
+2022-02-18 19:18:16:1816 
+       [31merror[39m: [31mPOST /login 500 75 - 119.684 ms[39m
+[31m[39m 
   
-       instance: controller 
+       instance: undefined 
 
-       fn:createProjectController 
+       fn:undefined 
 
-       trace: error creating a new project Project validation failed: owner: Cast to ObjectId failed for value "" (type string) at path "owner"
-2022-02-18 17:34:34:3434 
+       trace: undefined
+2022-02-18 19:18:44:1844 
+       [31merror[39m: [31mPOST /login 200 183 - 86.916 ms[39m
+[31m[39m 
+  
+       instance: undefined 
 
+       fn:undefined 
+
+       trace: undefined
+2022-02-18 19:18:55:1855 
+       [31merror[39m: [31mPOST /projects 201 178 - 67.824 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-18 19:18:56:1856 
+       [31merror[39m: [31mPOST /projects 201 178 - 7.970 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-18 19:18:58:1858 
+       [31merror[39m: [31mPOST /projects 201 178 - 14.762 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-18 19:19:00:190 
+       [31merror[39m: [31mPOST /projects 201 178 - 5.724 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-18 19:19:02:192 
+       [31merror[39m: [31mPOST /projects 201 178 - 14.314 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-18 19:19:04:194 
+       [31merror[39m: [31mPOST /projects 201 178 - 9.503 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-18 19:19:06:196 
+       [31merror[39m: [31mPOST /projects 201 178 - 10.068 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-18 19:19:07:197 
+       [31merror[39m: [31mPOST /projects 201 178 - 2.696 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-18 19:19:09:199 
+       [31merror[39m: [31mPOST /projects 201 178 - 7.028 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-18 19:19:10:1910 
+       [31merror[39m: [31mPOST /projects 201 178 - 8.520 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-18 19:19:11:1911 
+       [31merror[39m: [31mPOST /projects 201 178 - 7.877 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-18 19:19:12:1912 
+       [31merror[39m: [31mPOST /projects 201 178 - 8.627 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-18 19:19:13:1913 
+       [31merror[39m: [31mPOST /projects 201 178 - 22.269 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-18 19:19:59:1959 
+       [31merror[39m: [31mPOST /projects 500 25 - 15.037 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-18 19:22:08:228 
+       [31merror[39m: [31mPOST /projects 401 25 - 28.753 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-18 19:59:38:5938 
        [31merror[39m: [31muncaughtException: ⨯ Unable to compile TypeScript:[39m
-[31m[96msrc/projects/controllers/getAllProjectsController.ts[0m:[93m18[0m:[93m63[0m - [91merror[0m[90m TS2571: [0mObject is of type 'unknown'.[39m
+[31m[96msrc/users/controllers/userController.ts[0m:[93m9[0m:[93m10[0m - [91merror[0m[90m TS2305: [0mModule '"../utils/tokenManager"' has no exported member 'createToken'.[39m
 
-[31m[7m18[0m       new ApplicationError(400, `Error getting the projects ${error.message}`)[39m
-[31m[7m  [0m [91m                                                              ~~~~~[0m[39m
+[31m[7m9[0m import { createToken } from '../utils/tokenManager';[39m
+[31m[7m [0m [91m         ~~~~~~~~~~~[0m[39m
 
 [31mError: ⨯ Unable to compile TypeScript:[39m
-[31m[96msrc/projects/controllers/getAllProjectsController.ts[0m:[93m18[0m:[93m63[0m - [91merror[0m[90m TS2571: [0mObject is of type 'unknown'.[39m
+[31m[96msrc/users/controllers/userController.ts[0m:[93m9[0m:[93m10[0m - [91merror[0m[90m TS2305: [0mModule '"../utils/tokenManager"' has no exported member 'createToken'.[39m
 
-[31m[7m18[0m       new ApplicationError(400, `Error getting the projects ${error.message}`)[39m
-[31m[7m  [0m [91m                                                              ~~~~~[0m[39m
+[31m[7m9[0m import { createToken } from '../utils/tokenManager';[39m
+[31m[7m [0m [91m         ~~~~~~~~~~~[0m[39m
 
-[31m    at Object.<anonymous> (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/src/projects/controllers/getAllProjectsController.ts:1:7)[39m
+[31m    at Object.<anonymous> (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/src/users/controllers/userController.ts:1:7)[39m
 [31m    at Module._compile (node:internal/modules/cjs/loader:1095:14)[39m
 [31m    at Module._compile (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/node_modules/source-map-support/source-map-support.js:568:25)[39m
-[31m    at Module.m._compile (/private/var/folders/x3/3cg46_fx7r59n29lkywd1rmc0000gn/T/ts-node-dev-hook-37543385210472957.js:69:33)[39m
+[31m    at Module.m._compile (/private/var/folders/x3/3cg46_fx7r59n29lkywd1rmc0000gn/T/ts-node-dev-hook-5714221716628336.js:69:33)[39m
 [31m    at Module._extensions..js (node:internal/modules/cjs/loader:1147:10)[39m
-[31m    at require.extensions.<computed> (/private/var/folders/x3/3cg46_fx7r59n29lkywd1rmc0000gn/T/ts-node-dev-hook-37543385210472957.js:71:20)[39m
+[31m    at require.extensions.<computed> (/private/var/folders/x3/3cg46_fx7r59n29lkywd1rmc0000gn/T/ts-node-dev-hook-5714221716628336.js:71:20)[39m
 [31m    at Object.nodeDevHook [as .ts] (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/node_modules/ts-node-dev/lib/hook.js:63:13)[39m
 [31m    at Module.load (node:internal/modules/cjs/loader:975:32)[39m
 [31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
@@ -335,24 +279,270 @@
        fn:undefined 
 
        trace: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
-2022-02-18 17:38:43:3843 
+2022-02-18 20:00:06:06 
+       [31merror[39m: [31muncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/users/controllers/userController.ts[0m:[93m47[0m:[93m19[0m - [91merror[0m[90m TS2304: [0mCannot find name 'createToken'.[39m
+
+[31m[7m47[0m     const token = createToken({ id: newUser.id });[39m
+[31m[7m  [0m [91m                  ~~~~~~~~~~~[0m[39m
+
+[31mError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/users/controllers/userController.ts[0m:[93m47[0m:[93m19[0m - [91merror[0m[90m TS2304: [0mCannot find name 'createToken'.[39m
+
+[31m[7m47[0m     const token = createToken({ id: newUser.id });[39m
+[31m[7m  [0m [91m                  ~~~~~~~~~~~[0m[39m
+
+[31m    at Object.<anonymous> (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/src/users/controllers/userController.ts:1:7)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1095:14)[39m
+[31m    at Module._compile (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/node_modules/source-map-support/source-map-support.js:568:25)[39m
+[31m    at Module.m._compile (/private/var/folders/x3/3cg46_fx7r59n29lkywd1rmc0000gn/T/ts-node-dev-hook-5714221716628336.js:69:33)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1147:10)[39m
+[31m    at require.extensions.<computed> (/private/var/folders/x3/3cg46_fx7r59n29lkywd1rmc0000gn/T/ts-node-dev-hook-5714221716628336.js:71:20)[39m
+[31m    at Object.nodeDevHook [as .ts] (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/node_modules/ts-node-dev/lib/hook.js:63:13)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:975:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:999:19)[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2022-02-18 20:00:21:021 
+       [31merror[39m: [31mPOST /login 200 386 - 108.319 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-18 20:14:14:1414 
+       [31merror[39m: [31mPOST /projects 500 31 - 12.082 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-18 20:14:23:1423 
+       [31merror[39m: [31merror validating body request[39m 
+  
+       instance: middlewares schema validation 
+
+       fn:undefined 
+
+       trace: Password is required
+2022-02-18 20:14:23:1423 
+       [31merror[39m: [31mPOST /login 403 54 - 33.600 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-18 20:14:39:1439 
+       [31merror[39m: [31mPOST /login 200 386 - 141.843 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-18 20:14:55:1455 
+       [31merror[39m: [31mPOST /projects 500 31 - 3.441 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-18 20:15:26:1526 
+       [31merror[39m: [31mPOST /projects 401 25 - 18.476 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-18 20:15:57:1557 
+       [31merror[39m: [31mPOST /login 200 386 - 102.048 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-18 20:16:08:168 
+       [31merror[39m: [31mPOST /projects 201 178 - 20.925 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-18 20:16:14:1614 
+       [31merror[39m: [31mPOST /projects 201 178 - 3.845 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-18 20:16:23:1623 
+       [31merror[39m: [31mPOST /projects 201 178 - 8.147 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-18 20:16:33:1633 
+       [31merror[39m: [31mPOST /projects 401 25 - 10.023 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-18 20:17:39:1739 
+       [31merror[39m: [31mGET /refreshtoken 404 151 - 10.778 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-18 20:17:45:1745 
+       [31merror[39m: [31mPOST /refreshtoken 200 154 - 63.555 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-18 20:17:56:1756 
        [31merror[39m: [31merror creating a new project service[39m 
   
        instance: services 
 
        fn:createNewProjectService 
 
-       trace: Project validation failed: owner: Cast to ObjectId failed for value "" (type string) at path "owner"
-2022-02-18 17:38:43:3843 
+       trace: Project validation failed: owner: an user is required to create a project
+2022-02-18 20:17:56:1756 
        [31merror[39m: [31merror on create project controller[39m 
   
        instance: controller 
 
        fn:createProjectController 
 
-       trace: Error creating a new project Project validation failed: owner: Cast to ObjectId failed for value "" (type string) at path "owner"
-2022-02-18 17:38:43:3843 
-       [31merror[39m: [31mPOST /projects 403 147 - 18.927 ms[39m
+       trace: Error creating a new project Project validation failed: owner: an user is required to create a project
+2022-02-18 20:17:56:1756 
+       [31merror[39m: [31mPOST /projects 403 116 - 15.424 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-18 20:19:07:197 
+       [31merror[39m: [31mPOST /refreshtoken 200 154 - 36.413 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-18 20:19:49:1949 
+       [31merror[39m: [31mPOST /refreshtoken 200 154 - 31.951 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-18 20:20:55:2055 
+       [31merror[39m: [31mPOST /refreshtoken 200 154 - 26.931 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-18 20:21:39:2139 
+       [31merror[39m: [31muncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/auth/router/authRouter.ts[0m:[93m5[0m:[93m10[0m - [91merror[0m[90m TS2305: [0mModule '"../middleware/refreshTokenValidation"' has no exported member 'refreshTokenValidation'.[39m
+
+[31m[7m5[0m import { refreshTokenValidation } from '../middleware/refreshTokenValidation';[39m
+[31m[7m [0m [91m         ~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+
+[31mError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/auth/router/authRouter.ts[0m:[93m5[0m:[93m10[0m - [91merror[0m[90m TS2305: [0mModule '"../middleware/refreshTokenValidation"' has no exported member 'refreshTokenValidation'.[39m
+
+[31m[7m5[0m import { refreshTokenValidation } from '../middleware/refreshTokenValidation';[39m
+[31m[7m [0m [91m         ~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+
+[31m    at Object.<anonymous> (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/src/auth/router/authRouter.ts:1:7)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1095:14)[39m
+[31m    at Module._compile (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/node_modules/source-map-support/source-map-support.js:568:25)[39m
+[31m    at Module.m._compile (/private/var/folders/x3/3cg46_fx7r59n29lkywd1rmc0000gn/T/ts-node-dev-hook-5714221716628336.js:69:33)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1147:10)[39m
+[31m    at require.extensions.<computed> (/private/var/folders/x3/3cg46_fx7r59n29lkywd1rmc0000gn/T/ts-node-dev-hook-5714221716628336.js:71:20)[39m
+[31m    at Object.nodeDevHook [as .ts] (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/node_modules/ts-node-dev/lib/hook.js:63:13)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:975:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:999:19)[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2022-02-18 20:22:05:225 
+       [31merror[39m: [31mPOST /refreshtoken 401 31 - 7.381 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-18 20:22:24:2224 
+       [31merror[39m: [31mPOST /refreshtoken 200 197 - 40.590 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-18 20:22:44:2244 
+       [31merror[39m: [31mPOST /projects 201 178 - 38.935 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-18 20:25:05:255 
+       [31merror[39m: [31mPOST /login 200 386 - 92.421 ms[39m
 [31m[39m 
   
        instance: undefined 

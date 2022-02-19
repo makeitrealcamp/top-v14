@@ -10,7 +10,7 @@ router
   .route('/projects')
   .get(userTokenValidation, projectController.getAllProjects)
   .post(
-    // userTokenValidation,
+    userTokenValidation,
     bodyRequestValidator(createProjectSchema),
     projectController.createProjectController
   );
