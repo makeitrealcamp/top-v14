@@ -16,11 +16,11 @@ export const authCreateRefreshToken = async (
     const newToken = await token.save();
     return newToken.token;
   } catch (error: any) {
-    logger.error('error creating a new project service', {
+    logger.error('error creating a refresh token service', {
       instance: 'services',
-      service: 'createNewProjectService',
+      service: 'authCreateRefreshToken',
       trace: error.message ? error.message : '',
     });
-    throw new Error(`Error creating a new project ${error.message}`);
+    throw new Error(`Error creating a new refresh token ${error.message}`);
   }
 };

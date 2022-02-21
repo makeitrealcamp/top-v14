@@ -9,7 +9,6 @@ export const refreshToken = async (
 ) => {
   try {
     const { authorization } = req.headers;
-
     const token = await authRefreshTokenService(req.userId, authorization!);
     res.status(200).json({
       token,

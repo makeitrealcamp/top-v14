@@ -11,6 +11,7 @@ export const refreshTokenValidation = (
     const { authorization } = req.headers;
     if (!authorization)
       return next(new ApplicationError(401, 'No token provided'));
+
     const { id } = validateRefreshToken(authorization);
 
     if (!id) return next(new ApplicationError(401, 'Unvalid token'));

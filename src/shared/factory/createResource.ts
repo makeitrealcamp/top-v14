@@ -1,4 +1,4 @@
-import { Model as ModelType, Document } from 'mongoose';
+import { Model as ModelType } from 'mongoose';
 import { Token } from '../../auth/entity/schema/authTokenSchema';
 import { Project } from '../../projects/entity/types/Project';
 import { Task } from '../../tasks/entity/types/Task';

@@ -1,10 +1,7 @@
 import logger from '../../shared/logger/appLogger';
 import { LoginUser } from '../../users/entity/types/User';
-import { validatePassword } from '../utils/passwordManager';
-import { createAuthToken, createRefreshToken } from '../utils/tokenManager';
-
-import { getOneUserByEmail } from '../../users/services/getOneUserByEmail';
-import { authCreateRefreshToken } from './authCreateRefreshToken';
+import { authValidateUserService } from './authValidateUserService';
+import { authCreateTokenService } from './authCreateTokenservice';
 
 export type TokenResponse = {
   authToken: string;
@@ -15,26 +12,15 @@ export const authLoginService = async (
   userRequest: LoginUser
 ): Promise<TokenResponse> => {
   try {
-    const user = await getOneUserByEmail(userRequest.email);
-
-    if (!user) throw new Error('user email or password is incorrect');
-
-    const auth = await validatePassword(userRequest.password, user.password);
-
-    if (!auth) throw new Error('user email or password is incorrect');
-    const authToken = createAuthToken({ id: user.id });
-    const refreshToken = await authCreateRefreshToken(user.id);
-
-    return {
-      authToken,
-      refreshToken,
-    };
+    const user = await authValidateUserService(userRequest);
+    const tokens = await authCreateTokenService(user.id);
+    return tokens;
   } catch (error: any) {
     logger.error('Error login user', {
       instance: 'services',
       fn: 'authLoginService',
       trace: error.message,
     });
-    throw new Error(error);
+    throw new Error(`Error login user: ${error.message}`);
   }
 };

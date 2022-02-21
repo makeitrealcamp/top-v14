@@ -15,8 +15,6 @@ export const authRefreshTokenService = async (
   userId: string,
   refreshToken: string
 ): Promise<{ authToken: string }> => {
-  //TODO: refactor errors and add logger
-
   const user = await findOneResourceById(UserModel)(userId);
 
   if (!user) throw new Error('invalid user id');

@@ -10,7 +10,6 @@ export const getOneUserByEmail = async (
     const user: User | null = await findOneResourceByField(UserModel)({
       email,
     });
-
     return user;
   } catch (error: any) {
     logger.log(`error getting the user with email: ${email}`, {

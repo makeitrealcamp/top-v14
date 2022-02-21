@@ -3565,3 +3565,398 @@
        fn:undefined 
 
        trace: undefined
+2022-02-19 19:53:09:539 
+       [31merror[39m: [31mError login user[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: colors[Colorizer.allColors[lookup]] is not a function
+2022-02-19 19:53:51:5351 
+       [31merror[39m: [31mError login user[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: colors[Colorizer.allColors[lookup]] is not a function
+2022-02-19 20:04:54:454 
+       [31merror[39m: [31mError login user[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: colors[Colorizer.allColors[lookup]] is not a function
+2022-02-19 20:05:39:539 
+       [31merror[39m: [31mError login user[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: colors[Colorizer.allColors[lookup]] is not a function
+2022-02-19 20:12:58:1258 
+       [31merror[39m: [31muncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/auth/middleware/userTokenValidation.ts[0m:[93m18[0m:[93m9[0m - [91merror[0m[90m TS2339: [0mProperty 'userId' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.[39m
+
+[31m[7m18[0m     req.userId = id;[39m
+[31m[7m  [0m [91m        ~~~~~~[0m[39m
+
+[31mError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/auth/middleware/userTokenValidation.ts[0m:[93m18[0m:[93m9[0m - [91merror[0m[90m TS2339: [0mProperty 'userId' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.[39m
+
+[31m[7m18[0m     req.userId = id;[39m
+[31m[7m  [0m [91m        ~~~~~~[0m[39m
+
+[31m    at Object.<anonymous> (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/src/auth/middleware/userTokenValidation.ts:1:7)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1095:14)[39m
+[31m    at Module._compile (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/node_modules/source-map-support/source-map-support.js:568:25)[39m
+[31m    at Module.m._compile (/private/var/folders/x3/3cg46_fx7r59n29lkywd1rmc0000gn/T/ts-node-dev-hook-6754534498048066.js:69:33)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1147:10)[39m
+[31m    at require.extensions.<computed> (/private/var/folders/x3/3cg46_fx7r59n29lkywd1rmc0000gn/T/ts-node-dev-hook-6754534498048066.js:71:20)[39m
+[31m    at Object.nodeDevHook [as .ts] (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/node_modules/ts-node-dev/lib/hook.js:63:13)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:975:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:999:19)[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2022-02-19 20:13:41:1341 
+       [31merror[39m: [31muncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/auth/middleware/userTokenValidation.ts[0m:[93m18[0m:[93m9[0m - [91merror[0m[90m TS2339: [0mProperty 'userId' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.[39m
+
+[31m[7m18[0m     req.userId = id;[39m
+[31m[7m  [0m [91m        ~~~~~~[0m[39m
+
+[31mError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/auth/middleware/userTokenValidation.ts[0m:[93m18[0m:[93m9[0m - [91merror[0m[90m TS2339: [0mProperty 'userId' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.[39m
+
+[31m[7m18[0m     req.userId = id;[39m
+[31m[7m  [0m [91m        ~~~~~~[0m[39m
+
+[31m    at Object.<anonymous> (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/src/auth/middleware/userTokenValidation.ts:1:7)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1095:14)[39m
+[31m    at Module._compile (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/node_modules/source-map-support/source-map-support.js:568:25)[39m
+[31m    at Module.m._compile (/private/var/folders/x3/3cg46_fx7r59n29lkywd1rmc0000gn/T/ts-node-dev-hook-6754534498048066.js:69:33)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1147:10)[39m
+[31m    at require.extensions.<computed> (/private/var/folders/x3/3cg46_fx7r59n29lkywd1rmc0000gn/T/ts-node-dev-hook-6754534498048066.js:71:20)[39m
+[31m    at Object.nodeDevHook [as .ts] (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/node_modules/ts-node-dev/lib/hook.js:63:13)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:975:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:999:19)[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2022-02-19 20:13:46:1346 
+       [31merror[39m: [31muncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/auth/middleware/userTokenValidation.ts[0m:[93m18[0m:[93m9[0m - [91merror[0m[90m TS2339: [0mProperty 'userId' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.[39m
+
+[31m[7m18[0m     req.userId = id;[39m
+[31m[7m  [0m [91m        ~~~~~~[0m[39m
+
+[31mError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/auth/middleware/userTokenValidation.ts[0m:[93m18[0m:[93m9[0m - [91merror[0m[90m TS2339: [0mProperty 'userId' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.[39m
+
+[31m[7m18[0m     req.userId = id;[39m
+[31m[7m  [0m [91m        ~~~~~~[0m[39m
+
+[31m    at Object.<anonymous> (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/src/auth/middleware/userTokenValidation.ts:1:7)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1095:14)[39m
+[31m    at Module._compile (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/node_modules/source-map-support/source-map-support.js:568:25)[39m
+[31m    at Module.m._compile (/private/var/folders/x3/3cg46_fx7r59n29lkywd1rmc0000gn/T/ts-node-dev-hook-04509813327391643.js:69:33)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1147:10)[39m
+[31m    at require.extensions.<computed> (/private/var/folders/x3/3cg46_fx7r59n29lkywd1rmc0000gn/T/ts-node-dev-hook-04509813327391643.js:71:20)[39m
+[31m    at Object.nodeDevHook [as .ts] (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/node_modules/ts-node-dev/lib/hook.js:63:13)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:975:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:999:19)[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2022-02-19 20:14:01:141 
+       [31merror[39m: [31muncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/auth/services/authRefreshTokenService.ts[0m:[93m8[0m:[93m3[0m - [91merror[0m[90m TS2305: [0mModule '"../../shared/factory"' has no exported member 'findOneResourceByField'.[39m
+
+[31m[7m8[0m   findOneResourceByField,[39m
+[31m[7m [0m [91m  ~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+
+[31mError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/auth/services/authRefreshTokenService.ts[0m:[93m8[0m:[93m3[0m - [91merror[0m[90m TS2305: [0mModule '"../../shared/factory"' has no exported member 'findOneResourceByField'.[39m
+
+[31m[7m8[0m   findOneResourceByField,[39m
+[31m[7m [0m [91m  ~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+
+[31m    at Object.<anonymous> (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/src/auth/services/authRefreshTokenService.ts:1:7)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1095:14)[39m
+[31m    at Module._compile (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/node_modules/source-map-support/source-map-support.js:568:25)[39m
+[31m    at Module.m._compile (/private/var/folders/x3/3cg46_fx7r59n29lkywd1rmc0000gn/T/ts-node-dev-hook-04509813327391643.js:69:33)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1147:10)[39m
+[31m    at require.extensions.<computed> (/private/var/folders/x3/3cg46_fx7r59n29lkywd1rmc0000gn/T/ts-node-dev-hook-04509813327391643.js:71:20)[39m
+[31m    at Object.nodeDevHook [as .ts] (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/node_modules/ts-node-dev/lib/hook.js:63:13)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:975:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:999:19)[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2022-02-19 20:14:49:1449 
+       [31merror[39m: [31muncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/auth/services/authRefreshTokenService.ts[0m:[93m8[0m:[93m3[0m - [91merror[0m[90m TS2305: [0mModule '"../../shared/factory"' has no exported member 'findOneResourceByField'.[39m
+
+[31m[7m8[0m   findOneResourceByField,[39m
+[31m[7m [0m [91m  ~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+
+[31mError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/auth/services/authRefreshTokenService.ts[0m:[93m8[0m:[93m3[0m - [91merror[0m[90m TS2305: [0mModule '"../../shared/factory"' has no exported member 'findOneResourceByField'.[39m
+
+[31m[7m8[0m   findOneResourceByField,[39m
+[31m[7m [0m [91m  ~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+
+[31m    at Object.<anonymous> (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/src/auth/services/authRefreshTokenService.ts:1:7)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1095:14)[39m
+[31m    at Module._compile (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/node_modules/source-map-support/source-map-support.js:568:25)[39m
+[31m    at Module.m._compile (/private/var/folders/x3/3cg46_fx7r59n29lkywd1rmc0000gn/T/ts-node-dev-hook-04509813327391643.js:69:33)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1147:10)[39m
+[31m    at require.extensions.<computed> (/private/var/folders/x3/3cg46_fx7r59n29lkywd1rmc0000gn/T/ts-node-dev-hook-04509813327391643.js:71:20)[39m
+[31m    at Object.nodeDevHook [as .ts] (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/node_modules/ts-node-dev/lib/hook.js:63:13)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:975:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:999:19)[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2022-02-19 20:15:11:1511 
+       [31merror[39m: [31mGET /users 200 639 - 18.232 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-19 20:19:16:1916 
+       [31merror[39m: [31muncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/auth/middleware/userTokenValidation.ts[0m:[93m18[0m:[93m9[0m - [91merror[0m[90m TS2339: [0mProperty 'userId' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.[39m
+
+[31m[7m18[0m     req.userId = id;[39m
+[31m[7m  [0m [91m        ~~~~~~[0m[39m
+
+[31mError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/auth/middleware/userTokenValidation.ts[0m:[93m18[0m:[93m9[0m - [91merror[0m[90m TS2339: [0mProperty 'userId' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.[39m
+
+[31m[7m18[0m     req.userId = id;[39m
+[31m[7m  [0m [91m        ~~~~~~[0m[39m
+
+[31m    at Object.<anonymous> (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/src/auth/middleware/userTokenValidation.ts:1:7)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1095:14)[39m
+[31m    at Module._compile (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/node_modules/source-map-support/source-map-support.js:568:25)[39m
+[31m    at Module.m._compile (/private/var/folders/x3/3cg46_fx7r59n29lkywd1rmc0000gn/T/ts-node-dev-hook-6915771182466552.js:69:33)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1147:10)[39m
+[31m    at require.extensions.<computed> (/private/var/folders/x3/3cg46_fx7r59n29lkywd1rmc0000gn/T/ts-node-dev-hook-6915771182466552.js:71:20)[39m
+[31m    at Object.nodeDevHook [as .ts] (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/node_modules/ts-node-dev/lib/hook.js:63:13)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:975:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:999:19)[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2022-02-19 20:56:43:5643 
+       [31merror[39m: [31mError login user[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: colors[Colorizer.allColors[lookup]] is not a function
+2022-02-21 08:49:34:4934 
+       [31merror[39m: [31mError deleting user with id 123[39m 
+  
+       instance: undefined 
+
+       fn:deleteOneResourceById 
+
+       trace: Operation `projects.deleteMany()` buffering timed out after 10000ms
+2022-02-21 08:54:08:548 
+       [31merror[39m: [31mError deleting user with id 123[39m 
+  
+       instance: undefined 
+
+       fn:deleteOneResourceById 
+
+       trace: (0 , factory_1.deleteOneResourceById)(...) is not a function
+2022-02-21 08:54:45:5445 
+       [31merror[39m: [31mError deleting user with id 123[39m 
+  
+       instance: undefined 
+
+       fn:deleteOneResourceById 
+
+       trace: (0 , factory_1.deleteOneResourceById)(...) is not a function
+2022-02-21 08:55:22:5522 
+       [31merror[39m: [31mError deleting user with id 123[39m 
+  
+       instance: undefined 
+
+       fn:deleteOneResourceById 
+
+       trace: (0 , factory_1.deleteOneResourceById)(...) is not a function
+2022-02-21 08:55:52:5552 
+       [31merror[39m: [31mError deleting user with id 123[39m 
+  
+       instance: undefined 
+
+       fn:deleteOneResourceById 
+
+       trace: (0 , factory_1.deleteOneResourceById)(...) is not a function
+2022-02-21 08:56:29:5629 
+       [31merror[39m: [31mError deleting user with id 123[39m 
+  
+       instance: undefined 
+
+       fn:deleteOneResourceById 
+
+       trace: (0 , factory_1.deleteOneResourceById)(...) is not a function
+2022-02-21 08:57:03:573 
+       [31merror[39m: [31mError deleting user with id 123[39m 
+  
+       instance: undefined 
+
+       fn:deleteOneResourceById 
+
+       trace: (0 , factory_1.deleteOneResourceById)(...) is not a function
+2022-02-21 08:58:42:5842 
+       [31merror[39m: [31mError deleting user with id 123[39m 
+  
+       instance: undefined 
+
+       fn:deleteOneResourceById 
+
+       trace: (0 , factory_1.deleteOneResourceById)(...) is not a function
+2022-02-21 08:59:06:596 
+       [31merror[39m: [31mError deleting user with id 123[39m 
+  
+       instance: undefined 
+
+       fn:deleteOneResourceById 
+
+       trace: (0 , factory_1.deleteOneResourceById)(...) is not a function
+2022-02-21 09:02:23:223 
+       [31merror[39m: [31mError deleting user with id 123[39m 
+  
+       instance: undefined 
+
+       fn:deleteOneResourceById 
+
+       trace: (0 , factory_1.deleteOneResourceById)(...) is not a function
+2022-02-21 09:02:23:223 
+       [31merror[39m: [31mError deleting user with id 123[39m 
+  
+       instance: undefined 
+
+       fn:deleteOneResourceById 
+
+       trace: (0 , factory_1.deleteOneResourceById)(...) is not a function
+2022-02-21 09:03:14:314 
+       [31merror[39m: [31mError deleting user with id 123[39m 
+  
+       instance: undefined 
+
+       fn:deleteOneResourceById 
+
+       trace: (0 , factory_1.deleteOneResourceById)(...) is not a function
+2022-02-21 09:03:14:314 
+       [31merror[39m: [31mError deleting user with id 123[39m 
+  
+       instance: undefined 
+
+       fn:deleteOneResourceById 
+
+       trace: (0 , factory_1.deleteOneResourceById)(...) is not a function
+2022-02-21 09:04:19:419 
+       [31merror[39m: [31mError deleting user with id 123[39m 
+  
+       instance: undefined 
+
+       fn:deleteOneResourceById 
+
+       trace: (0 , factory_1.deleteOneResourceById)(...) is not a function
+2022-02-21 09:04:19:419 
+       [31merror[39m: [31mError deleting user with id 123[39m 
+  
+       instance: undefined 
+
+       fn:deleteOneResourceById 
+
+       trace: (0 , factory_1.deleteOneResourceById)(...) is not a function
+2022-02-21 12:09:12:912 
+       [31merror[39m: [31mGET /tasks 200 11 - 31.491 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 12:09:56:956 
+       [31merror[39m: [31mGET /tasks 200 11 - 30.215 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 12:11:00:110 
+       [31merror[39m: [31mGET /tasks 200 11 - 32.430 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 12:14:03:143 
+       [31merror[39m: [31mGET /tasks 200 11 - 31.951 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 12:14:03:143 
+       [31merror[39m: [31mError deleting user with id 123[39m 
+  
+       instance: undefined 
+
+       fn:deleteOneResourceById 
+
+       trace: (0 , factory_1.deleteOneResourceById)(...) is not a function
+2022-02-21 12:14:03:143 
+       [31merror[39m: [31mError deleting user with id 123[39m 
+  
+       instance: undefined 
+
+       fn:deleteOneResourceById 
+
+       trace: (0 , factory_1.deleteOneResourceById)(...) is not a function
