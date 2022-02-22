@@ -32,11 +32,10 @@ describe('delete user service', () => {
     expect(deleteOneResourceById).toHaveBeenCalledTimes(1);
     expect(result).toEqual({ deletedCount: 15 });
   });
-  it('should return null', async () => {
+  it('should return null when there is no document to be deleted', async () => {
     deleteOneResourceByIdMock.mockImplementation(() =>
       jest.fn().mockReturnValue(null)
     );
-
     const result = await deleteUserService('3241');
     expect(deleteOneResourceById).toHaveBeenCalledTimes(1);
     expect(result).toEqual(null);
