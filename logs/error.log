@@ -5503,3 +5503,19 @@
        fn:undefined 
 
        trace: undefined
+2022-02-21 22:30:42:3042 
+       [31merror[39m: [31merror getting all the projects[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: Cannot read properties of undefined (reading 'find')
+2022-02-21 22:34:46:3446 
+       [31merror[39m: [31merror getting all the projects[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: Cannot read properties of undefined (reading 'find')

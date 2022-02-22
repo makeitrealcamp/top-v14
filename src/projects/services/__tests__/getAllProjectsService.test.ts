@@ -1,34 +1,40 @@
 import * as factoryService from '../../../shared/factory';
-import * as MockProjectModel from '../../entity/models/projectModel';
+import { ProjectModel } from '../../entity/models/projectModel';
 import { Project } from '../../entity/types/Project';
 import { getAllProjectsService } from '../getAllprojectsService';
-// jest.mock('../../../shared/factory', () => {
-//   return {
-//     findAllResources: jest.fn().mockImplementation(() => Promise.resolve(true)),
-//   };
-// });
+import { model } from 'mongoose';
 
-jest.mock('../../entity/models/projectModel', () => {
-  const originalModule = jest.requireActual('../../entity/models/projectModel');
+jest.mock('mongoose');
+
+jest.mock('../../../shared/factory', () => {
   return {
-    ...originalModule,
-    find: jest.fn().mockImplementation(() => Promise.resolve([] as Project[])),
+    findAllResources: jest.fn().mockImplementation(() => Promise.resolve(true)),
   };
 });
+
+// jest.mock('../../entity/models/projectModel');
+
+// const ProjectModelMock = ProjectModel as Document as jest.MockedClass<typeof ProjectModel>;
+
+// const mockAdd = jest.fn() as unknown as jest.MockedFunction<
+//   typeof ProjectModel
+// >;
 
 describe('delete user service', () => {
   afterEach(() => {
     jest.clearAllMocks();
   });
   it('should call', async () => {
-    // jest.spyOn(MockProjectModel, 'ProjectModel');
-    // .mockImplementation(() => Promise.resolve('ok'));
+    ProjectModel.find = jest
+      .fn()
+      .mockImplementation(() => Promise.resolve(true));
     try {
       const result = await getAllProjectsService(123);
-      expect(result).toEqual({});
+      expect(result).toEqual(true);
+      expect(ProjectModel.find).toHaveBeenCalledTimes(1);
+      expect(ProjectModel.find).toHaveBeenCalledWith({ id: 123 });
     } catch (error: any) {
       expect(error.message).toBe('Error deleting user with id 123');
-      // expect(factoryService.deleteOneResourceById).toHaveBeenCalledTimes(1);
     }
   });
 });
