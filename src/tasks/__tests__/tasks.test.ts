@@ -64,7 +64,7 @@ describe('Tasks', () => {
 
       expect(body).toEqual({ message: 'title is required' }); // jest
     });
-    it('should return status 200 ', async () => {
+    it('should return status 201 when a task is created ', async () => {
       const fakeToken = createAuthToken({ id: '620fe2fd41c2882838182940' });
       const { body } = await supertest(app)
         .post('/tasks')

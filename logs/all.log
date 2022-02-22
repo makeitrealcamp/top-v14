@@ -5293,3 +5293,605 @@
        fn:undefined 
 
        trace: Cannot read properties of undefined (reading 'find')
+2022-02-22 14:22:04:224 
+       [31merror[39m: [31mError deleting user with id [39m 
+  
+       instance: undefined 
+
+       fn:deleteOneResourceById 
+
+       trace: (0 , factory_1.deleteOneResourceById)(...) is not a function
+2022-02-22 14:22:04:224 
+       [31merror[39m: [31mError deleting user with id 123[39m 
+  
+       instance: undefined 
+
+       fn:deleteOneResourceById 
+
+       trace: (0 , factory_1.deleteOneResourceById)(...) is not a function
+2022-02-22 14:22:05:225 
+       [31merror[39m: [31mPOST /tasks 401 31 - 17.440 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-22 14:22:05:225 
+       [31merror[39m: [31mPOST /tasks 401 27 - 1.585 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-22 14:22:05:225 
+       [31merror[39m: [31merror validating body request a project id is required[39m 
+  
+       instance: middlewares schema validation 
+
+       fn:undefined 
+
+       trace: a project id is required
+2022-02-22 14:22:05:225 
+       [31merror[39m: [31mPOST /tasks 400 38 - 3.382 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-22 14:22:05:225 
+       [31merror[39m: [31merror validating body request title is required[39m 
+  
+       instance: middlewares schema validation 
+
+       fn:undefined 
+
+       trace: title is required
+2022-02-22 14:22:05:225 
+       [31merror[39m: [31mPOST /tasks 400 31 - 8.901 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-22 14:22:05:225 
+       [31merror[39m: [31mPOST /tasks 201 163 - 7.348 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-22 14:22:05:225 
+       [31merror[39m: [31mGET /tasks 200 165 - 7.285 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-22 14:27:09:279 
+       [31merror[39m: [31mError deleting user with id [39m 
+  
+       instance: undefined 
+
+       fn:deleteOneResourceById 
+
+       trace: Error deleting user no user id provided
+2022-02-22 14:27:09:279 
+       [31merror[39m: [31mError deleting user with id 123[39m 
+  
+       instance: undefined 
+
+       fn:deleteOneResourceById 
+
+       trace: (0 , factory_1.deleteOneResourceById)(...) is not a function
+2022-02-22 14:27:10:2710 
+       [31merror[39m: [31mPOST /tasks 401 31 - 18.714 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-22 14:27:10:2710 
+       [31merror[39m: [31mPOST /tasks 401 27 - 1.773 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-22 14:27:10:2710 
+       [31merror[39m: [31merror validating body request a project id is required[39m 
+  
+       instance: middlewares schema validation 
+
+       fn:undefined 
+
+       trace: a project id is required
+2022-02-22 14:27:10:2710 
+       [31merror[39m: [31mPOST /tasks 400 38 - 3.000 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-22 14:27:10:2710 
+       [31merror[39m: [31merror validating body request title is required[39m 
+  
+       instance: middlewares schema validation 
+
+       fn:undefined 
+
+       trace: title is required
+2022-02-22 14:27:10:2710 
+       [31merror[39m: [31mPOST /tasks 400 31 - 8.607 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-22 14:27:10:2710 
+       [31merror[39m: [31mPOST /tasks 201 163 - 8.980 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-22 14:27:10:2710 
+       [31merror[39m: [31mGET /tasks 200 165 - 11.012 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-22 14:29:03:293 
+       [31merror[39m: [31mError deleting user with id [39m 
+  
+       instance: undefined 
+
+       fn:deleteOneResourceById 
+
+       trace:  no user id provided
+2022-02-22 14:29:03:293 
+       [31merror[39m: [31mError deleting user with id 123[39m 
+  
+       instance: undefined 
+
+       fn:deleteOneResourceById 
+
+       trace: (0 , factory_1.deleteOneResourceById)(...) is not a function
+2022-02-22 14:32:20:3220 
+       [31merror[39m: [31mError deleting user with id [39m 
+  
+       instance: undefined 
+
+       fn:deleteOneResourceById 
+
+       trace:  no user id provided
+2022-02-22 14:32:20:3220 
+       [31merror[39m: [31mError deleting user with id 3241[39m 
+  
+       instance: undefined 
+
+       fn:deleteOneResourceById 
+
+       trace: (0 , factory_1.deleteOneResourceById)(...) is not a function
+2022-02-22 14:32:36:3236 
+       [31merror[39m: [31mError deleting user with id [39m 
+  
+       instance: undefined 
+
+       fn:deleteOneResourceById 
+
+       trace: no user id provided
+2022-02-22 14:32:36:3236 
+       [31merror[39m: [31mError deleting user with id 3241[39m 
+  
+       instance: undefined 
+
+       fn:deleteOneResourceById 
+
+       trace: (0 , factory_1.deleteOneResourceById)(...) is not a function
+2022-02-22 14:32:53:3253 
+       [31merror[39m: [31mError deleting user with id [39m 
+  
+       instance: undefined 
+
+       fn:deleteOneResourceById 
+
+       trace: no user id provided
+2022-02-22 14:32:53:3253 
+       [31merror[39m: [31mError deleting user with id 3241[39m 
+  
+       instance: undefined 
+
+       fn:deleteOneResourceById 
+
+       trace: (0 , factory_1.deleteOneResourceById)(...) is not a function
+2022-02-22 14:33:16:3316 
+       [31merror[39m: [31mError deleting user with id [39m 
+  
+       instance: undefined 
+
+       fn:deleteOneResourceById 
+
+       trace: no user id provided
+2022-02-22 14:33:16:3316 
+       [31merror[39m: [31mError deleting user with id 3241[39m 
+  
+       instance: undefined 
+
+       fn:deleteOneResourceById 
+
+       trace: (0 , factory_1.deleteOneResourceById)(...) is not a function
+2022-02-22 14:33:37:3337 
+       [31merror[39m: [31mError deleting user with id [39m 
+  
+       instance: undefined 
+
+       fn:deleteOneResourceById 
+
+       trace: no user id provided
+2022-02-22 14:33:37:3337 
+       [31merror[39m: [31mError deleting user with id 3241[39m 
+  
+       instance: undefined 
+
+       fn:deleteOneResourceById 
+
+       trace: (0 , factory_1.deleteOneResourceById)(...) is not a function
+2022-02-22 14:34:42:3442 
+       [31merror[39m: [31mError deleting user with id [39m 
+  
+       instance: undefined 
+
+       fn:deleteOneResourceById 
+
+       trace: no user id provided
+2022-02-22 14:34:42:3442 
+       [31merror[39m: [31mError deleting user with id 3241[39m 
+  
+       instance: undefined 
+
+       fn:deleteOneResourceById 
+
+       trace: (0 , factory_1.deleteOneResourceById)(...) is not a function
+2022-02-22 14:41:25:4125 
+       [31merror[39m: [31mError deleting user with id [39m 
+  
+       instance: undefined 
+
+       fn:deleteOneResourceById 
+
+       trace: no user id provided
+2022-02-22 14:41:25:4125 
+       [31merror[39m: [31mError deleting user with id 3241[39m 
+  
+       instance: undefined 
+
+       fn:deleteOneResourceById 
+
+       trace: (0 , factory_1.deleteOneResourceById)(...) is not a function
+2022-02-22 14:49:02:492 
+       [35mhttp[39m: [35mGET /tasks 200 1378 - 36.527 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-22 14:49:02:492 
+       [31merror[39m: [31mGET /tasks 200 1378 - 36.527 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-22 14:49:46:4946 
+       [35mhttp[39m: [35mDELETE /tasks/62110326143bf8eb7f618fdd 200 2 - 50.504 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-22 14:49:46:4946 
+       [31merror[39m: [31mDELETE /tasks/62110326143bf8eb7f618fdd 200 2 - 50.504 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-22 14:50:17:5017 
+       [31merror[39m: [31mError deleting user with id [39m 
+  
+       instance: undefined 
+
+       fn:deleteOneResourceById 
+
+       trace: no user id provided
+2022-02-22 14:50:17:5017 
+       [31merror[39m: [31mError deleting user with id 3241[39m 
+  
+       instance: undefined 
+
+       fn:deleteOneResourceById 
+
+       trace: (0 , factory_1.deleteOneResourceById)(...) is not a function
+2022-02-22 14:51:19:5119 
+       [31merror[39m: [31mError deleting user with id [39m 
+  
+       instance: undefined 
+
+       fn:deleteOneResourceById 
+
+       trace: no user id provided
+2022-02-22 14:51:19:5119 
+       [31merror[39m: [31mError deleting user with id 3241[39m 
+  
+       instance: undefined 
+
+       fn:deleteOneResourceById 
+
+       trace: (0 , factory_1.deleteOneResourceById)(...) is not a function
+2022-02-22 14:52:08:528 
+       [31merror[39m: [31mError deleting user with id [39m 
+  
+       instance: undefined 
+
+       fn:deleteOneResourceById 
+
+       trace: no user id provided
+2022-02-22 14:52:08:528 
+       [31merror[39m: [31mError deleting user with id 3241[39m 
+  
+       instance: undefined 
+
+       fn:deleteOneResourceById 
+
+       trace: (0 , factory_1.deleteOneResourceById)(...) is not a function
+2022-02-22 15:02:03:23 
+       [31merror[39m: [31mError deleting user with id [39m 
+  
+       instance: undefined 
+
+       fn:deleteOneResourceById 
+
+       trace: no user id provided
+2022-02-22 15:09:14:914 
+       [31merror[39m: [31mError deleting user with id [39m 
+  
+       instance: undefined 
+
+       fn:deleteOneResourceById 
+
+       trace: no user id provided
+2022-02-22 15:09:53:953 
+       [31merror[39m: [31mError deleting user with id [39m 
+  
+       instance: undefined 
+
+       fn:deleteOneResourceById 
+
+       trace: no user id provided
+2022-02-22 15:16:27:1627 
+       [31merror[39m: [31mError deleting user with id [39m 
+  
+       instance: undefined 
+
+       fn:deleteOneResourceById 
+
+       trace: no user id provided
+2022-02-22 15:16:27:1627 
+       [35mhttp[39m: [35mDELETE /tasks/1 500 54 - 25.562 ms[39m
+[35m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-22 15:16:27:1627 
+       [31merror[39m: [31mDELETE /tasks/1 500 54 - 25.562 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-22 15:24:55:2455 
+       [31merror[39m: [31mError deleting user with id [39m 
+  
+       instance: undefined 
+
+       fn:deleteOneResourceById 
+
+       trace: no user id provided
+2022-02-22 15:41:51:4151 
+       [31merror[39m: [31mError deleting user with id [39m 
+  
+       instance: undefined 
+
+       fn:deleteOneResourceById 
+
+       trace: no user id provided
+2022-02-22 16:29:41:2941 
+       [31merror[39m: [31mError deleting user with id [39m 
+  
+       instance: undefined 
+
+       fn:deleteOneResourceById 
+
+       trace: no user id provided
+2022-02-22 16:30:13:3013 
+       [31merror[39m: [31mError deleting user with id [39m 
+  
+       instance: undefined 
+
+       fn:deleteOneResourceById 
+
+       trace: no user id provided
+2022-02-22 16:31:26:3126 
+       [31merror[39m: [31mError deleting user with id [39m 
+  
+       instance: undefined 
+
+       fn:deleteOneResourceById 
+
+       trace: no user id provided
+2022-02-22 16:31:51:3151 
+       [31merror[39m: [31mError deleting user with id [39m 
+  
+       instance: undefined 
+
+       fn:deleteOneResourceById 
+
+       trace: no user id provided
+2022-02-22 16:32:18:3218 
+       [31merror[39m: [31mError deleting user with id [39m 
+  
+       instance: undefined 
+
+       fn:deleteOneResourceById 
+
+       trace: no user id provided
+2022-02-22 16:33:25:3325 
+       [31merror[39m: [31mError deleting user with id [39m 
+  
+       instance: undefined 
+
+       fn:deleteOneResourceById 
+
+       trace: no user id provided
+2022-02-22 16:33:48:3348 
+       [31merror[39m: [31mError deleting user with id [39m 
+  
+       instance: undefined 
+
+       fn:deleteOneResourceById 
+
+       trace: no user id provided
+2022-02-22 16:34:23:3423 
+       [31merror[39m: [31mError deleting user with id [39m 
+  
+       instance: undefined 
+
+       fn:deleteOneResourceById 
+
+       trace: no user id provided
+2022-02-22 16:34:41:3441 
+       [31merror[39m: [31mError deleting user with id [39m 
+  
+       instance: undefined 
+
+       fn:deleteOneResourceById 
+
+       trace: no user id provided
+2022-02-22 16:36:48:3648 
+       [31merror[39m: [31mError deleting user with id [39m 
+  
+       instance: undefined 
+
+       fn:deleteOneResourceById 
+
+       trace: no user id provided
+2022-02-22 16:37:19:3719 
+       [31merror[39m: [31mError deleting user with id [39m 
+  
+       instance: undefined 
+
+       fn:deleteOneResourceById 
+
+       trace: no user id provided
+2022-02-22 16:37:43:3743 
+       [31merror[39m: [31mError deleting user with id [39m 
+  
+       instance: undefined 
+
+       fn:deleteOneResourceById 
+
+       trace: no user id provided
+2022-02-22 16:37:53:3753 
+       [31merror[39m: [31mError deleting user with id [39m 
+  
+       instance: undefined 
+
+       fn:deleteOneResourceById 
+
+       trace: no user id provided
+2022-02-22 16:39:48:3948 
+       [31merror[39m: [31mError deleting user with id [39m 
+  
+       instance: undefined 
+
+       fn:deleteOneResourceById 
+
+       trace: no user id provided
+2022-02-22 16:40:20:4020 
+       [31merror[39m: [31mError deleting user with id [39m 
+  
+       instance: undefined 
+
+       fn:deleteOneResourceById 
+
+       trace: no user id provided
+2022-02-22 16:40:34:4034 
+       [31merror[39m: [31mError deleting user with id [39m 
+  
+       instance: undefined 
+
+       fn:deleteOneResourceById 
+
+       trace: no user id provided
+2022-02-22 16:41:55:4155 
+       [31merror[39m: [31mError deleting user with id [39m 
+  
+       instance: undefined 
+
+       fn:deleteOneResourceById 
+
+       trace: no user id provided
+2022-02-22 16:42:10:4210 
+       [31merror[39m: [31mError deleting user with id [39m 
+  
+       instance: undefined 
+
+       fn:deleteOneResourceById 
+
+       trace: no user id provided
+2022-02-22 16:42:25:4225 
+       [31merror[39m: [31mError deleting user with id [39m 
+  
+       instance: undefined 
+
+       fn:deleteOneResourceById 
+
+       trace: no user id provided

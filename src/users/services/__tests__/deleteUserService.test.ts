@@ -1,30 +1,44 @@
+import { deleteOneResourceById } from '../../../shared/factory';
 import { deleteUserService } from '../deleteUserService';
-import * as factoryService from '../../../shared/factory';
-jest.mock('../../../shared/factory', () => {
-  return {
-    deleteOneResourceById: jest
-      .fn()
-      .mockImplementation(() => Promise.resolve(true)),
-  };
-});
+
+jest.mock('../../../shared/factory/deleteOneResourceById');
 
 describe('delete user service', () => {
+  const deleteOneResourceByIdMock =
+    deleteOneResourceById as jest.MockedFunction<typeof deleteOneResourceById>;
+  deleteOneResourceByIdMock.mockImplementation(() =>
+    jest.fn().mockImplementation(() => Promise.resolve({ deletedCount: 1 }))
+  );
   afterEach(() => {
+    jest.resetModules();
     jest.clearAllMocks();
   });
-  it('should call', async () => {
-    // jest.spyOn(factoryService, 'deleteOneResourceById');
+
+  it('should return an error it the user id is not provided', async () => {
     try {
-      const result = await deleteUserService('');
+      await deleteUserService('');
     } catch (error: any) {
-      expect(error.message).toBe('Error deleting user with id 123');
-      expect(factoryService.deleteOneResourceById).toHaveBeenCalledTimes(1);
+      expect(error.message).toEqual('Error deleting user: no user id provided');
+      expect(deleteOneResourceById).toHaveBeenCalledTimes(0);
     }
   });
-  it('should call ok', async () => {
-    try {
-      const result = await deleteUserService('123');
-      expect(result).toBe(true);
-    } catch (error: any) {}
+
+  it('should return the deleted acount number', async () => {
+    deleteOneResourceByIdMock.mockImplementation(() =>
+      jest.fn().mockReturnValue({ deletedCount: 15 })
+    );
+
+    const result = await deleteUserService('3241');
+    expect(deleteOneResourceById).toHaveBeenCalledTimes(1);
+    expect(result).toEqual({ deletedCount: 15 });
+  });
+  it('should return null', async () => {
+    deleteOneResourceByIdMock.mockImplementation(() =>
+      jest.fn().mockReturnValue(null)
+    );
+
+    const result = await deleteUserService('3241');
+    expect(deleteOneResourceById).toHaveBeenCalledTimes(1);
+    expect(result).toEqual(null);
   });
 });

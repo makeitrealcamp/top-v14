@@ -7,4 +7,7 @@ module.exports = {
   transform: {
     '^.+\\.ts?$': 'ts-jest',
   },
+  collectCoverageFrom: ['**/*.{ts,tsx}', '!**/node_modules/**'],
+  coverageReporters: ['json', 'html'],
+  collectCoverage: true,
 };
