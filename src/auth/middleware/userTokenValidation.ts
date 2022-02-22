@@ -21,6 +21,7 @@ export const userTokenValidation = (
   } catch (error: any) {
     if (error.message === 'jwt expired')
       return next(new ApplicationError(401, error.message));
+    console.log(error.message);
     next(error);
   }
 };

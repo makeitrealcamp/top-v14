@@ -3960,3 +3960,1546 @@
        fn:deleteOneResourceById 
 
        trace: (0 , factory_1.deleteOneResourceById)(...) is not a function
+2022-02-21 18:46:44:4644 
+       [31merror[39m: [31merror getting all the projects[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: (0 , findAllResources_1.findAllResources) is not a function
+2022-02-21 18:47:35:4735 
+       [31merror[39m: [31merror getting all the projects[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: (0 , findAllResources_1.findAllResources) is not a function
+2022-02-21 18:48:43:4843 
+       [31merror[39m: [31merror getting all the projects[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: (0 , findAllResources_1.findAllResources) is not a function
+2022-02-21 18:56:52:5652 
+       [31merror[39m: [31merror getting all the projects[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: (0 , factory_1.findAllResources)(...) is not a function
+2022-02-21 18:57:32:5732 
+       [31merror[39m: [31merror getting all the projects[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: (0 , factory_1.findAllResources)(...) is not a function
+2022-02-21 18:58:54:5854 
+       [31merror[39m: [31merror getting all the projects[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: (0 , factory_1.findAllResources) is not a function
+2022-02-21 18:59:10:5910 
+       [31merror[39m: [31merror getting all the projects[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: (0 , factory_1.findAllResources) is not a function
+2022-02-21 18:59:42:5942 
+       [31merror[39m: [31merror getting all the projects[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: (0 , factory_1.findAllResources) is not a function
+2022-02-21 19:01:24:124 
+       [31merror[39m: [31merror getting all the projects[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: (0 , factory_1.findAllResources)(...) is not a function
+2022-02-21 19:02:10:210 
+       [31merror[39m: [31merror getting all the projects[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: (0 , factory_1.findAllResources)(...) is not a function
+2022-02-21 19:02:49:249 
+       [31merror[39m: [31merror getting all the projects[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: Cannot read properties of undefined (reading 'find')
+2022-02-21 19:03:30:330 
+       [31merror[39m: [31merror getting all the projects[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: Cannot read properties of undefined (reading 'find')
+2022-02-21 19:04:07:47 
+       [31merror[39m: [31merror getting all the projects[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: Cannot read properties of undefined (reading 'find')
+2022-02-21 19:08:51:851 
+       [31merror[39m: [31merror getting all the projects[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: Cannot read properties of undefined (reading 'find')
+2022-02-21 19:13:19:1319 
+       [31merror[39m: [31mError deleting user with id 123[39m 
+  
+       instance: undefined 
+
+       fn:deleteOneResourceById 
+
+       trace: (0 , factory_1.deleteOneResourceById)(...) is not a function
+2022-02-21 19:13:19:1319 
+       [31merror[39m: [31mError deleting user with id 123[39m 
+  
+       instance: undefined 
+
+       fn:deleteOneResourceById 
+
+       trace: (0 , factory_1.deleteOneResourceById)(...) is not a function
+2022-02-21 19:14:55:1455 
+       [31merror[39m: [31merror getting all the projects[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: (0 , factory_1.findAllResources)(...) is not a function
+2022-02-21 19:18:11:1811 
+       [31merror[39m: [31merror getting all the projects[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: projectModel_1.ProjectModel.find is not a function
+2022-02-21 19:18:28:1828 
+       [31merror[39m: [31muncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/projects/controllers/getAllProjectsController.ts[0m:[93m16[0m:[93m47[0m - [91merror[0m[90m TS2554: [0mExpected 0 arguments, but got 1.[39m
+
+[31m[7m16[0m     const tasks = await getAllProjectsService({[39m
+[31m[7m  [0m [91m                                              ~[0m[39m
+[31m[7m17[0m       owner: user.id,[39m
+[31m[7m  [0m [91m~~~~~~~~~~~~~~~~~~~~~[0m[39m
+[31m[7m18[0m     });[39m
+[31m[7m  [0m [91m~~~~~[0m[39m
+
+[31mError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/projects/controllers/getAllProjectsController.ts[0m:[93m16[0m:[93m47[0m - [91merror[0m[90m TS2554: [0mExpected 0 arguments, but got 1.[39m
+
+[31m[7m16[0m     const tasks = await getAllProjectsService({[39m
+[31m[7m  [0m [91m                                              ~[0m[39m
+[31m[7m17[0m       owner: user.id,[39m
+[31m[7m  [0m [91m~~~~~~~~~~~~~~~~~~~~~[0m[39m
+[31m[7m18[0m     });[39m
+[31m[7m  [0m [91m~~~~~[0m[39m
+
+[31m    at Object.<anonymous> (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/src/projects/controllers/getAllProjectsController.ts:1:7)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1095:14)[39m
+[31m    at Module._compile (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/node_modules/source-map-support/source-map-support.js:568:25)[39m
+[31m    at Module.m._compile (/private/var/folders/x3/3cg46_fx7r59n29lkywd1rmc0000gn/T/ts-node-dev-hook-969741060330739.js:69:33)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1147:10)[39m
+[31m    at require.extensions.<computed> (/private/var/folders/x3/3cg46_fx7r59n29lkywd1rmc0000gn/T/ts-node-dev-hook-969741060330739.js:71:20)[39m
+[31m    at Object.nodeDevHook [as .ts] (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/node_modules/ts-node-dev/lib/hook.js:63:13)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:975:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:999:19)[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2022-02-21 19:19:40:1940 
+       [31merror[39m: [31merror getting all the projects[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: projectModel_1.ProjectModel.find is not a function
+2022-02-21 19:21:20:2120 
+       [31merror[39m: [31mPOST /login 200 386 - 161.419 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 19:21:31:2131 
+       [31merror[39m: [31mGET /projects 200 3755 - 28.824 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 19:26:09:269 
+       [31merror[39m: [31merror getting all the projects[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: Cannot read properties of undefined (reading 'find')
+2022-02-21 19:30:27:3027 
+       [31merror[39m: [31mError deleting user with id 123[39m 
+  
+       instance: undefined 
+
+       fn:deleteOneResourceById 
+
+       trace: (0 , factory_1.deleteOneResourceById)(...) is not a function
+2022-02-21 19:30:27:3027 
+       [31merror[39m: [31mError deleting user with id 123[39m 
+  
+       instance: undefined 
+
+       fn:deleteOneResourceById 
+
+       trace: (0 , factory_1.deleteOneResourceById)(...) is not a function
+2022-02-21 19:36:43:3643 
+       [31merror[39m: [31mGET /tasks 200 11 - 24.036 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 19:37:40:3740 
+       [31merror[39m: [31mGET /tasks 200 11 - 24.680 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 19:41:15:4115 
+       [31merror[39m: [31mGET /tasks 200 11 - 24.097 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 19:41:15:4115 
+       [31merror[39m: [31mPOST /tasks 401 31 - 1.770 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 19:41:26:4126 
+       [31merror[39m: [31mGET /tasks 200 11 - 23.328 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 19:41:26:4126 
+       [31merror[39m: [31mPOST /tasks 401 31 - 1.838 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 19:42:04:424 
+       [31merror[39m: [31mGET /tasks 200 11 - 26.176 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 19:42:04:424 
+       [31merror[39m: [31mPOST /tasks 401 31 - 1.681 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 19:43:38:4338 
+       [31merror[39m: [31mGET /tasks 200 11 - 21.906 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 19:43:38:4338 
+       [31merror[39m: [31mPOST /tasks 401 31 - 1.887 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 19:46:27:4627 
+       [31merror[39m: [31mGET /tasks 200 11 - 22.153 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 19:46:27:4627 
+       [31merror[39m: [31mPOST /tasks 401 31 - 1.742 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 19:46:27:4627 
+       [31merror[39m: [31mPOST /tasks 500 27 - 1.620 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 19:47:26:4726 
+       [31merror[39m: [31mGET /tasks 200 11 - 24.204 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 19:47:26:4726 
+       [31merror[39m: [31mPOST /tasks 401 31 - 1.935 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 19:47:26:4726 
+       [31merror[39m: [31mPOST /tasks 500 27 - 2.321 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 19:48:42:4842 
+       [31merror[39m: [31mGET /tasks 200 11 - 22.173 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 19:48:42:4842 
+       [31merror[39m: [31mPOST /tasks 401 31 - 1.815 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 19:48:42:4842 
+       [31merror[39m: [31mPOST /tasks 401 25 - 2.851 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 19:49:06:496 
+       [31merror[39m: [31mGET /tasks 200 11 - 24.434 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 19:49:06:496 
+       [31merror[39m: [31mPOST /tasks 401 31 - 1.580 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 19:49:06:496 
+       [31merror[39m: [31mPOST /tasks 401 31 - 1.676 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 19:54:41:5441 
+       [31merror[39m: [31mGET /tasks 200 11 - 23.913 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 19:54:41:5441 
+       [31merror[39m: [31mPOST /tasks 401 31 - 1.695 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 19:54:41:5441 
+       [31merror[39m: [31mPOST /tasks 500 31 - 3.112 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 19:55:42:5542 
+       [31merror[39m: [31mGET /tasks 200 11 - 23.727 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 19:55:42:5542 
+       [31merror[39m: [31mPOST /tasks 401 31 - 1.865 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 19:55:42:5542 
+       [31merror[39m: [31mPOST /tasks 401 27 - 1.993 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 19:56:36:5636 
+       [31merror[39m: [31mGET /tasks 200 11 - 23.313 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 19:56:36:5636 
+       [31merror[39m: [31mPOST /tasks 401 31 - 1.898 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 19:56:36:5636 
+       [31merror[39m: [31mPOST /tasks 401 27 - 2.178 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 19:59:15:5915 
+       [31merror[39m: [31mGET /tasks 200 11 - 23.117 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 19:59:15:5915 
+       [31merror[39m: [31mPOST /tasks 401 31 - 1.813 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 19:59:15:5915 
+       [31merror[39m: [31mPOST /tasks 401 27 - 2.492 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 19:59:15:5915 
+       [31merror[39m: [31mPOST /tasks 401 27 - 0.917 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 19:59:40:5940 
+       [31merror[39m: [31mGET /tasks 200 11 - 26.456 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 19:59:40:5940 
+       [31merror[39m: [31mPOST /tasks 401 31 - 1.744 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 19:59:40:5940 
+       [31merror[39m: [31mPOST /tasks 401 27 - 2.054 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 19:59:40:5940 
+       [31merror[39m: [31merror validating body request  a project id is required[39m 
+  
+       instance: middlewares schema validation 
+
+       fn:undefined 
+
+       trace:  a project id is required
+2022-02-21 19:59:40:5940 
+       [31merror[39m: [31mPOST /tasks 403 59 - 3.031 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 20:00:04:04 
+       [31merror[39m: [31mGET /tasks 200 11 - 22.502 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 20:00:04:04 
+       [31merror[39m: [31mPOST /tasks 401 31 - 1.142 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 20:00:04:04 
+       [31merror[39m: [31mPOST /tasks 401 27 - 2.165 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 20:00:04:04 
+       [31merror[39m: [31merror validating body request  a project id is required[39m 
+  
+       instance: middlewares schema validation 
+
+       fn:undefined 
+
+       trace:  a project id is required
+2022-02-21 20:00:04:04 
+       [31merror[39m: [31mPOST /tasks 400 59 - 2.924 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 20:00:44:044 
+       [31merror[39m: [31mGET /tasks 200 11 - 24.237 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 20:00:44:044 
+       [31merror[39m: [31mPOST /tasks 401 31 - 1.554 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 20:00:44:044 
+       [31merror[39m: [31mPOST /tasks 401 27 - 2.002 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 20:00:44:044 
+       [31merror[39m: [31merror validating body request  a project id is required[39m 
+  
+       instance: middlewares schema validation 
+
+       fn:undefined 
+
+       trace:  a project id is required
+2022-02-21 20:00:44:044 
+       [31merror[39m: [31mPOST /tasks 400 59 - 2.687 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 20:01:46:146 
+       [31merror[39m: [31mGET /tasks 200 11 - 22.377 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 20:01:46:146 
+       [31merror[39m: [31mPOST /tasks 401 31 - 1.623 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 20:01:46:146 
+       [31merror[39m: [31mPOST /tasks 401 27 - 2.159 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 20:01:46:146 
+       [31merror[39m: [31merror validating body request  a project id is required[39m 
+  
+       instance: middlewares schema validation 
+
+       fn:undefined 
+
+       trace:  a project id is required
+2022-02-21 20:01:46:146 
+       [31merror[39m: [31mPOST /tasks 400 59 - 2.486 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 20:02:19:219 
+       [31merror[39m: [31mGET /tasks 200 11 - 22.581 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 20:02:19:219 
+       [31merror[39m: [31mPOST /tasks 401 31 - 4.263 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 20:02:19:219 
+       [31merror[39m: [31mPOST /tasks 401 27 - 2.000 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 20:02:19:219 
+       [31merror[39m: [31merror validating body request a project id is required[39m 
+  
+       instance: middlewares schema validation 
+
+       fn:undefined 
+
+       trace: a project id is required
+2022-02-21 20:02:19:219 
+       [31merror[39m: [31mPOST /tasks 400 38 - 2.308 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 20:03:16:316 
+       [31merror[39m: [31mGET /tasks 200 11 - 26.791 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 20:03:16:316 
+       [31merror[39m: [31mPOST /tasks 401 31 - 1.739 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 20:03:16:316 
+       [31merror[39m: [31mPOST /tasks 401 27 - 1.921 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 20:03:16:316 
+       [31merror[39m: [31merror validating body request a project id is required[39m 
+  
+       instance: middlewares schema validation 
+
+       fn:undefined 
+
+       trace: a project id is required
+2022-02-21 20:03:16:316 
+       [31merror[39m: [31mPOST /tasks 400 38 - 3.070 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 20:03:16:316 
+       [31merror[39m: [31merror validating body request title is required[39m 
+  
+       instance: middlewares schema validation 
+
+       fn:undefined 
+
+       trace: title is required
+2022-02-21 20:03:16:316 
+       [31merror[39m: [31mPOST /tasks 400 31 - 8.247 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 20:05:47:547 
+       [31merror[39m: [31mGET /tasks 200 11 - 22.799 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 20:05:47:547 
+       [31merror[39m: [31mPOST /tasks 401 31 - 1.599 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 20:05:47:547 
+       [31merror[39m: [31mPOST /tasks 401 27 - 2.177 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 20:05:47:547 
+       [31merror[39m: [31merror validating body request a project id is required[39m 
+  
+       instance: middlewares schema validation 
+
+       fn:undefined 
+
+       trace: a project id is required
+2022-02-21 20:05:47:547 
+       [31merror[39m: [31mPOST /tasks 400 38 - 6.848 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 20:05:47:547 
+       [31merror[39m: [31merror validating body request title is required[39m 
+  
+       instance: middlewares schema validation 
+
+       fn:undefined 
+
+       trace: title is required
+2022-02-21 20:05:47:547 
+       [31merror[39m: [31mPOST /tasks 400 31 - 7.707 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 20:05:47:547 
+       [31merror[39m: [31merror creating a new task[39m 
+  
+       instance: undefined 
+
+       fn:createNewTaskService 
+
+       trace: Task validation failed: project: Cast to ObjectId failed for value "123" (type string) at path "project"
+2022-02-21 20:05:47:547 
+       [31merror[39m: [31mPOST /tasks 400 30 - 4.635 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 20:06:36:636 
+       [31merror[39m: [31mGET /tasks 200 11 - 23.200 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 20:06:36:636 
+       [31merror[39m: [31mPOST /tasks 401 31 - 1.345 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 20:06:36:636 
+       [31merror[39m: [31mPOST /tasks 401 27 - 1.818 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 20:06:36:636 
+       [31merror[39m: [31merror validating body request a project id is required[39m 
+  
+       instance: middlewares schema validation 
+
+       fn:undefined 
+
+       trace: a project id is required
+2022-02-21 20:06:36:636 
+       [31merror[39m: [31mPOST /tasks 400 38 - 2.643 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 20:06:36:636 
+       [31merror[39m: [31merror validating body request title is required[39m 
+  
+       instance: middlewares schema validation 
+
+       fn:undefined 
+
+       trace: title is required
+2022-02-21 20:06:36:636 
+       [31merror[39m: [31mPOST /tasks 400 31 - 8.938 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 20:06:36:636 
+       [31merror[39m: [31merror creating a new task[39m 
+  
+       instance: undefined 
+
+       fn:createNewTaskService 
+
+       trace: Task validation failed: project: Cast to ObjectId failed for value "123" (type string) at path "project"
+2022-02-21 20:06:36:636 
+       [31merror[39m: [31mPOST /tasks 400 30 - 5.192 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 20:07:26:726 
+       [31merror[39m: [31mGET /tasks 200 11 - 22.947 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 20:07:26:726 
+       [31merror[39m: [31mPOST /tasks 401 31 - 1.928 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 20:07:26:726 
+       [31merror[39m: [31mPOST /tasks 401 27 - 1.921 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 20:07:26:726 
+       [31merror[39m: [31merror validating body request a project id is required[39m 
+  
+       instance: middlewares schema validation 
+
+       fn:undefined 
+
+       trace: a project id is required
+2022-02-21 20:07:26:726 
+       [31merror[39m: [31mPOST /tasks 400 38 - 2.990 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 20:07:26:726 
+       [31merror[39m: [31merror validating body request title is required[39m 
+  
+       instance: middlewares schema validation 
+
+       fn:undefined 
+
+       trace: title is required
+2022-02-21 20:07:26:726 
+       [31merror[39m: [31mPOST /tasks 400 31 - 7.983 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 20:07:26:726 
+       [31merror[39m: [31mPOST /tasks 201 163 - 8.169 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 20:07:47:747 
+       [31merror[39m: [31mGET /tasks 200 11 - 23.742 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 20:07:47:747 
+       [31merror[39m: [31mPOST /tasks 401 31 - 1.412 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 20:07:47:747 
+       [31merror[39m: [31mPOST /tasks 401 27 - 1.785 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 20:07:47:747 
+       [31merror[39m: [31merror validating body request a project id is required[39m 
+  
+       instance: middlewares schema validation 
+
+       fn:undefined 
+
+       trace: a project id is required
+2022-02-21 20:07:47:747 
+       [31merror[39m: [31mPOST /tasks 400 38 - 2.776 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 20:07:47:747 
+       [31merror[39m: [31merror validating body request title is required[39m 
+  
+       instance: middlewares schema validation 
+
+       fn:undefined 
+
+       trace: title is required
+2022-02-21 20:07:47:747 
+       [31merror[39m: [31mPOST /tasks 400 31 - 11.991 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 20:07:47:747 
+       [31merror[39m: [31mPOST /tasks 201 163 - 7.051 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 20:10:16:1016 
+       [31merror[39m: [31mGET /tasks 200 11 - 23.976 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 20:10:16:1016 
+       [31merror[39m: [31mPOST /tasks 401 31 - 1.980 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 20:10:16:1016 
+       [31merror[39m: [31mPOST /tasks 401 27 - 1.990 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 20:10:16:1016 
+       [31merror[39m: [31merror validating body request a project id is required[39m 
+  
+       instance: middlewares schema validation 
+
+       fn:undefined 
+
+       trace: a project id is required
+2022-02-21 20:10:16:1016 
+       [31merror[39m: [31mPOST /tasks 400 38 - 3.081 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 20:10:16:1016 
+       [31merror[39m: [31merror validating body request title is required[39m 
+  
+       instance: middlewares schema validation 
+
+       fn:undefined 
+
+       trace: title is required
+2022-02-21 20:10:16:1016 
+       [31merror[39m: [31mPOST /tasks 400 31 - 9.191 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 20:10:16:1016 
+       [31merror[39m: [31mPOST /tasks 201 163 - 8.182 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 20:12:48:1248 
+       [31merror[39m: [31mGET /tasks 200 11 - 23.795 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 20:12:48:1248 
+       [31merror[39m: [31mPOST /tasks 401 31 - 1.747 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 20:12:48:1248 
+       [31merror[39m: [31mPOST /tasks 401 27 - 2.153 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 20:12:48:1248 
+       [31merror[39m: [31merror validating body request a project id is required[39m 
+  
+       instance: middlewares schema validation 
+
+       fn:undefined 
+
+       trace: a project id is required
+2022-02-21 20:12:48:1248 
+       [31merror[39m: [31mPOST /tasks 400 38 - 2.541 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 20:12:48:1248 
+       [31merror[39m: [31merror validating body request title is required[39m 
+  
+       instance: middlewares schema validation 
+
+       fn:undefined 
+
+       trace: title is required
+2022-02-21 20:12:48:1248 
+       [31merror[39m: [31mPOST /tasks 400 31 - 7.487 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 20:12:48:1248 
+       [31merror[39m: [31mPOST /tasks 201 163 - 6.599 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 20:18:14:1814 
+       [31merror[39m: [31mPOST /tasks 401 31 - 14.997 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 20:18:14:1814 
+       [31merror[39m: [31mPOST /tasks 401 27 - 1.996 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 20:18:14:1814 
+       [31merror[39m: [31merror validating body request a project id is required[39m 
+  
+       instance: middlewares schema validation 
+
+       fn:undefined 
+
+       trace: a project id is required
+2022-02-21 20:18:14:1814 
+       [31merror[39m: [31mPOST /tasks 400 38 - 2.485 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 20:18:14:1814 
+       [31merror[39m: [31merror validating body request title is required[39m 
+  
+       instance: middlewares schema validation 
+
+       fn:undefined 
+
+       trace: title is required
+2022-02-21 20:18:14:1814 
+       [31merror[39m: [31mPOST /tasks 400 31 - 8.637 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 20:18:14:1814 
+       [31merror[39m: [31mPOST /tasks 201 163 - 9.865 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 20:18:14:1814 
+       [31merror[39m: [31mGET /tasks 401 31 - 0.901 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 20:18:57:1857 
+       [31merror[39m: [31mPOST /tasks 401 31 - 15.333 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 20:18:57:1857 
+       [31merror[39m: [31mPOST /tasks 401 27 - 2.279 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 20:18:57:1857 
+       [31merror[39m: [31merror validating body request a project id is required[39m 
+  
+       instance: middlewares schema validation 
+
+       fn:undefined 
+
+       trace: a project id is required
+2022-02-21 20:18:57:1857 
+       [31merror[39m: [31mPOST /tasks 400 38 - 2.419 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 20:18:57:1857 
+       [31merror[39m: [31merror validating body request title is required[39m 
+  
+       instance: middlewares schema validation 
+
+       fn:undefined 
+
+       trace: title is required
+2022-02-21 20:18:57:1857 
+       [31merror[39m: [31mPOST /tasks 400 31 - 8.968 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 20:18:57:1857 
+       [31merror[39m: [31mPOST /tasks 201 163 - 7.168 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 20:18:57:1857 
+       [31merror[39m: [31mGET /tasks 200 165 - 6.814 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 20:21:08:218 
+       [31merror[39m: [31mPOST /tasks 401 31 - 14.134 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 20:21:08:218 
+       [31merror[39m: [31mPOST /tasks 401 27 - 1.990 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 20:21:08:218 
+       [31merror[39m: [31merror validating body request a project id is required[39m 
+  
+       instance: middlewares schema validation 
+
+       fn:undefined 
+
+       trace: a project id is required
+2022-02-21 20:21:08:218 
+       [31merror[39m: [31mPOST /tasks 400 38 - 2.762 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 20:21:08:218 
+       [31merror[39m: [31merror validating body request title is required[39m 
+  
+       instance: middlewares schema validation 
+
+       fn:undefined 
+
+       trace: title is required
+2022-02-21 20:21:08:218 
+       [31merror[39m: [31mPOST /tasks 400 31 - 9.641 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 20:21:08:218 
+       [31merror[39m: [31mPOST /tasks 201 163 - 7.444 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 20:21:08:218 
+       [31merror[39m: [31mGET /tasks 200 165 - 7.382 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 20:21:48:2148 
+       [31merror[39m: [31mPOST /tasks 401 31 - 17.845 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 20:21:48:2148 
+       [31merror[39m: [31mPOST /tasks 401 27 - 1.595 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 20:21:48:2148 
+       [31merror[39m: [31merror validating body request a project id is required[39m 
+  
+       instance: middlewares schema validation 
+
+       fn:undefined 
+
+       trace: a project id is required
+2022-02-21 20:21:48:2148 
+       [31merror[39m: [31mPOST /tasks 400 38 - 2.724 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 20:21:48:2148 
+       [31merror[39m: [31merror validating body request title is required[39m 
+  
+       instance: middlewares schema validation 
+
+       fn:undefined 
+
+       trace: title is required
+2022-02-21 20:21:48:2148 
+       [31merror[39m: [31mPOST /tasks 400 31 - 9.694 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 20:21:48:2148 
+       [31merror[39m: [31mPOST /tasks 201 163 - 7.058 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-21 20:21:48:2148 
+       [31merror[39m: [31mGET /tasks 200 165 - 6.593 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined

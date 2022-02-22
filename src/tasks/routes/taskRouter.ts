@@ -13,7 +13,7 @@ const router = Router();
 
 router
   .route('/tasks')
-  .get(getAllTasks)
+  .get(userTokenValidation, getAllTasks)
   .post(
     userTokenValidation,
     bodyRequestValidator(createTaskSchema),
