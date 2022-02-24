@@ -1,5 +1,4 @@
 import { deleteOneResourceById } from '../../shared/factory';
-import { findOneResourceByField } from '../../shared/factory/findOneResourceByField';
 import logger from '../../shared/logger/appLogger';
 import { ProjectModel } from '../entity/models/projectModel';
 
@@ -8,21 +7,21 @@ export const deleteOneProjectService = async (
   userId: string
 ): Promise<boolean> => {
   try {
-    const exists = await findOneResourceByField(ProjectModel)({
+    if (!projectId) throw new Error('invalid project id');
+    if (!userId) throw new Error('invalid user id');
+
+    const result = await deleteOneResourceById(ProjectModel)({
+      _id: projectId,
       owner: userId,
     });
 
-    if (!exists) throw new Error('the user cannot delete this proyect');
-
-    const result = await deleteOneResourceById(ProjectModel)(projectId);
-
     return result && result?.deletedCount > 0 ? true : false;
   } catch (error: any) {
-    logger.error(`error deleting project with id ${projectId}`, {
+    logger.error(`Error deleting project: ${error.message}`, {
       instance: 'services',
       fn: 'deleteOneProjectService',
       trace: error.message,
     });
-    throw new Error(`error deleting project with id ${projectId}`);
+    throw new Error(`Error deleting project: ${error.message}`);
   }
 };

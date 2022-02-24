@@ -1,29 +1,21 @@
 import supertest from 'supertest';
-import { MongoMemoryServer } from 'mongodb-memory-server';
-import mongoose from 'mongoose';
-
 import app from '../../app';
-import { createDbConnection } from '../../config/databaseConfig';
 import { createAuthToken } from '../../auth/utils/tokenManager';
+import { mockData } from '../../shared/testUtils/fixtures';
+import { mockDatabase } from '../../shared/testUtils/mockDb';
 
+const db = mockDatabase();
 describe('Tasks', () => {
-  const fakeTask = {
-    __v: 0,
-    _id: expect.any(String),
-    createdAt: expect.any(String),
-    project: '6210108d88ebda6534143fb0',
-    status: false,
-    title: 'fake title',
-  };
-
   beforeAll(async () => {
-    const mongoServer = await MongoMemoryServer.create();
-    await mongoose.connect(mongoServer.getUri());
+    (await db).connect();
   });
 
+  // afterEach(async () => {
+  //   (await db).clearDatabase();
+  // });
+
   afterAll(async () => {
-    await mongoose.disconnect();
-    await mongoose.connection.close();
+    (await db).closeDatabase;
   });
 
   describe('POST', () => {
@@ -71,7 +63,7 @@ describe('Tasks', () => {
         .send({ projectId: '6210108d88ebda6534143fb0', title: 'fake title' })
         .set('Authorization', fakeToken)
         .expect(201);
-      expect(body).toEqual({ data: fakeTask }); // jest
+      expect(body).toEqual({ data: mockData.fakeTask }); // jest
     });
   });
   describe('GET', () => {
@@ -82,7 +74,7 @@ describe('Tasks', () => {
         .set('Authorization', fakeToken)
         .expect(200); // supertest
 
-      expect(body).toEqual({ data: [fakeTask] }); // jest
+      expect(body).toEqual({ data: [mockData.fakeTask] }); // jest
       expect(statusCode).toEqual(200); // jest
       console.log(body);
     });

@@ -1,0 +1,1866 @@
+2022-02-23 09:09:55:955 
+       [31merror[39m: [31merror getting all the projects[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: projectModel_1.ProjectModel.find is not a function
+2022-02-23 09:10:19:1019 
+       [31merror[39m: [31merror getting all the projects[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: projectModel_1.ProjectModel.find is not a function
+2022-02-23 09:10:37:1037 
+       [31merror[39m: [31merror getting all the projects[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: projectModel_1.ProjectModel.find is not a function
+2022-02-23 09:46:36:4636 
+       [31merror[39m: [31merror getting all the projects[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: projectModel_1.ProjectModel.find is not a function
+2022-02-23 09:48:09:489 
+       [31merror[39m: [31merror getting all the projects[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: projectModel_1.ProjectModel.find is not a function
+2022-02-23 09:48:49:4849 
+       [31merror[39m: [31merror getting all the projects[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: projectModel_1.ProjectModel.find is not a function
+2022-02-23 09:49:17:4917 
+       [31merror[39m: [31merror getting all the projects[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: projectModel_1.ProjectModel.find is not a function
+2022-02-23 09:49:30:4930 
+       [31merror[39m: [31merror getting all the projects[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: projectModel_1.ProjectModel.find is not a function
+2022-02-23 09:52:06:526 
+       [31merror[39m: [31merror getting all the projects[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: projectModel_1.ProjectModel.find is not a function
+2022-02-23 18:31:29:3129 
+       [31merror[39m: [31merror getting all the projects[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: Cast to ObjectId failed for value "123" (type string) at path "owner" for model "Project"
+2022-02-23 18:31:56:3156 
+       [31merror[39m: [31merror getting all the projects[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: Cast to ObjectId failed for value "123" (type string) at path "owner" for model "Project"
+2022-02-23 18:33:07:337 
+       [31merror[39m: [31merror getting all the projects[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: Cast to ObjectId failed for value "123" (type string) at path "owner" for model "Project"
+2022-02-23 18:34:07:347 
+       [31merror[39m: [31merror getting all the projects[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: Cast to ObjectId failed for value "123" (type string) at path "owner" for model "Project"
+2022-02-23 18:40:45:4045 
+       [31merror[39m: [31merror getting all the projects[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: invalid user id
+2022-02-23 18:42:38:4238 
+       [31merror[39m: [31merror getting all the projects[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: invalid user id
+2022-02-23 18:42:51:4251 
+       [31merror[39m: [31merror getting all the projects[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: invalid user id
+2022-02-23 18:44:19:4419 
+       [31merror[39m: [31merror getting all the projects[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: invalid user id
+2022-02-23 18:44:19:4419 
+       [31merror[39m: [31merror getting all the projects[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: Cast to ObjectId failed for value "123" (type string) at path "owner" for model "Project"
+2022-02-23 18:45:42:4542 
+       [31merror[39m: [31merror getting all the projects[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: invalid user id
+2022-02-23 18:45:42:4542 
+       [31merror[39m: [31merror getting all the projects[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: Cast to ObjectId failed for value "123" (type string) at path "owner" for model "Project"
+2022-02-23 18:46:24:4624 
+       [31merror[39m: [31merror getting all the projects[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: invalid user id
+2022-02-23 18:46:24:4624 
+       [31merror[39m: [31merror getting all the projects[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: Cast to ObjectId failed for value "123" (type string) at path "owner" for model "Project"
+2022-02-23 18:46:53:4653 
+       [31merror[39m: [31merror getting all the projects[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: invalid user id
+2022-02-23 18:46:53:4653 
+       [31merror[39m: [31merror getting all the projects[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: Cast to ObjectId failed for value "123" (type string) at path "owner" for model "Project"
+2022-02-23 18:47:35:4735 
+       [31merror[39m: [31merror getting all the projects[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: invalid user id
+2022-02-23 18:47:35:4735 
+       [31merror[39m: [31merror getting all the projects[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: Cast to ObjectId failed for value "123" (type string) at path "owner" for model "Project"
+2022-02-23 18:48:58:4858 
+       [31merror[39m: [31merror getting all the projects[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: invalid user id
+2022-02-23 18:48:58:4858 
+       [31merror[39m: [31merror getting all the projects[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: Cast to ObjectId failed for value "123" (type string) at path "owner" for model "Project"
+2022-02-23 18:48:58:4858 
+       [31merror[39m: [31merror getting all the projects[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: Cast to ObjectId failed for value "16210db4f6f144372bf0a2f1823" (type string) at path "owner" for model "Project"
+2022-02-23 18:49:37:4937 
+       [31merror[39m: [31merror getting all the projects[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: invalid user id
+2022-02-23 18:49:37:4937 
+       [31merror[39m: [31merror getting all the projects[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: Cast to ObjectId failed for value "123" (type string) at path "owner" for model "Project"
+2022-02-23 18:50:35:5035 
+       [31merror[39m: [31merror getting all the projects[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: invalid user id
+2022-02-23 18:50:35:5035 
+       [31merror[39m: [31merror getting all the projects[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: Cast to ObjectId failed for value "123" (type string) at path "owner" for model "Project"
+2022-02-23 18:52:11:5211 
+       [31merror[39m: [31merror getting all the projects[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: invalid user id
+2022-02-23 18:52:11:5211 
+       [31merror[39m: [31merror getting all the projects[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: Cast to ObjectId failed for value "123" (type string) at path "owner" for model "Project"
+2022-02-23 18:52:39:5239 
+       [31merror[39m: [31merror getting all the projects[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: invalid user id
+2022-02-23 18:52:39:5239 
+       [31merror[39m: [31merror getting all the projects[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: Cast to ObjectId failed for value "123" (type string) at path "owner" for model "Project"
+2022-02-23 18:53:05:535 
+       [31merror[39m: [31merror getting all the projects[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: invalid user id
+2022-02-23 18:53:05:535 
+       [31merror[39m: [31merror getting all the projects[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: Cast to ObjectId failed for value "123" (type string) at path "owner" for model "Project"
+2022-02-23 18:53:42:5342 
+       [31merror[39m: [31merror getting all the projects[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: invalid user id
+2022-02-23 18:53:42:5342 
+       [31merror[39m: [31merror getting all the projects[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: Cast to ObjectId failed for value "123" (type string) at path "owner" for model "Project"
+2022-02-23 18:54:12:5412 
+       [31merror[39m: [31merror getting all the projects[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: invalid user id
+2022-02-23 18:54:12:5412 
+       [31merror[39m: [31merror getting all the projects[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: Cast to ObjectId failed for value "123" (type string) at path "owner" for model "Project"
+2022-02-23 18:57:10:5710 
+       [31merror[39m: [31merror getting all the projects[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: invalid user id
+2022-02-23 18:57:10:5710 
+       [31merror[39m: [31merror getting all the projects[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: Cast to ObjectId failed for value "123" (type string) at path "owner" for model "Project"
+2022-02-23 18:58:25:5825 
+       [31merror[39m: [31merror getting all the projects[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: invalid user id
+2022-02-23 18:58:25:5825 
+       [31merror[39m: [31merror getting all the projects[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: Cast to ObjectId failed for value "123" (type string) at path "owner" for model "Project"
+2022-02-23 19:03:42:342 
+       [31merror[39m: [31merror getting all the projects[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: invalid user id
+2022-02-23 19:03:42:342 
+       [31merror[39m: [31merror getting all the projects[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: Cast to ObjectId failed for value "123" (type string) at path "owner" for model "Project"
+2022-02-23 19:03:43:343 
+       [31merror[39m: [31mError deleting user with id [39m 
+  
+       instance: undefined 
+
+       fn:deleteOneResourceById 
+
+       trace: no user id provided
+2022-02-23 19:03:44:344 
+       [31merror[39m: [31mPOST /tasks 401 31 - 17.587 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-23 19:03:44:344 
+       [31merror[39m: [31mPOST /tasks 401 27 - 1.681 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-23 19:03:44:344 
+       [31merror[39m: [31merror validating body request a project id is required[39m 
+  
+       instance: middlewares schema validation 
+
+       fn:undefined 
+
+       trace: a project id is required
+2022-02-23 19:03:44:344 
+       [31merror[39m: [31mPOST /tasks 400 38 - 2.380 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-23 19:03:44:344 
+       [31merror[39m: [31merror validating body request title is required[39m 
+  
+       instance: middlewares schema validation 
+
+       fn:undefined 
+
+       trace: title is required
+2022-02-23 19:03:44:344 
+       [31merror[39m: [31mPOST /tasks 400 31 - 9.550 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-23 19:03:44:344 
+       [31merror[39m: [31mPOST /tasks 201 163 - 11.496 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-23 19:03:44:344 
+       [31merror[39m: [31mGET /tasks 200 165 - 8.496 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-23 19:04:14:414 
+       [31merror[39m: [31mError deleting user with id [39m 
+  
+       instance: undefined 
+
+       fn:deleteOneResourceById 
+
+       trace: no user id provided
+2022-02-23 19:04:14:414 
+       [31merror[39m: [31merror getting all the projects[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: invalid user id
+2022-02-23 19:04:14:414 
+       [31merror[39m: [31merror getting all the projects[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: Cast to ObjectId failed for value "123" (type string) at path "owner" for model "Project"
+2022-02-23 19:04:16:416 
+       [31merror[39m: [31mPOST /tasks 401 31 - 25.622 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-23 19:04:16:416 
+       [31merror[39m: [31mPOST /tasks 401 27 - 1.752 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-23 19:04:16:416 
+       [31merror[39m: [31merror validating body request a project id is required[39m 
+  
+       instance: middlewares schema validation 
+
+       fn:undefined 
+
+       trace: a project id is required
+2022-02-23 19:04:16:416 
+       [31merror[39m: [31mPOST /tasks 400 38 - 3.349 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-23 19:04:16:416 
+       [31merror[39m: [31merror validating body request title is required[39m 
+  
+       instance: middlewares schema validation 
+
+       fn:undefined 
+
+       trace: title is required
+2022-02-23 19:04:16:416 
+       [31merror[39m: [31mPOST /tasks 400 31 - 9.587 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-23 19:04:16:416 
+       [31merror[39m: [31mPOST /tasks 201 163 - 8.963 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-23 19:04:16:416 
+       [31merror[39m: [31mGET /tasks 200 165 - 9.933 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-23 19:16:12:1612 
+       [31merror[39m: [31mPOST /login 200 386 - 167.290 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-23 19:16:43:1643 
+       [31merror[39m: [31mGET /projects 200 354 - 44.800 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-23 19:17:08:178 
+       [31merror[39m: [31mDELETE /projects/6211021d136fa11f93eace81 401 25 - 4.710 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-23 19:17:34:1734 
+       [31merror[39m: [31mDELETE /projects/6211021d136fa11f93eace82 200 16 - 66.522 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-23 19:17:53:1753 
+       [31merror[39m: [31mDELETE /projects/6211021d136fa11f93eace81 200 15 - 47.977 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-23 19:18:02:182 
+       [31merror[39m: [31mGET /projects 200 182 - 19.504 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-23 19:22:43:2243 
+       [31merror[39m: [31mError deleting project: invalid project id[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: invalid project id
+2022-02-23 19:22:55:2255 
+       [31merror[39m: [31mError deleting project: invalid project id[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: invalid project id
+2022-02-23 19:23:28:2328 
+       [31merror[39m: [31mError deleting project: invalid project id[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: invalid project id
+2022-02-23 19:23:28:2328 
+       [31merror[39m: [31mError deleting project: invalid user id[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: invalid user id
+2022-02-23 19:24:24:2424 
+       [31merror[39m: [31mError deleting project: invalid project id[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: invalid project id
+2022-02-23 19:24:24:2424 
+       [31merror[39m: [31mError deleting project: invalid user id[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: invalid user id
+2022-02-23 19:24:34:2434 
+       [31merror[39m: [31mError deleting project: Operation `tasks.deleteMany()` buffering timed out after 10000ms[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: Operation `tasks.deleteMany()` buffering timed out after 10000ms
+2022-02-23 19:25:26:2526 
+       [31merror[39m: [31mError deleting project: invalid project id[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: invalid project id
+2022-02-23 19:25:26:2526 
+       [31merror[39m: [31mError deleting project: invalid user id[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: invalid user id
+2022-02-23 19:25:36:2536 
+       [31merror[39m: [31mError deleting project: Operation `tasks.deleteMany()` buffering timed out after 10000ms[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: Operation `tasks.deleteMany()` buffering timed out after 10000ms
+2022-02-23 19:26:31:2631 
+       [31merror[39m: [31mError deleting project: invalid project id[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: invalid project id
+2022-02-23 19:26:31:2631 
+       [31merror[39m: [31mError deleting project: invalid user id[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: invalid user id
+2022-02-23 19:26:41:2641 
+       [31merror[39m: [31mError deleting project: MongooseError: Operation `tasks.deleteMany()` buffering timed out after 10000ms[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: MongooseError: Operation `tasks.deleteMany()` buffering timed out after 10000ms
+2022-02-23 19:31:24:3124 
+       [31merror[39m: [31mError deleting project: invalid project id[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: invalid project id
+2022-02-23 19:31:24:3124 
+       [31merror[39m: [31mError deleting project: invalid user id[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: invalid user id
+2022-02-23 19:32:54:3254 
+       [31merror[39m: [31mError deleting project: invalid project id[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: invalid project id
+2022-02-23 19:32:54:3254 
+       [31merror[39m: [31mError deleting project: invalid user id[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: invalid user id
+2022-02-23 19:33:31:3331 
+       [31merror[39m: [31mError deleting project: invalid project id[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: invalid project id
+2022-02-23 19:33:31:3331 
+       [31merror[39m: [31mError deleting project: invalid user id[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: invalid user id
+2022-02-23 19:34:44:3444 
+       [31merror[39m: [31mError deleting project: invalid project id[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: invalid project id
+2022-02-23 19:34:44:3444 
+       [31merror[39m: [31mError deleting project: invalid user id[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: invalid user id
+2022-02-23 19:34:54:3454 
+       [31merror[39m: [31mError deleting project: MongooseError: Operation `tasks.deleteMany()` buffering timed out after 10000ms[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: MongooseError: Operation `tasks.deleteMany()` buffering timed out after 10000ms
+2022-02-23 19:36:32:3632 
+       [31merror[39m: [31mError deleting project: invalid project id[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: invalid project id
+2022-02-23 19:36:32:3632 
+       [31merror[39m: [31mError deleting project: invalid user id[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: invalid user id
+2022-02-23 19:36:42:3642 
+       [31merror[39m: [31mError deleting project: MongooseError: Operation `tasks.deleteMany()` buffering timed out after 10000ms[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: MongooseError: Operation `tasks.deleteMany()` buffering timed out after 10000ms
+2022-02-23 19:37:04:374 
+       [31merror[39m: [31mError deleting project: invalid project id[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: invalid project id
+2022-02-23 19:37:04:374 
+       [31merror[39m: [31mError deleting project: invalid user id[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: invalid user id
+2022-02-23 19:37:14:3714 
+       [31merror[39m: [31mError deleting project: MongooseError: Operation `tasks.deleteMany()` buffering timed out after 10000ms[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: MongooseError: Operation `tasks.deleteMany()` buffering timed out after 10000ms
+2022-02-23 19:38:34:3834 
+       [31merror[39m: [31mError deleting project: invalid project id[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: invalid project id
+2022-02-23 19:38:34:3834 
+       [31merror[39m: [31mError deleting project: invalid user id[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: invalid user id
+2022-02-23 19:39:21:3921 
+       [31merror[39m: [31mError deleting project: invalid project id[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: invalid project id
+2022-02-23 19:39:21:3921 
+       [31merror[39m: [31mError deleting project: invalid user id[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: invalid user id
+2022-02-23 19:39:46:3946 
+       [31merror[39m: [31mError deleting project: invalid project id[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: invalid project id
+2022-02-23 19:39:46:3946 
+       [31merror[39m: [31mError deleting project: invalid user id[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: invalid user id
+2022-02-23 19:40:41:4041 
+       [31merror[39m: [31mError deleting project: invalid project id[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: invalid project id
+2022-02-23 19:40:41:4041 
+       [31merror[39m: [31mError deleting project: invalid user id[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: invalid user id
+2022-02-23 19:42:51:4251 
+       [31merror[39m: [31mError deleting project: invalid project id[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: invalid project id
+2022-02-23 19:42:51:4251 
+       [31merror[39m: [31mError deleting project: invalid user id[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: invalid user id
+2022-02-23 19:43:29:4329 
+       [31merror[39m: [31mError deleting project: invalid project id[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: invalid project id
+2022-02-23 19:43:29:4329 
+       [31merror[39m: [31mError deleting project: invalid user id[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: invalid user id
+2022-02-23 19:44:24:4424 
+       [31merror[39m: [31mError deleting project: invalid project id[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: invalid project id
+2022-02-23 19:44:24:4424 
+       [31merror[39m: [31mError deleting project: invalid user id[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: invalid user id
+2022-02-23 19:44:48:4448 
+       [31merror[39m: [31mError deleting project: invalid project id[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: invalid project id
+2022-02-23 19:44:48:4448 
+       [31merror[39m: [31mError deleting project: invalid user id[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: invalid user id
+2022-02-23 19:45:02:452 
+       [31merror[39m: [31mError deleting project: invalid project id[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: invalid project id
+2022-02-23 19:45:02:452 
+       [31merror[39m: [31mError deleting project: invalid user id[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: invalid user id
+2022-02-23 19:45:53:4553 
+       [31merror[39m: [31merror getting all the projects[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: invalid user id
+2022-02-23 19:45:53:4553 
+       [31merror[39m: [31merror getting all the projects[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: Cast to ObjectId failed for value "123" (type string) at path "owner" for model "Project"
+2022-02-23 19:45:54:4554 
+       [31merror[39m: [31mError deleting project: invalid project id[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: invalid project id
+2022-02-23 19:45:54:4554 
+       [31merror[39m: [31mError deleting project: invalid user id[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: invalid user id
+2022-02-23 19:45:54:4554 
+       [31merror[39m: [31mError deleting user with id [39m 
+  
+       instance: undefined 
+
+       fn:deleteOneResourceById 
+
+       trace: no user id provided
+2022-02-23 19:45:55:4555 
+       [31merror[39m: [31mPOST /tasks 401 31 - 24.322 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-23 19:45:55:4555 
+       [31merror[39m: [31mPOST /tasks 401 27 - 2.099 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-23 19:45:55:4555 
+       [31merror[39m: [31merror validating body request a project id is required[39m 
+  
+       instance: middlewares schema validation 
+
+       fn:undefined 
+
+       trace: a project id is required
+2022-02-23 19:45:55:4555 
+       [31merror[39m: [31mPOST /tasks 400 38 - 3.669 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-23 19:45:55:4555 
+       [31merror[39m: [31merror validating body request title is required[39m 
+  
+       instance: middlewares schema validation 
+
+       fn:undefined 
+
+       trace: title is required
+2022-02-23 19:45:55:4555 
+       [31merror[39m: [31mPOST /tasks 400 31 - 9.240 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-23 19:45:55:4555 
+       [31merror[39m: [31mPOST /tasks 201 163 - 8.223 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-23 19:45:55:4555 
+       [31merror[39m: [31mGET /tasks 200 165 - 8.855 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-23 19:51:32:5132 
+       [31merror[39m: [31mError deleting project: invalid project id[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: invalid project id
+2022-02-23 19:51:32:5132 
+       [31merror[39m: [31merror getting all the projects[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: invalid user id
+2022-02-23 19:51:32:5132 
+       [31merror[39m: [31mError deleting project: invalid user id[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: invalid user id
+2022-02-23 19:51:32:5132 
+       [31merror[39m: [31merror getting all the projects[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: Cast to ObjectId failed for value "123" (type string) at path "owner" for model "Project"
+2022-02-23 19:51:32:5132 
+       [31merror[39m: [31mError deleting user with id [39m 
+  
+       instance: undefined 
+
+       fn:deleteOneResourceById 
+
+       trace: no user id provided
+2022-02-23 19:51:34:5134 
+       [31merror[39m: [31mPOST /tasks 401 31 - 39.630 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-23 19:51:34:5134 
+       [31merror[39m: [31mPOST /tasks 401 27 - 1.654 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-23 19:51:34:5134 
+       [31merror[39m: [31merror validating body request a project id is required[39m 
+  
+       instance: middlewares schema validation 
+
+       fn:undefined 
+
+       trace: a project id is required
+2022-02-23 19:51:34:5134 
+       [31merror[39m: [31mPOST /tasks 400 38 - 8.662 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-23 19:51:34:5134 
+       [31merror[39m: [31merror validating body request title is required[39m 
+  
+       instance: middlewares schema validation 
+
+       fn:undefined 
+
+       trace: title is required
+2022-02-23 19:51:34:5134 
+       [31merror[39m: [31mPOST /tasks 400 31 - 19.093 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-23 19:51:34:5134 
+       [31merror[39m: [31mPOST /tasks 201 163 - 30.023 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-23 19:51:34:5134 
+       [31merror[39m: [31mGET /tasks 200 165 - 11.525 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-23 19:51:57:5157 
+       [31merror[39m: [31mError deleting project: invalid project id[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: invalid project id
+2022-02-23 19:51:57:5157 
+       [31merror[39m: [31mError deleting project: invalid user id[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: invalid user id
+2022-02-23 19:51:57:5157 
+       [31merror[39m: [31merror getting all the projects[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: invalid user id
+2022-02-23 19:51:57:5157 
+       [31merror[39m: [31merror getting all the projects[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: Cast to ObjectId failed for value "123" (type string) at path "owner" for model "Project"
+2022-02-23 19:51:58:5158 
+       [31merror[39m: [31mError deleting user with id [39m 
+  
+       instance: undefined 
+
+       fn:deleteOneResourceById 
+
+       trace: no user id provided
+2022-02-23 19:51:59:5159 
+       [31merror[39m: [31mPOST /tasks 401 31 - 21.890 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-23 19:51:59:5159 
+       [31merror[39m: [31mPOST /tasks 401 27 - 1.742 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-23 19:51:59:5159 
+       [31merror[39m: [31merror validating body request a project id is required[39m 
+  
+       instance: middlewares schema validation 
+
+       fn:undefined 
+
+       trace: a project id is required
+2022-02-23 19:51:59:5159 
+       [31merror[39m: [31mPOST /tasks 400 38 - 2.444 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-23 19:51:59:5159 
+       [31merror[39m: [31merror validating body request title is required[39m 
+  
+       instance: middlewares schema validation 
+
+       fn:undefined 
+
+       trace: title is required
+2022-02-23 19:51:59:5159 
+       [31merror[39m: [31mPOST /tasks 400 31 - 10.194 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-23 19:52:00:520 
+       [31merror[39m: [31mPOST /tasks 201 163 - 12.460 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-23 19:52:00:520 
+       [31merror[39m: [31mGET /tasks 200 165 - 20.496 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-23 19:53:20:5320 
+       [31merror[39m: [31merror getting all the projects[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: invalid user id
+2022-02-23 19:53:20:5320 
+       [31merror[39m: [31mError deleting project: invalid project id[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: invalid project id
+2022-02-23 19:53:20:5320 
+       [31merror[39m: [31merror getting all the projects[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: Cast to ObjectId failed for value "123" (type string) at path "owner" for model "Project"
+2022-02-23 19:53:20:5320 
+       [31merror[39m: [31mError deleting project: invalid user id[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: invalid user id
+2022-02-23 19:53:20:5320 
+       [31merror[39m: [31mError deleting user with id [39m 
+  
+       instance: undefined 
+
+       fn:deleteOneResourceById 
+
+       trace: no user id provided
+2022-02-23 19:53:22:5322 
+       [31merror[39m: [31mPOST /tasks 401 31 - 42.395 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-23 19:53:23:5323 
+       [31merror[39m: [31mPOST /tasks 401 27 - 1.965 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-23 19:53:23:5323 
+       [31merror[39m: [31merror validating body request a project id is required[39m 
+  
+       instance: middlewares schema validation 
+
+       fn:undefined 
+
+       trace: a project id is required
+2022-02-23 19:53:23:5323 
+       [31merror[39m: [31mPOST /tasks 400 38 - 8.031 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-23 19:53:23:5323 
+       [31merror[39m: [31merror validating body request title is required[39m 
+  
+       instance: middlewares schema validation 
+
+       fn:undefined 
+
+       trace: title is required
+2022-02-23 19:53:23:5323 
+       [31merror[39m: [31mPOST /tasks 400 31 - 17.800 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-23 19:53:23:5323 
+       [31merror[39m: [31mPOST /tasks 201 163 - 16.574 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-23 19:53:23:5323 
+       [31merror[39m: [31mGET /tasks 200 11 - 8.718 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-23 19:54:30:5430 
+       [31merror[39m: [31mError deleting project: invalid project id[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: invalid project id
+2022-02-23 19:54:30:5430 
+       [31merror[39m: [31mError deleting project: invalid user id[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: invalid user id
+2022-02-23 19:54:30:5430 
+       [31merror[39m: [31merror getting all the projects[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: invalid user id
+2022-02-23 19:54:30:5430 
+       [31merror[39m: [31merror getting all the projects[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: Cast to ObjectId failed for value "123" (type string) at path "owner" for model "Project"
+2022-02-23 19:54:30:5430 
+       [31merror[39m: [31mError deleting user with id [39m 
+  
+       instance: undefined 
+
+       fn:deleteOneResourceById 
+
+       trace: no user id provided
+2022-02-23 19:54:32:5432 
+       [31merror[39m: [31mPOST /tasks 401 31 - 24.930 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-23 19:54:32:5432 
+       [31merror[39m: [31mPOST /tasks 401 27 - 2.008 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-23 19:54:32:5432 
+       [31merror[39m: [31merror validating body request a project id is required[39m 
+  
+       instance: middlewares schema validation 
+
+       fn:undefined 
+
+       trace: a project id is required
+2022-02-23 19:54:32:5432 
+       [31merror[39m: [31mPOST /tasks 400 38 - 2.819 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-23 19:54:32:5432 
+       [31merror[39m: [31merror validating body request title is required[39m 
+  
+       instance: middlewares schema validation 
+
+       fn:undefined 
+
+       trace: title is required
+2022-02-23 19:54:32:5432 
+       [31merror[39m: [31mPOST /tasks 400 31 - 9.292 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-23 19:54:32:5432 
+       [31merror[39m: [31mPOST /tasks 201 163 - 10.363 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-23 19:54:32:5432 
+       [31merror[39m: [31mGET /tasks 200 11 - 5.685 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-23 19:59:32:5932 
+       [31merror[39m: [31merror getting all the projects[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: invalid user id
+2022-02-23 19:59:32:5932 
+       [31merror[39m: [31merror getting all the projects[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: Cast to ObjectId failed for value "123" (type string) at path "owner" for model "Project"
+2022-02-23 19:59:32:5932 
+       [31merror[39m: [31mError deleting user with id [39m 
+  
+       instance: undefined 
+
+       fn:deleteOneResourceById 
+
+       trace: no user id provided
+2022-02-23 19:59:32:5932 
+       [31merror[39m: [31mError deleting project: invalid project id[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: invalid project id
+2022-02-23 19:59:32:5932 
+       [31merror[39m: [31mError deleting project: invalid user id[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: invalid user id
+2022-02-23 19:59:33:5933 
+       [31merror[39m: [31mPOST /tasks 401 31 - 19.435 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-23 19:59:33:5933 
+       [31merror[39m: [31mPOST /tasks 401 27 - 2.512 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-23 19:59:33:5933 
+       [31merror[39m: [31merror validating body request a project id is required[39m 
+  
+       instance: middlewares schema validation 
+
+       fn:undefined 
+
+       trace: a project id is required
+2022-02-23 19:59:33:5933 
+       [31merror[39m: [31mPOST /tasks 400 38 - 2.876 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-23 19:59:33:5933 
+       [31merror[39m: [31merror validating body request title is required[39m 
+  
+       instance: middlewares schema validation 
+
+       fn:undefined 
+
+       trace: title is required
+2022-02-23 19:59:33:5933 
+       [31merror[39m: [31mPOST /tasks 400 31 - 13.982 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-23 19:59:33:5933 
+       [31merror[39m: [31mPOST /tasks 201 163 - 8.892 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-23 19:59:33:5933 
+       [31merror[39m: [31mGET /tasks 200 11 - 14.290 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-23 20:00:16:016 
+       [31merror[39m: [31mError deleting project: invalid project id[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: invalid project id
+2022-02-23 20:00:16:016 
+       [31merror[39m: [31mError deleting project: invalid user id[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: invalid user id
+2022-02-23 20:00:16:016 
+       [31merror[39m: [31mError deleting user with id [39m 
+  
+       instance: undefined 
+
+       fn:deleteOneResourceById 
+
+       trace: no user id provided
+2022-02-23 20:00:16:016 
+       [31merror[39m: [31merror getting all the projects[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: invalid user id
+2022-02-23 20:00:16:016 
+       [31merror[39m: [31merror getting all the projects[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: Cast to ObjectId failed for value "123" (type string) at path "owner" for model "Project"
+2022-02-23 20:00:17:017 
+       [31merror[39m: [31mPOST /tasks 401 31 - 21.994 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-23 20:00:17:017 
+       [31merror[39m: [31mPOST /tasks 401 27 - 1.710 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-23 20:00:17:017 
+       [31merror[39m: [31merror validating body request a project id is required[39m 
+  
+       instance: middlewares schema validation 
+
+       fn:undefined 
+
+       trace: a project id is required
+2022-02-23 20:00:17:017 
+       [31merror[39m: [31mPOST /tasks 400 38 - 2.880 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-23 20:00:17:017 
+       [31merror[39m: [31merror validating body request title is required[39m 
+  
+       instance: middlewares schema validation 
+
+       fn:undefined 
+
+       trace: title is required
+2022-02-23 20:00:17:017 
+       [31merror[39m: [31mPOST /tasks 400 31 - 23.608 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-23 20:00:17:017 
+       [31merror[39m: [31mPOST /tasks 201 163 - 9.067 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-23 20:00:17:017 
+       [31merror[39m: [31mGET /tasks 200 165 - 16.208 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-23 20:01:10:110 
+       [31merror[39m: [31mError deleting project: invalid project id[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: invalid project id
+2022-02-23 20:01:10:110 
+       [31merror[39m: [31mError deleting project: invalid user id[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: invalid user id
+2022-02-23 20:01:10:110 
+       [31merror[39m: [31merror getting all the projects[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: invalid user id
+2022-02-23 20:01:10:110 
+       [31merror[39m: [31merror getting all the projects[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: Cast to ObjectId failed for value "123" (type string) at path "owner" for model "Project"
+2022-02-23 20:01:10:110 
+       [31merror[39m: [31mError deleting user with id [39m 
+  
+       instance: undefined 
+
+       fn:deleteOneResourceById 
+
+       trace: no user id provided
+2022-02-23 20:01:12:112 
+       [31merror[39m: [31mPOST /tasks 401 31 - 26.994 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-23 20:01:12:112 
+       [31merror[39m: [31mPOST /tasks 401 27 - 2.112 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-23 20:01:12:112 
+       [31merror[39m: [31merror validating body request a project id is required[39m 
+  
+       instance: middlewares schema validation 
+
+       fn:undefined 
+
+       trace: a project id is required
+2022-02-23 20:01:12:112 
+       [31merror[39m: [31mPOST /tasks 400 38 - 2.682 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-23 20:01:12:112 
+       [31merror[39m: [31merror validating body request title is required[39m 
+  
+       instance: middlewares schema validation 
+
+       fn:undefined 
+
+       trace: title is required
+2022-02-23 20:01:12:112 
+       [31merror[39m: [31mPOST /tasks 400 31 - 10.202 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-23 20:01:12:112 
+       [31merror[39m: [31mPOST /tasks 201 163 - 8.446 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-02-23 20:01:12:112 
+       [31merror[39m: [31mGET /tasks 200 165 - 9.098 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined

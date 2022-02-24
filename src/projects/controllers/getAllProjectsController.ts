@@ -13,9 +13,7 @@ export const getAllProjects = async (
   try {
     const user = await getOneUserByIdService(req.userId);
     if (!user) throw new ApplicationError(401, `invalid user id`);
-    const tasks = await getAllProjectsService({
-      owner: user.id,
-    });
+    const tasks = await getAllProjectsService(user.id);
     res.status(200).json({ data: tasks });
   } catch (error: any) {
     logger.error('Error on get all projects controller', {

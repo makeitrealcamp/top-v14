@@ -6,12 +6,20 @@ export const mockDatabase = async () => {
 
   return {
     connect: async () => {
-      await mongoose.connect(mongoServer.getUri());
+      try {
+        await mongoose.connect(mongoServer.getUri());
+      } catch (error) {
+        console.log(error);
+      }
     },
     closeDatabase: async () => {
-      await mongoose.connection.dropDatabase();
-      await mongoose.connection.close();
-      mongoServer.stop();
+      try {
+        await mongoose.connection.dropDatabase();
+        await mongoose.connection.close();
+        mongoServer.stop();
+      } catch (error) {
+        console.log(error);
+      }
     },
     clearDatabase: async () => {
       const collections = mongoose.connection.collections;

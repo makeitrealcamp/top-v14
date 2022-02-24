@@ -3,7 +3,7 @@ import { getAllUsersService } from '../getAllUsersService';
 
 jest.mock('../../../shared/factory/findAllResources');
 
-describe('delete user service', () => {
+describe('get all user service', () => {
   const findAllResourcesMock = findAllResources as jest.MockedFunction<
     typeof findAllResources
   >;

@@ -1,40 +1,59 @@
-import * as factoryService from '../../../shared/factory';
 import { ProjectModel } from '../../entity/models/projectModel';
 import { Project } from '../../entity/types/Project';
 import { getAllProjectsService } from '../getAllprojectsService';
-import { model } from 'mongoose';
 
-jest.mock('mongoose');
+const ProjectModelMock = ProjectModel as jest.MockedClass<typeof ProjectModel>;
 
-jest.mock('../../../shared/factory', () => {
-  return {
-    findAllResources: jest.fn().mockImplementation(() => Promise.resolve(true)),
-  };
-});
+// const mockAdd = ProjectModel as jest.MockedFunction<typeof ProjectModel>;
 
-// jest.mock('../../entity/models/projectModel');
+const mockProject = {
+  _id: '6210db4f6f144372bf0a2f18',
+  title: 'my project',
+  createdAt: '2022-02-19T11:56:26.444Z',
+  owner: '6210d026e7d2fa722757a409',
+  __v: 0,
+  tasks: [],
+  id: '6210db4f6f144372bf0a2f18',
+};
 
-// const ProjectModelMock = ProjectModel as Document as jest.MockedClass<typeof ProjectModel>;
-
-// const mockAdd = jest.fn() as unknown as jest.MockedFunction<
-//   typeof ProjectModel
-// >;
-
-describe('delete user service', () => {
+describe('getAllProjectsService', () => {
   afterEach(() => {
     jest.clearAllMocks();
   });
-  it('should call', async () => {
-    ProjectModel.find = jest
-      .fn()
-      .mockImplementation(() => Promise.resolve(true));
+
+  it('should return an error when the user id is not provided', async () => {
     try {
-      const result = await getAllProjectsService(123);
-      expect(result).toEqual(true);
-      expect(ProjectModel.find).toHaveBeenCalledTimes(1);
-      expect(ProjectModel.find).toHaveBeenCalledWith({ id: 123 });
+      await getAllProjectsService('');
     } catch (error: any) {
-      expect(error.message).toBe('Error deleting user with id 123');
+      expect(error.message).toEqual(
+        'Error getting all the projects: invalid user id'
+      );
     }
+  });
+
+  it('should return an error when the user id is not valid', async () => {
+    try {
+      await getAllProjectsService('123');
+    } catch (error: any) {
+      expect(error.message).toBeDefined();
+      expect(error).toBeInstanceOf(Error);
+    }
+  });
+
+  it('should call Model.find when the user id is valid', async () => {
+    ProjectModelMock.find = jest.fn();
+    const id = '6210d026e7d2fa722757a409';
+    await getAllProjectsService(id);
+    expect(ProjectModelMock.find).toHaveBeenCalledTimes(1);
+    expect(ProjectModelMock.find).toHaveBeenCalledWith({ owner: id });
+  });
+
+  it('should return an array of projects when the user id is valid', async () => {
+    ProjectModelMock.find = jest
+      .fn()
+      .mockImplementation(() => Promise.resolve([mockProject]));
+    const id = '6210d026e7d2fa722757a409';
+    const result: Project[] = await getAllProjectsService(id);
+    expect(result).toEqual([mockProject]);
   });
 });

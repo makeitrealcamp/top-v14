@@ -9,5 +9,5 @@ module.exports = {
   },
   collectCoverageFrom: ['**/*.{ts,tsx}', '!**/node_modules/**'],
   coverageReporters: ['json', 'html'],
-  collectCoverage: true,
+  collectCoverage: false,
 };
