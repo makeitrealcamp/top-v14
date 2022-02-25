@@ -45,6 +45,7 @@ logs/
 # # Dependency directories
 node_modules/
 coverage/
+build/
 # jspm_packages/
 
 # # TypeScript v1 declaration files

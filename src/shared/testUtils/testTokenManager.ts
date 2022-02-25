@@ -12,9 +12,9 @@ export const createTestRefreshToken = (payload: {}, secret: string): string => {
 };
 
 export const validateTestAuthToken = (token: string, secret: string) => {
-  return <jwt.UserIDJwtPayload>jwt.verify(token, secret);
+  return <jwt.UserIdJwtPayload>jwt.verify(token, secret);
 };
 
 export const validateTestRefreshToken = (token: string, secret: string) => {
-  return <jwt.UserIDJwtPayload>jwt.verify(token, secret);
+  return <jwt.UserIdJwtPayload>jwt.verify(token, secret);
 };
