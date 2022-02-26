@@ -7,4 +7,6 @@ createDbConnection(`${process.env.MONGO_URI}`);
 
 // app.listen(app.get('port'), () => console.log(`Server started on port ${app.get('port')}`))
 
-app.listen(process.env.PORT, () => console.log(`Server started on port ${process.env.PORT}`))
+app.listen(process.env.PORT, () =>
+  console.log(`Server started on port ${process.env.PORT}`)
+);
