@@ -1,6 +1,6 @@
 import { NextFunction, Request, Response } from 'express';
 
-import { CreateUser } from '../entity/types/User';
+import { CreateUser, EditUser } from '../entity/types/User';
 import { getAllUsersService } from '../services/getAllUsersService';
 import { getOneUserByIdService } from '../services/getOneUserByIdService';
 import { ApplicationError } from '../../shared/customErrors/ApplicationError';
@@ -8,6 +8,8 @@ import { deleteUserService } from '../services/deleteUserService';
 
 import logger from '../../shared/logger/appLogger';
 import { getUserWithProjectsAndTasksService } from '../services/getUserWithProjectsAndTasksService';
+import { editOneUserService } from '../services/editOneUserService';
+import { bufferFormat } from '../../shared/utils/bufferFormat';
 
 export const getUsers = async (
   _req: Request,
@@ -39,16 +41,23 @@ export const getUserById = async (
   }
 };
 
-export const editUser = (req: Request, res: Response) => {
+export const editUser = async (req: Request, res: Response) => {
   // nueva data
-  const newUser: CreateUser = req.body;
-  console.log(newUser);
+  const newUser: EditUser = req.body;
+  console.log('THIS IS File');
+  console.log(req.file);
   // id -> params
   const { id } = req.params;
   console.log(id);
+  newUser.id = id;
+
+  console.log(bufferFormat(req.file!));
+  const { content } = bufferFormat(req.file!);
+  await editOneUserService(newUser, content);
+
   // database.push(user)
 
-  res.status(200).json();
+  res.status(200).json({});
 };
 
 export const deleteUser = async (
@@ -59,7 +68,7 @@ export const deleteUser = async (
   const { id } = req.params;
   try {
     await deleteUserService(id);
-    res.status(200).json({ data: [], message: 'user deleted succesfully' });
+    res.status(200).json({ data: [], message: 'user deleted succesfuly' });
   } catch (error: any) {
     next(new ApplicationError(400, error.message));
   }

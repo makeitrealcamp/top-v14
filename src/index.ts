@@ -1,7 +1,10 @@
 import { createDbConnection } from './config/databaseConfig';
 import dotenv from 'dotenv';
 import app from './app';
+import cloudConfig from './config/cloudinaryConfig';
 dotenv.config();
+
+cloudConfig();
 
 createDbConnection(`${process.env.MONGO_URI}`);
 

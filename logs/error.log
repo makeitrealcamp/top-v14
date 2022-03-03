@@ -1864,3 +1864,225 @@
        fn:undefined 
 
        trace: undefined
+2022-03-02 18:14:57:1457 
+       [31merror[39m: [31mPUT /users/6210d026e7d2fa722757a409 200 - - 11.841 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-03-02 18:20:04:204 
+       [31merror[39m: [31mPUT /users/6210d026e7d2fa722757a409 200 - - 115.934 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-03-02 18:24:55:2455 
+       [31merror[39m: [31muncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/users/entity/schema/userSchema.ts[0m:[93m27[0m:[93m3[0m - [91merror[0m[90m TS2345: [0mArgument of type '{ name: { type: StringConstructor; }; email: { type: StringConstructor; required: [true, string]; unique: true; lowercase: true; }; password: { type: StringConstructor; required: [...]; minlength: number; }; createdAt: { ...; }; editedAt: { ...; }; avatar: { ...; }; }' is not assignable to parameter of type '{ id?: SchemaDefinitionProperty<UserIdType> | undefined; name?: SchemaDefinitionProperty<string | undefined> | undefined; email?: SchemaDefinitionProperty<...> | undefined; password?: SchemaDefinitionProperty<...> | undefined; createdAt?: SchemaDefinitionProperty<...> | undefined; editedAt?: SchemaDefinitionProperty...'.[39m
+[31m  Object literal may only specify known properties, and 'avatar' does not exist in type '{ id?: SchemaDefinitionProperty<UserIdType> | undefined; name?: SchemaDefinitionProperty<string | undefined> | undefined; email?: SchemaDefinitionProperty<...> | undefined; password?: SchemaDefinitionProperty<...> | undefined; createdAt?: SchemaDefinitionProperty<...> | undefined; editedAt?: SchemaDefinitionProperty...'.[39m
+
+[31m[7m27[0m   avatar: {[39m
+[31m[7m  [0m [91m  ~~~~~~~~~[0m[39m
+[31m[7m28[0m     type: String,[39m
+[31m[7m  [0m [91m~~~~~~~~~~~~~~~~~[0m[39m
+[31m[7m29[0m   },[39m
+[31m[7m  [0m [91m~~~[0m[39m
+[31m[96msrc/users/entity/schema/userSchema.ts[0m:[93m42[0m:[93m21[0m - [91merror[0m[90m TS2339: [0mProperty 'getFilter' does not exist on type 'Document<unknown, any, User> & User & { _id: ObjectId; }'.[39m
+
+[31m[7m42[0m   const user = this.getFilter();[39m
+[31m[7m  [0m [91m                    ~~~~~~~~~[0m[39m
+
+[31mError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/users/entity/schema/userSchema.ts[0m:[93m27[0m:[93m3[0m - [91merror[0m[90m TS2345: [0mArgument of type '{ name: { type: StringConstructor; }; email: { type: StringConstructor; required: [true, string]; unique: true; lowercase: true; }; password: { type: StringConstructor; required: [...]; minlength: number; }; createdAt: { ...; }; editedAt: { ...; }; avatar: { ...; }; }' is not assignable to parameter of type '{ id?: SchemaDefinitionProperty<UserIdType> | undefined; name?: SchemaDefinitionProperty<string | undefined> | undefined; email?: SchemaDefinitionProperty<...> | undefined; password?: SchemaDefinitionProperty<...> | undefined; createdAt?: SchemaDefinitionProperty<...> | undefined; editedAt?: SchemaDefinitionProperty...'.[39m
+[31m  Object literal may only specify known properties, and 'avatar' does not exist in type '{ id?: SchemaDefinitionProperty<UserIdType> | undefined; name?: SchemaDefinitionProperty<string | undefined> | undefined; email?: SchemaDefinitionProperty<...> | undefined; password?: SchemaDefinitionProperty<...> | undefined; createdAt?: SchemaDefinitionProperty<...> | undefined; editedAt?: SchemaDefinitionProperty...'.[39m
+
+[31m[7m27[0m   avatar: {[39m
+[31m[7m  [0m [91m  ~~~~~~~~~[0m[39m
+[31m[7m28[0m     type: String,[39m
+[31m[7m  [0m [91m~~~~~~~~~~~~~~~~~[0m[39m
+[31m[7m29[0m   },[39m
+[31m[7m  [0m [91m~~~[0m[39m
+[31m[96msrc/users/entity/schema/userSchema.ts[0m:[93m42[0m:[93m21[0m - [91merror[0m[90m TS2339: [0mProperty 'getFilter' does not exist on type 'Document<unknown, any, User> & User & { _id: ObjectId; }'.[39m
+
+[31m[7m42[0m   const user = this.getFilter();[39m
+[31m[7m  [0m [91m                    ~~~~~~~~~[0m[39m
+
+[31m    at Object.<anonymous> (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/src/users/entity/schema/userSchema.ts:1:7)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1095:14)[39m
+[31m    at Module._compile (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/node_modules/source-map-support/source-map-support.js:568:25)[39m
+[31m    at Module.m._compile (/private/var/folders/x3/3cg46_fx7r59n29lkywd1rmc0000gn/T/ts-node-dev-hook-6072517423454185.js:69:33)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1147:10)[39m
+[31m    at require.extensions.<computed> (/private/var/folders/x3/3cg46_fx7r59n29lkywd1rmc0000gn/T/ts-node-dev-hook-6072517423454185.js:71:20)[39m
+[31m    at Object.nodeDevHook [as .ts] (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/node_modules/ts-node-dev/lib/hook.js:63:13)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:975:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:999:19)[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2022-03-02 18:38:31:3831 
+       [31merror[39m: [31mPUT /users/6210d026e7d2fa722757a409 200 2 - 1833.520 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-03-02 18:41:37:4137 
+       [31merror[39m: [31mPUT /users/6210d026e7d2fa722757a409 200 2 - 1761.894 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-03-02 18:47:06:476 
+       [31merror[39m: [31mPUT /users/6210d026e7d2fa722757a409 200 2 - 16.659 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-03-02 18:55:49:5549 
+       [31merror[39m: [31mPUT /users/6210d026e7d2fa722757a409 200 2 - 29.492 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-03-02 18:57:12:5712 
+       [31merror[39m: [31merror getting the users[39m 
+  
+       instance: undefined 
+
+       fn:getAllUsersService 
+
+       trace: TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received an instance of DataURIParser
+2022-03-02 18:58:32:5832 
+       [31merror[39m: [31mPUT /users/6210d026e7d2fa722757a409 200 2 - 17.275 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-03-02 18:59:47:5947 
+       [31merror[39m: [31mPUT /users/6210d026e7d2fa722757a409 200 2 - 26.786 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-03-02 19:00:10:010 
+       [31merror[39m: [31muncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/users/controllers/userController.ts[0m:[93m56[0m:[93m37[0m - [91merror[0m[90m TS2552: [0mCannot find name 'image'. Did you mean 'Image'?[39m
+
+[31m[7m56[0m   await editOneUserService(newUser, image);[39m
+[31m[7m  [0m [91m                                    ~~~~~[0m[39m
+
+[31m  [96mnode_modules/typescript/lib/lib.dom.d.ts[0m:[93m17148[0m:[93m13[0m[39m
+[31m    [7m17148[0m declare var Image: {[39m
+[31m    [7m     [0m [96m            ~~~~~[0m[39m
+[31m    'Image' is declared here.[39m
+
+[31mError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/users/controllers/userController.ts[0m:[93m56[0m:[93m37[0m - [91merror[0m[90m TS2552: [0mCannot find name 'image'. Did you mean 'Image'?[39m
+
+[31m[7m56[0m   await editOneUserService(newUser, image);[39m
+[31m[7m  [0m [91m                                    ~~~~~[0m[39m
+
+[31m  [96mnode_modules/typescript/lib/lib.dom.d.ts[0m:[93m17148[0m:[93m13[0m[39m
+[31m    [7m17148[0m declare var Image: {[39m
+[31m    [7m     [0m [96m            ~~~~~[0m[39m
+[31m    'Image' is declared here.[39m
+
+[31m    at Object.<anonymous> (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/src/users/controllers/userController.ts:1:7)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1095:14)[39m
+[31m    at Module._compile (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/node_modules/source-map-support/source-map-support.js:568:25)[39m
+[31m    at Module.m._compile (/private/var/folders/x3/3cg46_fx7r59n29lkywd1rmc0000gn/T/ts-node-dev-hook-750741721566512.js:69:33)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1147:10)[39m
+[31m    at require.extensions.<computed> (/private/var/folders/x3/3cg46_fx7r59n29lkywd1rmc0000gn/T/ts-node-dev-hook-750741721566512.js:71:20)[39m
+[31m    at Object.nodeDevHook [as .ts] (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/node_modules/ts-node-dev/lib/hook.js:63:13)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:975:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:999:19)[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2022-03-02 19:00:53:053 
+       [31merror[39m: [31merror getting the users[39m 
+  
+       instance: undefined 
+
+       fn:getAllUsersService 
+
+       trace: TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received an instance of DataURIParser
+2022-03-02 19:01:07:17 
+       [31merror[39m: [31muncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/users/controllers/userController.ts[0m:[93m56[0m:[93m37[0m - [91merror[0m[90m TS2552: [0mCannot find name 'image'. Did you mean 'Image'?[39m
+
+[31m[7m56[0m   await editOneUserService(newUser, image);[39m
+[31m[7m  [0m [91m                                    ~~~~~[0m[39m
+
+[31m  [96mnode_modules/typescript/lib/lib.dom.d.ts[0m:[93m17148[0m:[93m13[0m[39m
+[31m    [7m17148[0m declare var Image: {[39m
+[31m    [7m     [0m [96m            ~~~~~[0m[39m
+[31m    'Image' is declared here.[39m
+
+[31mError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/users/controllers/userController.ts[0m:[93m56[0m:[93m37[0m - [91merror[0m[90m TS2552: [0mCannot find name 'image'. Did you mean 'Image'?[39m
+
+[31m[7m56[0m   await editOneUserService(newUser, image);[39m
+[31m[7m  [0m [91m                                    ~~~~~[0m[39m
+
+[31m  [96mnode_modules/typescript/lib/lib.dom.d.ts[0m:[93m17148[0m:[93m13[0m[39m
+[31m    [7m17148[0m declare var Image: {[39m
+[31m    [7m     [0m [96m            ~~~~~[0m[39m
+[31m    'Image' is declared here.[39m
+
+[31m    at Object.<anonymous> (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/src/users/controllers/userController.ts:1:7)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1095:14)[39m
+[31m    at Module._compile (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/node_modules/source-map-support/source-map-support.js:568:25)[39m
+[31m    at Module.m._compile (/private/var/folders/x3/3cg46_fx7r59n29lkywd1rmc0000gn/T/ts-node-dev-hook-750741721566512.js:69:33)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1147:10)[39m
+[31m    at require.extensions.<computed> (/private/var/folders/x3/3cg46_fx7r59n29lkywd1rmc0000gn/T/ts-node-dev-hook-750741721566512.js:71:20)[39m
+[31m    at Object.nodeDevHook [as .ts] (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/node_modules/ts-node-dev/lib/hook.js:63:13)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:975:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:999:19)[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2022-03-02 19:01:19:119 
+       [31merror[39m: [31mPUT /users/6210d026e7d2fa722757a409 200 2 - 2085.735 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined

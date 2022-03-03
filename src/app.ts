@@ -13,6 +13,7 @@ const app: Application = express();
 
 app.use(morgan);
 app.use(express.json());
+// app.use(express.urlencoded());
 
 app.use(tasksRoutes);
 app.use(projectsRoutes);

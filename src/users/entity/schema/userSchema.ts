@@ -24,6 +24,9 @@ export const UserSchemma = new Schema<User>({
   editedAt: {
     type: Date,
   },
+  avatar: {
+    type: String,
+  },
 });
 
 UserSchemma.virtual('projects', {
