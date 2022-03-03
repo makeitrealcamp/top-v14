@@ -2086,3 +2086,248 @@
        fn:undefined 
 
        trace: undefined
+2022-03-02 19:25:50:2550 
+       [31merror[39m: [31mPUT /users/6210d026e7d2fa722757a409 200 2 - 29.651 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-03-02 19:28:53:2853 
+       [31merror[39m: [31muncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/shared/services/sendEmailService.ts[0m:[93m21[0m:[93m27[0m - [91merror[0m[90m TS7006: [0mParameter 'recepient' implicitly has an 'any' type.[39m
+
+[31m[7m21[0m export const sendEmail = (recepient) =>[39m
+[31m[7m  [0m [91m                          ~~~~~~~~~[0m[39m
+
+[31mError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/shared/services/sendEmailService.ts[0m:[93m21[0m:[93m27[0m - [91merror[0m[90m TS7006: [0mParameter 'recepient' implicitly has an 'any' type.[39m
+
+[31m[7m21[0m export const sendEmail = (recepient) =>[39m
+[31m[7m  [0m [91m                          ~~~~~~~~~[0m[39m
+
+[31m    at Object.<anonymous> (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/src/shared/services/sendEmailService.ts:1:7)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1095:14)[39m
+[31m    at Module._compile (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/node_modules/source-map-support/source-map-support.js:568:25)[39m
+[31m    at Module.m._compile (/private/var/folders/x3/3cg46_fx7r59n29lkywd1rmc0000gn/T/ts-node-dev-hook-6302742268767556.js:69:33)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1147:10)[39m
+[31m    at require.extensions.<computed> (/private/var/folders/x3/3cg46_fx7r59n29lkywd1rmc0000gn/T/ts-node-dev-hook-6302742268767556.js:71:20)[39m
+[31m    at Object.nodeDevHook [as .ts] (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/node_modules/ts-node-dev/lib/hook.js:63:13)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:975:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:999:19)[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2022-03-02 19:30:05:305 
+       [31merror[39m: [31muncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/shared/services/sendEmailService.ts[0m:[93m14[0m:[93m27[0m - [91merror[0m[90m TS7006: [0mParameter 'recipient' implicitly has an 'any' type.[39m
+
+[31m[7m14[0m export const sendEmail = (recipient) => {[39m
+[31m[7m  [0m [91m                          ~~~~~~~~~[0m[39m
+
+[31mError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/shared/services/sendEmailService.ts[0m:[93m14[0m:[93m27[0m - [91merror[0m[90m TS7006: [0mParameter 'recipient' implicitly has an 'any' type.[39m
+
+[31m[7m14[0m export const sendEmail = (recipient) => {[39m
+[31m[7m  [0m [91m                          ~~~~~~~~~[0m[39m
+
+[31m    at Object.<anonymous> (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/src/shared/services/sendEmailService.ts:1:7)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1095:14)[39m
+[31m    at Module._compile (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/node_modules/source-map-support/source-map-support.js:568:25)[39m
+[31m    at Module.m._compile (/private/var/folders/x3/3cg46_fx7r59n29lkywd1rmc0000gn/T/ts-node-dev-hook-6302742268767556.js:69:33)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1147:10)[39m
+[31m    at require.extensions.<computed> (/private/var/folders/x3/3cg46_fx7r59n29lkywd1rmc0000gn/T/ts-node-dev-hook-6302742268767556.js:71:20)[39m
+[31m    at Object.nodeDevHook [as .ts] (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/node_modules/ts-node-dev/lib/hook.js:63:13)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:975:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:999:19)[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2022-03-02 19:32:37:3237 
+       [31merror[39m: [31muncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/shared/services/sendEmailService.ts[0m:[93m19[0m:[93m17[0m - [91merror[0m[90m TS2349: [0mThis expression is not callable.[39m
+[31m  Type '{ from: string; to: string; subject: string; text: string; html: string; link: string; }' has no call signatures.[39m
+
+[31m[7m 19[0m   let message = {[39m
+[31m[7m   [0m [91m                ~[0m[39m
+[31m[7m 20[0m     from: 'Sender Name <scot.cole72@ethereal.email>',[39m
+[31m[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+[31m[7m...[0m [39m
+[31m[7m 23[0m     text: 'Hello to myself!',[39m
+[31m[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+[31m[7m 24[0m     html: `<p><b>Hello</b> to myself!</p> ${link ? ''link : ''}`,[39m
+[31m[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+[31m[96msrc/shared/services/sendEmailService.ts[0m:[93m24[0m:[93m54[0m - [91merror[0m[90m TS1005: [0m':' expected.[39m
+
+[31m[7m24[0m     html: `<p><b>Hello</b> to myself!</p> ${link ? ''link : ''}`,[39m
+[31m[7m  [0m [91m                                                     ~~~~[0m[39m
+[31m[96msrc/shared/services/sendEmailService.ts[0m:[93m37[0m:[93m1[0m - [91merror[0m[90m TS1160: [0mUnterminated template literal.[39m
+
+[31m[7m37[0m [39m
+[31m[7m  [0m [91m[0m[39m
+
+[31mError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/shared/services/sendEmailService.ts[0m:[93m19[0m:[93m17[0m - [91merror[0m[90m TS2349: [0mThis expression is not callable.[39m
+[31m  Type '{ from: string; to: string; subject: string; text: string; html: string; link: string; }' has no call signatures.[39m
+
+[31m[7m 19[0m   let message = {[39m
+[31m[7m   [0m [91m                ~[0m[39m
+[31m[7m 20[0m     from: 'Sender Name <scot.cole72@ethereal.email>',[39m
+[31m[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+[31m[7m...[0m [39m
+[31m[7m 23[0m     text: 'Hello to myself!',[39m
+[31m[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+[31m[7m 24[0m     html: `<p><b>Hello</b> to myself!</p> ${link ? ''link : ''}`,[39m
+[31m[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+[31m[96msrc/shared/services/sendEmailService.ts[0m:[93m24[0m:[93m54[0m - [91merror[0m[90m TS1005: [0m':' expected.[39m
+
+[31m[7m24[0m     html: `<p><b>Hello</b> to myself!</p> ${link ? ''link : ''}`,[39m
+[31m[7m  [0m [91m                                                     ~~~~[0m[39m
+[31m[96msrc/shared/services/sendEmailService.ts[0m:[93m37[0m:[93m1[0m - [91merror[0m[90m TS1160: [0mUnterminated template literal.[39m
+
+[31m[7m37[0m [39m
+[31m[7m  [0m [91m[0m[39m
+
+[31m    at Object.<anonymous> (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/src/shared/services/sendEmailService.ts:1:7)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1095:14)[39m
+[31m    at Module._compile (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/node_modules/source-map-support/source-map-support.js:568:25)[39m
+[31m    at Module.m._compile (/private/var/folders/x3/3cg46_fx7r59n29lkywd1rmc0000gn/T/ts-node-dev-hook-6302742268767556.js:69:33)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1147:10)[39m
+[31m    at require.extensions.<computed> (/private/var/folders/x3/3cg46_fx7r59n29lkywd1rmc0000gn/T/ts-node-dev-hook-6302742268767556.js:71:20)[39m
+[31m    at Object.nodeDevHook [as .ts] (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/node_modules/ts-node-dev/lib/hook.js:63:13)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:975:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:999:19)[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2022-03-02 19:35:57:3557 
+       [31merror[39m: [31muncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/shared/services/sendEmailService.ts[0m:[93m4[0m:[93m3[0m - [91merror[0m[90m TS2769: [0mNo overload matches this call.[39m
+[31m  The last overload gave the following error.[39m
+[31m    Argument of type '{ host: string | undefined; port: string | undefined; auth: { user: string; pass: string; }; }' is not assignable to parameter of type 'TransportOptions | Transport<unknown>'.[39m
+[31m      Object literal may only specify known properties, and 'host' does not exist in type 'TransportOptions | Transport<unknown>'.[39m
+
+[31m[7m4[0m   host: process.env.EMAIL_HOST,[39m
+[31m[7m [0m [91m  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+
+[31m  [96mnode_modules/@types/nodemailer/index.d.ts[0m:[93m74[0m:[93m17[0m[39m
+[31m    [7m74[0m export function createTransport<T>(transport: Transport<T> | TransportOptions, defaults?: TransportOptions): Transporter<T>;[39m
+[31m    [7m  [0m [96m                ~~~~~~~~~~~~~~~[0m[39m
+[31m    The last overload is declared here.[39m
+
+[31mError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/shared/services/sendEmailService.ts[0m:[93m4[0m:[93m3[0m - [91merror[0m[90m TS2769: [0mNo overload matches this call.[39m
+[31m  The last overload gave the following error.[39m
+[31m    Argument of type '{ host: string | undefined; port: string | undefined; auth: { user: string; pass: string; }; }' is not assignable to parameter of type 'TransportOptions | Transport<unknown>'.[39m
+[31m      Object literal may only specify known properties, and 'host' does not exist in type 'TransportOptions | Transport<unknown>'.[39m
+
+[31m[7m4[0m   host: process.env.EMAIL_HOST,[39m
+[31m[7m [0m [91m  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+
+[31m  [96mnode_modules/@types/nodemailer/index.d.ts[0m:[93m74[0m:[93m17[0m[39m
+[31m    [7m74[0m export function createTransport<T>(transport: Transport<T> | TransportOptions, defaults?: TransportOptions): Transporter<T>;[39m
+[31m    [7m  [0m [96m                ~~~~~~~~~~~~~~~[0m[39m
+[31m    The last overload is declared here.[39m
+
+[31m    at Object.<anonymous> (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/src/shared/services/sendEmailService.ts:1:7)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1095:14)[39m
+[31m    at Module._compile (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/node_modules/source-map-support/source-map-support.js:568:25)[39m
+[31m    at Module.m._compile (/private/var/folders/x3/3cg46_fx7r59n29lkywd1rmc0000gn/T/ts-node-dev-hook-6302742268767556.js:69:33)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1147:10)[39m
+[31m    at require.extensions.<computed> (/private/var/folders/x3/3cg46_fx7r59n29lkywd1rmc0000gn/T/ts-node-dev-hook-6302742268767556.js:71:20)[39m
+[31m    at Object.nodeDevHook [as .ts] (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/node_modules/ts-node-dev/lib/hook.js:63:13)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:975:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:999:19)[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2022-03-02 19:36:39:3639 
+       [31merror[39m: [31muncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/shared/services/sendEmailService.ts[0m:[93m4[0m:[93m3[0m - [91merror[0m[90m TS2769: [0mNo overload matches this call.[39m
+[31m  The last overload gave the following error.[39m
+[31m    Argument of type '{ host: string; port: string; auth: { user: string; pass: string; }; }' is not assignable to parameter of type 'TransportOptions | Transport<unknown>'.[39m
+[31m      Object literal may only specify known properties, and 'host' does not exist in type 'TransportOptions | Transport<unknown>'.[39m
+
+[31m[7m4[0m   host: `${process.env.EMAIL_HOST}`,[39m
+[31m[7m [0m [91m  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+
+[31m  [96mnode_modules/@types/nodemailer/index.d.ts[0m:[93m74[0m:[93m17[0m[39m
+[31m    [7m74[0m export function createTransport<T>(transport: Transport<T> | TransportOptions, defaults?: TransportOptions): Transporter<T>;[39m
+[31m    [7m  [0m [96m                ~~~~~~~~~~~~~~~[0m[39m
+[31m    The last overload is declared here.[39m
+
+[31mError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/shared/services/sendEmailService.ts[0m:[93m4[0m:[93m3[0m - [91merror[0m[90m TS2769: [0mNo overload matches this call.[39m
+[31m  The last overload gave the following error.[39m
+[31m    Argument of type '{ host: string; port: string; auth: { user: string; pass: string; }; }' is not assignable to parameter of type 'TransportOptions | Transport<unknown>'.[39m
+[31m      Object literal may only specify known properties, and 'host' does not exist in type 'TransportOptions | Transport<unknown>'.[39m
+
+[31m[7m4[0m   host: `${process.env.EMAIL_HOST}`,[39m
+[31m[7m [0m [91m  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+
+[31m  [96mnode_modules/@types/nodemailer/index.d.ts[0m:[93m74[0m:[93m17[0m[39m
+[31m    [7m74[0m export function createTransport<T>(transport: Transport<T> | TransportOptions, defaults?: TransportOptions): Transporter<T>;[39m
+[31m    [7m  [0m [96m                ~~~~~~~~~~~~~~~[0m[39m
+[31m    The last overload is declared here.[39m
+
+[31m    at Object.<anonymous> (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/src/shared/services/sendEmailService.ts:1:7)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1095:14)[39m
+[31m    at Module._compile (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/node_modules/source-map-support/source-map-support.js:568:25)[39m
+[31m    at Module.m._compile (/private/var/folders/x3/3cg46_fx7r59n29lkywd1rmc0000gn/T/ts-node-dev-hook-6302742268767556.js:69:33)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1147:10)[39m
+[31m    at require.extensions.<computed> (/private/var/folders/x3/3cg46_fx7r59n29lkywd1rmc0000gn/T/ts-node-dev-hook-6302742268767556.js:71:20)[39m
+[31m    at Object.nodeDevHook [as .ts] (/Users/shymmygarcia/Documents/personal/makeitreal/top-v14/node_modules/ts-node-dev/lib/hook.js:63:13)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:975:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:999:19)[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2022-03-02 20:01:08:18 
+       [31merror[39m: [31mPUT /users/6210d026e7d2fa722757a409 200 2 - 44.759 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-03-02 20:02:53:253 
+       [31merror[39m: [31mPUT /users/6210d026e7d2fa722757a409 200 2 - 87.871 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-03-02 20:05:37:537 
+       [31merror[39m: [31mPUT /users/6210d026e7d2fa722757a409 200 2 - 73.931 ms[39m
+[31m[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined

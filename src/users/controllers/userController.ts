@@ -10,6 +10,7 @@ import logger from '../../shared/logger/appLogger';
 import { getUserWithProjectsAndTasksService } from '../services/getUserWithProjectsAndTasksService';
 import { editOneUserService } from '../services/editOneUserService';
 import { bufferFormat } from '../../shared/utils/bufferFormat';
+import { sendEmail } from '../../shared/services/senEmailServiceSendGrid';
 
 export const getUsers = async (
   _req: Request,
@@ -49,11 +50,12 @@ export const editUser = async (req: Request, res: Response) => {
   // id -> params
   const { id } = req.params;
   console.log(id);
-  newUser.id = id;
 
-  console.log(bufferFormat(req.file!));
-  const { content } = bufferFormat(req.file!);
-  await editOneUserService(newUser, content);
+  newUser.id = id;
+  sendEmail();
+  // console.log(bufferFormat(req.file!));
+  // const { content } = bufferFormat(req.file!);
+  // await editOneUserService(newUser, content);
 
   // database.push(user)
 

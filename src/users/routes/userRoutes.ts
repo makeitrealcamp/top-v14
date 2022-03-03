@@ -7,7 +7,7 @@ const router: Router = Router();
 router.get('/users', getUsers);
 // router.post('/users', getUsers);
 router.get('/users/:id', getUserById);
-router.put('/users/:id', uploadImagesMiddlewareOnMemory, editUser);
+router.put('/users/:id', editUser);
 router.delete('/users/:id', deleteUser);
 
 export default router;
