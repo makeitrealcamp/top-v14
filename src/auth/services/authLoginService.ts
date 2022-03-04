@@ -1,7 +1,8 @@
 import logger from '../../shared/logger/appLogger';
 import { LoginUser } from '../../users/entity/types/User';
+import { authCreateTokenService } from './authCreateTokenService';
+
 import { authValidateUserService } from './authValidateUserService';
-import { authCreateTokenService } from './authCreateTokenservice';
 
 export type TokenResponse = {
   authToken: string;

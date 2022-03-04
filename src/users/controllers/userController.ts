@@ -52,10 +52,10 @@ export const editUser = async (req: Request, res: Response) => {
   console.log(id);
 
   newUser.id = id;
-  sendEmail();
+  // sendEmail();
   // console.log(bufferFormat(req.file!));
-  // const { content } = bufferFormat(req.file!);
-  // await editOneUserService(newUser, content);
+  //
+  await editOneUserService(newUser, req.file);
 
   // database.push(user)
 
@@ -70,7 +70,7 @@ export const deleteUser = async (
   const { id } = req.params;
   try {
     await deleteUserService(id);
-    res.status(200).json({ data: [], message: 'user deleted succesfuly' });
+    res.status(200).json({ data: [], message: 'user deleted successfully' });
   } catch (error: any) {
     next(new ApplicationError(400, error.message));
   }

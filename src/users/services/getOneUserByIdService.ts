@@ -1,7 +1,6 @@
 import logger from '../../shared/logger/appLogger';
 import { UserModel } from '../entity/models/userModel';
-import { ApplicationError } from '../../shared/customErrors/ApplicationError';
-import { User, UserIdType } from '../entity/types/User';
+import { User } from '../entity/types/User';
 import { findOneResourceById } from '../../shared/factory/findOneResourceById';
 
 export const getOneUserByIdService = async (

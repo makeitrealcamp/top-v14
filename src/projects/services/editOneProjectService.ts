@@ -1,6 +1,6 @@
 import logger from '../../shared/logger/appLogger';
 import { findOneResourceByField } from '../../shared/factory/findOneResourceByField';
-import { updateOneResourceByid } from '../../shared/factory/updateOneResourceByid';
+import { updateOneResourceById } from '../../shared/factory/updateOneResourceById';
 
 import { ProjectModel } from '../entity/models/projectModel';
 import { Project } from '../entity/types/Project';
@@ -16,7 +16,7 @@ export const editOneProjectService = async (
     });
 
     if (!exists) throw new Error('the user cannot delete this proyect');
-    const editedProject = await updateOneResourceByid(ProjectModel)(
+    const editedProject = await updateOneResourceById(ProjectModel)(
       projectId,
       project
     );

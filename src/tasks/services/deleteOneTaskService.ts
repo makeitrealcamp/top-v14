@@ -6,7 +6,6 @@ export const deleteOneTaskService = async (id: string): Promise<void> => {
   try {
     if (!id) throw new Error(`no user id provided`);
     const result = await deleteOneResourceById(TaskModel)(id);
-    console.log(result);
   } catch (error: any) {
     console.log(error);
     logger.error(`Error deleting user with id ${id}`, {

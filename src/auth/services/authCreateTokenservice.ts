@@ -1,6 +1,6 @@
 import logger from '../../shared/logger/appLogger';
 import { UserIdType } from '../../users/entity/types/User';
-import { createAuthToken, createRefreshToken } from '../utils/tokenManager';
+import { createAuthToken } from '../utils/tokenManager';
 import { authCreateRefreshToken } from './authCreateRefreshToken';
 
 export const authCreateTokenService = async (

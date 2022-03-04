@@ -18,9 +18,10 @@ export type CreateUser = Omit<User, 'id' | 'createdAt' | 'editedAt'>;
 export type EditUser = {
   id: string;
   name?: string;
-  email?: string;
+  email: string;
   password?: string;
   avatar?: string;
+  editedAt?: Date | null;
 };
 
 export type LoginUser = {
