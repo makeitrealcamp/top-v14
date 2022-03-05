@@ -1,12 +1,16 @@
 import { Router } from 'express';
-import { bodyRequestValidator } from '../../shared/validators/bodyRequestValidators';
-import { authLogin, authSignup, refreshToken } from '../controllers';
-import { recoveryPasswordController } from '../controllers/recoveryPasswordController';
-import { updatePasswordController } from '../controllers/updatePasswordController';
-import { validateUserController } from '../controllers/validateUserController';
-import { userTokenValidation } from '../middleware';
+import {
+  authLoginController,
+  authSignupController,
+  refreshToken,
+  recoveryPasswordController,
+  updatePasswordController,
+  validateUserController,
+} from '../controllers';
+
 import { refreshTokenValidation } from '../middleware/refreshTokenValidation';
 import { userTokenValidationParams } from '../middleware/userTokenValidationParams';
+import { bodyRequestValidator } from '../../shared/validators/bodyRequestValidators';
 import {
   loginUserSchema,
   signUpUserSchema,
@@ -16,8 +20,11 @@ const router: Router = Router();
 
 router
   .route('/signup')
-  .post(bodyRequestValidator(signUpUserSchema), authSignup);
-router.route('/login').post(bodyRequestValidator(loginUserSchema), authLogin);
+  .post(bodyRequestValidator(signUpUserSchema), authSignupController);
+router
+  .route('/login')
+  .post(bodyRequestValidator(loginUserSchema), authLoginController);
+
 router.route('/refreshtoken').post(refreshTokenValidation, refreshToken);
 
 router

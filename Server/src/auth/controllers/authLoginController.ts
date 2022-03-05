@@ -3,7 +3,7 @@ import { ApplicationError } from '../../shared/customErrors/ApplicationError';
 import { LoginUser } from '../../users/entity/types/User';
 import { authLoginService } from '../services';
 
-export const authLogin = async (
+export const authLoginController = async (
   req: Request<{}, {}, LoginUser>,
   res: Response,
   next: NextFunction

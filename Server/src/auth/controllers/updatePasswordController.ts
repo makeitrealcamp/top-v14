@@ -1,13 +1,9 @@
 import { NextFunction, Request, Response } from 'express';
 import { ApplicationError } from '../../shared/customErrors/ApplicationError';
-import { CreateUser } from '../../users/entity/types/User';
-import { getOneUserByEmail, getOneUserByIdService } from '../../users/services';
+import { getOneUserByIdService } from '../../users/services';
+
 import { editOneUserService } from '../../users/services/editOneUserService';
-import { authCreateUserService, authSendValidateUserEmail } from '../services';
-import { authCreateTokenService } from '../services/authCreateTokenService';
-import { authSendRecoverPasswordEmail } from '../services/authSendRecoverPasswordEmail';
-import { authValidateUserEmail } from '../services/authValidateUserEmail';
-import { authValidateUserService } from '../services/authValidateUserService';
+
 import { encryptPassword } from '../utils/passwordManager';
 import { validateAuthToken } from '../utils/tokenManager';
 

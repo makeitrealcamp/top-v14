@@ -14,7 +14,7 @@ export const userTokenValidation = (
 
     const { id } = validateAuthToken(authorization);
 
-    if (!id) return next(new ApplicationError(401, 'Unvalid token'));
+    if (!id) return next(new ApplicationError(401, 'Invalid token'));
 
     req.userId = id;
 

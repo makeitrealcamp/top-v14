@@ -2,7 +2,7 @@ import logger from '../../shared/logger/appLogger';
 import { getOneUserByIdService } from '../../users/services';
 import { editOneUserService } from '../../users/services/editOneUserService';
 
-export const authValidateUserEmail = async (
+export const authValidateUserAccount = async (
   userId: string
 ): Promise<Boolean> => {
   try {
@@ -14,7 +14,7 @@ export const authValidateUserEmail = async (
   } catch (error: any) {
     logger.error('Error validating user email', {
       instance: 'services',
-      fn: 'authValidateUserEmail',
+      fn: 'authValidateUserAccount',
       trace: error.message,
     });
     throw new Error('Error validating user email');

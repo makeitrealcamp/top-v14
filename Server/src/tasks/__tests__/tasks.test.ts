@@ -34,7 +34,7 @@ describe('Tasks', () => {
         .set('Authorization', fakeToken)
         .expect(401);
 
-      expect(body).toEqual({ message: 'Unvalid token' }); // jest
+      expect(body).toEqual({ message: 'Invalid token' }); // jest
     });
 
     it('should return status 400 with invalid projectId', async () => {
