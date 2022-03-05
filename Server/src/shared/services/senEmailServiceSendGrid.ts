@@ -7,14 +7,14 @@ sgMail.setApiKey(`${process.env.SENDGRID_API_KEY}`);
 export const sendEmailServiceSendGrid = async (
   recipient: string,
   subject: string,
-  link?: string
+  message: string
 ): Promise<unknown> => {
   const msg = {
     to: `${recipient}`,
     from: `${process.env.VALID_EMAIL}`, // Use the email address or domain you verified above
     subject: `${subject}`,
     text: 'Hello to myself!',
-    html: `<p><b>Hello</b> to myself!</p> ${link ? '<a>' + link + '</a>' : ''}`,
+    html: message,
   };
   try {
     return await sgMail.send(msg);

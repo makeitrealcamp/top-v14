@@ -1,10 +1,10 @@
+import { encryptPassword } from '../../auth/utils/passwordManager';
+import { createResource } from '../../shared/factory';
 import logger from '../../shared/logger/appLogger';
-import { UserModel } from '../../users/entity/models/userModel';
-import { CreateUser, User } from '../../users/entity/types/User';
-import { createResource } from '../../shared/factory/createResource';
-import { encryptPassword } from '../utils/passwordManager';
+import { UserModel } from '../entity/models/userModel';
+import { CreateUser, User } from '../entity/types/User';
 
-export const authCreateUserService = async (
+export const createUserService = async (
   userRequest: CreateUser
 ): Promise<User> => {
   try {
@@ -13,7 +13,7 @@ export const authCreateUserService = async (
     return user as User;
   } catch (error: any) {
     logger.error(`error creating user with email ${userRequest.email}`, {
-      service: 'authCreateUserService',
+      service: 'createUserService',
       trace: error.message,
     });
     throw new Error(`error creating user with email ${userRequest.email}`);
