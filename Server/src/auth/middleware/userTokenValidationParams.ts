@@ -1,18 +1,17 @@
 import { NextFunction, Request, Response } from 'express';
 import { ApplicationError } from '../../shared/customErrors/ApplicationError';
 import { validateAuthToken } from '../utils/tokenManager';
-
-export const userTokenValidation = (
+export const userTokenValidationParams = (
   req: Request,
   _res: Response,
   next: NextFunction
 ) => {
   try {
-    const { authorization } = req.headers;
-    if (!authorization)
-      return next(new ApplicationError(401, 'No token provided'));
+    const { token } = req.params;
 
-    const { id } = validateAuthToken(authorization);
+    if (!token) return next(new ApplicationError(401, 'No token provided'));
+
+    const { id } = validateAuthToken(token);
 
     if (!id) return next(new ApplicationError(401, 'Unvalid token'));
 

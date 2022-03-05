@@ -8,6 +8,7 @@ export interface User {
   createdAt: Date;
   editedAt: Date | null;
   avatar?: string;
+  valid: boolean;
 }
 
 export type UserIdType = {
@@ -18,10 +19,11 @@ export type CreateUser = Omit<User, 'id' | 'createdAt' | 'editedAt'>;
 export type EditUser = {
   id: string;
   name?: string;
-  email: string;
+  email?: string;
   password?: string;
   avatar?: string;
   editedAt?: Date | null;
+  valid?: boolean;
 };
 
 export type LoginUser = {

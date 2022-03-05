@@ -10,7 +10,6 @@ import logger from '../../shared/logger/appLogger';
 import { getUserWithProjectsAndTasksService } from '../services/getUserWithProjectsAndTasksService';
 import { editOneUserService } from '../services/editOneUserService';
 import { bufferFormat } from '../../shared/utils/bufferFormat';
-import { sendEmail } from '../../shared/services/senEmailServiceSendGrid';
 
 export const getUsers = async (
   _req: Request,

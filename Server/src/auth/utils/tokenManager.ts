@@ -1,8 +1,8 @@
 import jwt, { UserIdJwtPayload } from 'jsonwebtoken';
 
-export const createAuthToken = (payload: {}): string => {
-  return jwt.sign(payload, `${process.env.JWT_AUTH_SECRET}`, {
-    expiresIn: '360s',
+export const createAuthToken = (payload: {}, secret?: string): string => {
+  return jwt.sign(payload, `${process.env.JWT_AUTH_SECRET}${secret}`, {
+    expiresIn: '10m',
   });
 };
 export const createRefreshToken = (payload: {}): string => {
@@ -11,10 +11,10 @@ export const createRefreshToken = (payload: {}): string => {
   });
 };
 
-export const validateToken = (token: string) => {
+export const validateAuthToken = (token: string, secret?: string) => {
   return jwt.verify(
     token,
-    `${process.env.JWT_AUTH_SECRET}`
+    `${process.env.JWT_AUTH_SECRET}${secret}`
   ) as UserIdJwtPayload;
 };
 

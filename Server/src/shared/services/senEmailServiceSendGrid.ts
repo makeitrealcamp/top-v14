@@ -3,15 +3,19 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 sgMail.setApiKey(`${process.env.SENDGRID_API_KEY}`);
-const msg = {
-  to: 'kayden.feil29@ethereal.email',
-  from: `${process.env.VALID_EMAIL}`, // Use the email address or domain you verified above
-  subject: 'Sending with Twilio SendGrid is Fun',
-  text: 'and easy to do anywhere, even with Node.js',
-  html: '<strong>and easy to do anywhere, even with Node.js</strong>',
-};
 
-export const sendEmail = async () => {
+export const sendEmailServiceSendGrid = async (
+  recipient: string,
+  subject: string,
+  link?: string
+) => {
+  const msg = {
+    to: `${recipient}`,
+    from: `${process.env.VALID_EMAIL}`, // Use the email address or domain you verified above
+    subject: `${subject}`,
+    text: 'Hello to myself!',
+    html: `<p><b>Hello</b> to myself!</p> ${link ? '<a>' + link + '</a>' : ''}`,
+  };
   try {
     await sgMail.send(msg);
   } catch (error: any) {

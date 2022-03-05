@@ -1,4 +1,5 @@
 import { Schema } from 'mongoose';
+import { boolean } from 'yup';
 import { ProjectModel } from '../../../projects/entity/models/projectModel';
 import { User } from '../types/User';
 
@@ -26,6 +27,10 @@ export const UserSchemma = new Schema<User>({
   },
   avatar: {
     type: String,
+  },
+  valid: {
+    type: Boolean,
+    default: false,
   },
 });
 
