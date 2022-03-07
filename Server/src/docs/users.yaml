@@ -1,0 +1,89 @@
+paths:
+  /users:
+    post:
+      tags:
+        - Users
+      summary: Creates a user.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                username:
+                  type: string
+      responses:
+        201:
+          description: new use has been created
+        401:
+          description: unauthorized invalid token or not token provided
+        403:
+          description: bad request wrong email or password
+    get:
+      tags:
+        - Users
+      summary: Returns a list of users.
+      description: Optional extended description in CommonMark or HTML
+      responses:
+        '200':
+          description: A JSON array of user objects
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: string
+                examples:
+                  Jessica:
+                    value:
+                      id: 10
+                      name: Jessica Smith
+                  Ron:
+                    value:
+                      id: 20
+                      name: Ron Stewart
+  /users/{id}:
+    get:
+      tags:
+        - Users
+      summary: Gets a user by ID.
+      description: >
+        A detailed description of the operation.
+        Use markdown for rich text representation,
+        such as **bold**, *italic*, and [links](https://swagger.io).
+      operationId: getUserById
+      parameters:
+        - name: id
+          in: path
+          description: User ID
+          required: true
+          schema:
+            type: integer
+            format: int64
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/User'
+      externalDocs:
+        description: Learn more about user operations provided by this API.
+        url: http://api.example.com/docs/user-operations/
+components:
+  schemas:
+    User:
+      type: object
+      properties:
+        id:
+          type: string
+          format: string
+        name:
+          type: string
+        email:
+          type: string
+      required:
+        - id
+        - name
+        - email
