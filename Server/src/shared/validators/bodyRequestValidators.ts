@@ -6,6 +6,7 @@ import logger from '../logger/appLogger';
 export const bodyRequestValidator =
   (schema: yup.ObjectSchema<any>) =>
   async (req: Request, _res: Response, next: NextFunction) => {
+    console.log(req.body);
     try {
       await schema.validate({
         body: req.body,

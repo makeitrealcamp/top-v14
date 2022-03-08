@@ -1,4 +1,5 @@
-import styled from "styled-components";
+import styled from 'styled-components';
+import { LoginForm } from '../components/form/LoginForm';
 
 import { Wrapper } from '../components/shared/Wrapper';
 
@@ -7,59 +8,35 @@ type FormData = {
   password: string;
 };
 
-export const  Login=()=> {
-  
+export const Login = () => {
   return (
     <Wrapper center={true}>
-      <FormWrapper className="login-container">
-        <div className="left-side">
+      <FormWrapper className='login-container'>
+        <div className='left-side'>
           <img
-            src="https://businesstemplates.co.nz/wp-content/uploads/2020/12/login-concept-illustration_114360-739.jpg"
-            alt="login"
+            src='https://businesstemplates.co.nz/wp-content/uploads/2020/12/login-concept-illustration_114360-739.jpg'
+            alt='login'
           />
         </div>
-        <div className="right-side">
+        <div className='right-side'>
           <div>
             <img
-              src="https://www.freeiconspng.com/uploads/evernote-icon-2.png"
-              alt=""
+              src='https://www.freeiconspng.com/uploads/evernote-icon-2.png'
+              alt=''
             />
             <h2>My app</h2>
           </div>
-          <form >
-            <div>
-              <input
-                placeholder="Email"
-                type="email"
-         
-              />
-           
-            </div>
-
-            <div>
-              <input
-                type="password"
-                placeholder="Password"
-           
-              />
-      
-            </div>
-            <p>
-              Don&apos;t have an account? Signup&nbsp;
-              <span>
-              </span>
-            </p>
-          </form>
         </div>
+        <LoginForm />
       </FormWrapper>
     </Wrapper>
   );
-}
+};
 
-const FormWrapper = styled("div")`
+const FormWrapper = styled('div')`
   display: flex;
   align-items: center;
-  border: ${(props)=>props.theme.palette.primary.border};
+  border: ${(props) => props.theme.palette.primary.border};
   border-radius: 5px;
   padding: 50px;
   user-select: none;
@@ -102,7 +79,8 @@ const FormWrapper = styled("div")`
           border-radius: 5px;
           width: 100%;
           color: white;
-          background-color: ${(props)=>props.theme.palette.primary.primaryColor};
+          background-color: ${(props) =>
+            props.theme.palette.primary.primaryColor};
           padding: 8px 20px;
           &:disabled {
             background-color: #ccc;
@@ -115,7 +93,7 @@ const FormWrapper = styled("div")`
       p {
         font-size: 12px;
         a {
-          color: ${(props)=>props.theme.palette.primary.primaryColor};
+          color: ${(props) => props.theme.palette.primary.primaryColor};
         }
       }
     }

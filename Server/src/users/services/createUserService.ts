@@ -4,6 +4,11 @@ import logger from '../../shared/logger/appLogger';
 import { UserModel } from '../entity/models/userModel';
 import { CreateUser, User } from '../entity/types/User';
 
+/**
+ *
+ * @param {object} userRequest
+ * @returns
+ */
 export const createUserService = async (
   userRequest: CreateUser
 ): Promise<User> => {

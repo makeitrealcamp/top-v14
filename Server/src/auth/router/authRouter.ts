@@ -29,7 +29,7 @@ router.route('/refreshtoken').post(refreshTokenValidation, refreshToken);
 
 router
   .route('/validate/:token')
-  .post(userTokenValidationParams, validateUserController);
+  .get(userTokenValidationParams, validateUserController);
 
 router.route('/recovery').post(recoveryPasswordController);
 router.route('/recovery/:id/:token').post(updatePasswordController);

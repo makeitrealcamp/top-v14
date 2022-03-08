@@ -9,7 +9,6 @@ export const authValidateUserAccount = async (
     const user = await getOneUserByIdService(userId);
     if (!user) throw new Error('user incorrect');
     const userValid = await editOneUserService({ id: userId, valid: true });
-
     return userValid?.valid || false;
   } catch (error: any) {
     logger.error('Error validating user email', {

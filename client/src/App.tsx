@@ -6,16 +6,18 @@ import { Login } from './pages/Login';
 import { GlobalStyles } from './components/shared/GlobalStyles';
 import { Navigation } from './components/navigation/Navigation';
 import { Registration } from './pages/Registration';
+import { LoginForm } from './components/form/LoginForm';
 
 function App() {
   return (
     <>
-      <GlobalStyles />
+      <Login />
+      {/* <GlobalStyles />
       <Navigation />
       <Home />
       hello
       <Login />
-      <Registration />
+      <Registration /> */}
     </>
   );
 }
