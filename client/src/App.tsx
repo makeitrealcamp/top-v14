@@ -6,7 +6,7 @@ import { Login } from './pages/Login';
 import { GlobalStyles } from './components/shared/GlobalStyles';
 import { Navigation } from './components/navigation/Navigation';
 import { Registration } from './pages/Registration';
-import { LoginForm } from './components/form/LoginForm';
+import { LoginForm } from './components/Auth/form/LoginForm';
 
 function App() {
   return (

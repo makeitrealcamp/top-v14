@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { LoginForm } from '../components/form/LoginForm';
+import { LoginForm } from '../components/Auth/form/LoginForm';
 
 import { Wrapper } from '../components/shared/Wrapper';
 
