@@ -5,14 +5,18 @@ import { Logo } from './Logo';
 import { MainNavigation } from './MainNavigation';
 import { UtilityNavigation } from './UtilityNavigation';
 
-export const Navigation = () => {
+type NavigationProps = {
+  isLoggedIn: boolean | undefined;
+};
+
+export const Navigation: React.FC<NavigationProps> = ({ isLoggedIn }) => {
   return (
     <Header>
       <Top>
         <Row>
           <Logo />
           <MainNavigation />
-          <UtilityNavigation />
+          {!isLoggedIn && <UtilityNavigation />}
         </Row>
       </Top>
     </Header>

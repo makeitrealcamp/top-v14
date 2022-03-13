@@ -1,8 +1,8 @@
 import styled from 'styled-components';
+
 import { Hero } from '../components/hero/Hero';
-import { Navigation } from '../components/navigation/Navigation';
-import { GlobalStyles } from '../components/shared/GlobalStyles';
-import { Wrapper } from '../components/shared/Wrapper';
+import { Wrapper } from '../shared/Wrapper';
+
 export default function Home() {
   return (
     <HomeStyled>

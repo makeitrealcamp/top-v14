@@ -1,14 +1,18 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 export const UtilityNavigation = () => {
   return (
     <Nav>
       <ul>
-        <li>Help</li>
-        <li>Login</li>
+        <Link className='nav-link' to='/login'>
+          Login
+        </Link>
         <li>
-          <LoginButton>Signup</LoginButton>
+          <Link className='nav-link' to='/signup'>
+            <LoginButton>SignUp</LoginButton>
+          </Link>
         </li>
       </ul>
     </Nav>
@@ -54,5 +58,11 @@ const LoginButton = styled.button`
   border-radius: 3px;
   border: 2px solid #00a82d;
   padding: 0 10px;
-  transition: 0.3s border ease-in-out, 0.3s color ease-in-out;
+  cursor: pointer;
+  :hover& {
+    color: #ffffff;
+    background: #c6c4c4;
+    border: 2px solid #028e27;
+    transition: 0.1s background ease-in-out;
+  }
 `;

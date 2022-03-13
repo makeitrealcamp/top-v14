@@ -7,7 +7,7 @@ export const MainNavigation = () => {
       <ul>
         <li>
           <a href='/why-evernote' data-ga-navigation-location='header'>
-            Why Evernote
+            Why My Projects App
           </a>
         </li>
         <li>
@@ -39,5 +39,6 @@ const Nav = styled.nav`
     font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 0.5px;
+    text-decoration: none;
   }
 `;

@@ -1,4 +1,5 @@
 import 'styled-components';
+import { FlattenSimpleInterpolation } from 'styled-components';
 interface IPalette {
   primaryColor: string;
   primaryColorDark: string;
@@ -9,6 +10,13 @@ interface IPalette {
   colorGray: string;
   boxShadow: string;
 }
+interface ISize {
+  small: string;
+  big: string;
+}
+interface IIcons {
+  eye: FlattenSimpleInterpolation;
+}
 declare module 'styled-components' {
   export interface DefaultTheme {
     borderRadius: string;
@@ -16,5 +24,7 @@ declare module 'styled-components' {
       primary: IPalette;
       secondary?: IPalette;
     };
+    size: ISize;
+    icons: IIcons;
   }
 }

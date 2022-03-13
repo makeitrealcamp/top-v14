@@ -3,20 +3,22 @@ import styled from 'styled-components';
 import { FaEvernote } from 'react-icons/fa';
 export const Logo = () => {
   return (
-    <LogoLink>
-      <LogoText>My notes App</LogoText>
-      <LogoImage>
-        <FaEvernote color='red' />
-      </LogoImage>
-    </LogoLink>
+    <>
+      <LogoLink>
+        <LogoText>My notes App</LogoText>
+        <LogoImage>
+          <FaEvernote color='red' />
+        </LogoImage>
+      </LogoLink>
+    </>
   );
 };
 
 const LogoLink = styled.a`
   display: block;
-  width: 177px;
+  width: 3rem;
   height: 40px;
-  text-indent: -9999px;
+
   background-size: contain;
   color: #000;
   font-size: 16px;
@@ -25,10 +27,10 @@ const LogoLink = styled.a`
 `;
 const LogoText = styled.span`
   position: absolute;
-  right: 9999px;
+  margin-right: 2rem;
 `;
 const LogoImage = styled.span`
-  display: block;
-  width: 50%;
+  /* display: block; */
+  width: 150%;
   height: 50%;
 `;

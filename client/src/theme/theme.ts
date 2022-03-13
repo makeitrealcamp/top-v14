@@ -1,4 +1,4 @@
-import { DefaultTheme } from 'styled-components';
+import { css, DefaultTheme } from 'styled-components';
 const defaultTheme: DefaultTheme = {
   borderRadius: '4px',
   palette: {
@@ -12,6 +12,17 @@ const defaultTheme: DefaultTheme = {
       colorGray: '#737373',
       boxShadow: '#ccc 0px 4px 5px -2px',
     },
+  },
+  size: {
+    small: ' 14px',
+    big: ' 26px;',
+  },
+  icons: {
+    eye: css`
+      position: absolute;
+      top: 8px;
+      right: 0;
+    `,
   },
 };
 

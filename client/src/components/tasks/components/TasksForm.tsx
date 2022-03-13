@@ -2,9 +2,9 @@ import { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import styled from 'styled-components';
 
-import { IFormValues, Input } from './Input';
+// import { IFormValues, Input } from './Input';
 import axios from 'axios';
-import { Button } from '../../shared/button/Button';
+import { Button } from '../../../shared/button/Button';
 
 export const LoginForm = () => {
   const [error, setError] = useState('');
@@ -13,9 +13,9 @@ export const LoginForm = () => {
     register,
     handleSubmit,
     formState: { errors },
-  } = useForm<IFormValues>();
+  } = useForm<any>();
 
-  const onSubmit = async (data: IFormValues) => {
+  const onSubmit = async (data: any) => {
     try {
       await axios.post(`http://localhost:4000/login`, {
         ...data,
@@ -32,31 +32,12 @@ export const LoginForm = () => {
       <FormWrapper>
         {error && <Error>{error}</Error>}
         <form onSubmit={handleSubmit(onSubmit)}>
-          <Input
-            type='email'
-            label='email'
-            id='email'
-            register={register}
-            required={true}
-            validator={/^[A-Za-z0-9+_.-]+@[A-Za-z0-9.-]+$/}
+          <input
+            type='text'
+            placeholder='Title'
+            {...register('Title', { required: true, min: 3, maxLength: 80 })}
           />
-          {errors.email && <Error> {'Email is required'}</Error>}
-
-          <Input
-            type='password'
-            label='password'
-            minLength={5}
-            register={register}
-            required={true}
-            id='password'
-          />
-          {errors.password && errors.password.type === 'required' && (
-            <Error>{'password is required'} </Error>
-          )}
-          {/* {console.log(errors)} */}
-          {errors.password && errors.password.type === 'minLength' && (
-            <Error>{'password must be at least 5 characters long'} </Error>
-          )}
+          <textarea {...register('Description', { maxLength: 100 })} />
 
           <Button type='submit'>Login</Button>
           <p>
