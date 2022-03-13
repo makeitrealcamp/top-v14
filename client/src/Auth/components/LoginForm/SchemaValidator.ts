@@ -5,9 +5,6 @@ const loginFormSchema = Yup.object().shape({
   password: Yup.string()
     .required('Password is required')
     .min(5, 'Password length should be at least 5 characters'),
-  passwordConfirm: Yup.string()
-    .required('Confirm Password is required')
-    .oneOf([Yup.ref('password')], 'Passwords must match'),
 });
 
 export const loginValidation = { resolver: yupResolver(loginFormSchema) };

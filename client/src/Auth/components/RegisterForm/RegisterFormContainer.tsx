@@ -14,9 +14,11 @@ export const RegisterFormContainer = () => {
   const onSubmit = async (data: IRegisterFormValues) => {
     console.log(data);
   };
+
   const emailValidation = register('email');
   const passwordValidation = register('password');
   const passwordConfirmValidation = register('passwordConfirm');
+
   return (
     <RegisterFormView
       handleSubmit={handleSubmit(onSubmit)}

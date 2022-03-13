@@ -5,6 +5,7 @@ interface Props {
   children: string;
   disabled?: boolean;
   onClick?: () => void;
+  variant?: 'primary' | 'secondary';
 }
 
 export const Button: React.FC<Props> = ({
@@ -12,8 +13,14 @@ export const Button: React.FC<Props> = ({
   children,
   disabled,
   onClick,
+  variant,
 }) => (
-  <ButtonComponent onClick={onClick} type={type} disabled={disabled}>
+  <ButtonComponent
+    onClick={onClick}
+    type={type}
+    disabled={disabled}
+    variant={variant}
+  >
     {children}
   </ButtonComponent>
 );

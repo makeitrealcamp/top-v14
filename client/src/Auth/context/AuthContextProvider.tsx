@@ -2,6 +2,7 @@ import React, { ReactNode, useState } from 'react';
 import axios from 'axios';
 import jwtDecode, { JwtPayload } from 'jwt-decode';
 import { AuthContext } from './AuthContext';
+import { ILoginFormValues } from '../types';
 
 type Props = {
   children: ReactNode;
@@ -11,7 +12,7 @@ export function AuthContextProvider({ children }: Props) {
   const [user, setUser] = useState<boolean>();
   const [error, setError] = useState();
 
-  const login = async (userCredentials: any) => {
+  const login = async (userCredentials: ILoginFormValues) => {
     try {
       const { data } = await axios.post(`http://localhost:4000/login`, {
         ...userCredentials,

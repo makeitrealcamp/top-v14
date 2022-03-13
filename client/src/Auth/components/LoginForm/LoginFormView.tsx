@@ -23,7 +23,6 @@ export const LoginFormView: React.FC<ILoginForm> = ({
             <DisplayError>{validationErrors.email.message}</DisplayError>
           )}
       </InputFieldset>
-
       <InputFieldset>
         <Input placeholder='Password' type='password' {...passwordValidation} />
         <CardIcon type={'eye'}>
