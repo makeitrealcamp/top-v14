@@ -8,7 +8,7 @@ export const Wrapper = ({ children, ...props }: any) => (
 const WrapperStyled = styled.div`
   height: 100vh;
   width: 100%;
-  margin-top: 2.5rem;
+
   overflow-y: hidden;
   ${(props: any) => (props.center ? centerLayout.define() : '')}
   background-color: ${(props: any) =>

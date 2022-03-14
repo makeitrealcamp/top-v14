@@ -1,12 +1,5 @@
 import { createContext } from 'react';
-import { ILoginFormValues } from '../types';
-
-type authContextType = {
-  user: boolean | undefined;
-  login: (userCredentials: ILoginFormValues) => Promise<void>;
-  logout: () => void;
-  error?: string;
-};
+import { authContextType } from '../types';
 
 const authContextDefaultValues: authContextType = {
   user: undefined,

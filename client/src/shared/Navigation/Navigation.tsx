@@ -2,11 +2,12 @@ import React from 'react';
 import styled from 'styled-components';
 import { Header } from './Header';
 import { Logo } from './Logo';
+import { LogoutNavigation } from './LogoutNavigation';
 import { MainNavigation } from './MainNavigation';
 import { UtilityNavigation } from './UtilityNavigation';
 
 type NavigationProps = {
-  isLoggedIn: boolean | undefined;
+  isLoggedIn: string | undefined;
 };
 
 export const Navigation: React.FC<NavigationProps> = ({ isLoggedIn }) => {
@@ -15,8 +16,8 @@ export const Navigation: React.FC<NavigationProps> = ({ isLoggedIn }) => {
       <Top>
         <Row>
           <Logo />
-          <MainNavigation />
-          {!isLoggedIn && <UtilityNavigation />}
+          {!isLoggedIn && <MainNavigation />}
+          {isLoggedIn ? <LogoutNavigation /> : <UtilityNavigation />}
         </Row>
       </Top>
     </Header>

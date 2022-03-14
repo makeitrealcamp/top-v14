@@ -14,7 +14,7 @@ export const MainRoutes = () => {
 
   return (
     <Router>
-      <Navigation isLoggedIn={user} />
+      {<Navigation isLoggedIn={user} />}
       <Routes>
         <Route path='/' element={<Home />} />
 

@@ -1,15 +1,15 @@
 import React, { ReactNode, useState } from 'react';
 import axios from 'axios';
-import jwtDecode, { JwtPayload } from 'jwt-decode';
+import jwtDecode from 'jwt-decode';
 import { AuthContext } from './AuthContext';
-import { ILoginFormValues } from '../types';
+import { ILoginFormValues, UserIDJwtPayload } from '../types';
 
 type Props = {
   children: ReactNode;
 };
 
 export function AuthContextProvider({ children }: Props) {
-  const [user, setUser] = useState<boolean>();
+  const [user, setUser] = useState<string>();
   const [error, setError] = useState();
 
   const login = async (userCredentials: ILoginFormValues) => {
@@ -17,18 +17,20 @@ export function AuthContextProvider({ children }: Props) {
       const { data } = await axios.post(`http://localhost:4000/login`, {
         ...userCredentials,
       });
-      const decoded = jwtDecode<JwtPayload>(data.token);
+      console.log(data);
+      const decoded = jwtDecode<UserIDJwtPayload>(data.token.authToken);
       console.log(decoded);
-      setUser(true);
+      setUser(decoded.id);
     } catch (error: any) {
-      if (error.response) {
-        setError(error.response.data.error.message);
+      console.log(error.response);
+      if (error.response && error.response.status === 401) {
+        setError(error.response.data.message);
       }
     }
   };
 
   const logout = () => {
-    setUser(false);
+    setUser(undefined);
   };
   const value = {
     user,

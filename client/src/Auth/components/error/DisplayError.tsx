@@ -9,7 +9,7 @@ export const DisplayError: React.FC<Props> = ({ children }) => {
   return <ErrorMessage> {children}</ErrorMessage>;
 };
 
-const ErrorMessage = styled.span`
+const ErrorMessage = styled.p`
   color: #e5195f;
-  margin: 0.5rem auto;
+  margin: 1.5rem auto;
 `;
