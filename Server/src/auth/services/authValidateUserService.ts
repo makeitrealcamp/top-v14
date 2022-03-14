@@ -9,11 +9,11 @@ export const authValidateUserService = async (
   try {
     const user = await getOneUserByEmail(userRequest.email);
 
-    if (!user) throw new Error('user email or password is incorrect');
+    if (!user) throw new Error('user email or password are incorrect');
 
     const auth = await validatePassword(userRequest.password, user.password);
 
-    if (!auth) throw new Error('user email or password is incorrect');
+    if (!auth) throw new Error('user email or password are incorrect');
 
     return user;
   } catch (error: any) {
@@ -22,6 +22,6 @@ export const authValidateUserService = async (
       fn: 'authValidateUserService',
       trace: error.message,
     });
-    throw new Error('Error validating user credentials');
+    throw new Error('user email or password are incorrect');
   }
 };

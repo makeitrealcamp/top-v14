@@ -14,6 +14,7 @@ export const bodyRequestValidator =
       });
       next();
     } catch (error: any) {
+      console.log(error);
       logger.error(`error validating body request ${error.message}`, {
         instance: 'middlewares schema validation',
         fn: 'bodyRequestValidator',

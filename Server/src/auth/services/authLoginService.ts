@@ -22,6 +22,6 @@ export const authLoginService = async (
       fn: 'authLoginService',
       trace: error.message,
     });
-    throw new Error(`Error login user: ${error.message}`);
+    throw new Error(`${error.message}`);
   }
 };

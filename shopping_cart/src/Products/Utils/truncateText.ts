@@ -1,0 +1,1 @@
+export const truncateText = (str: string, length = 100) => `${str.substring(0, length)}...`
