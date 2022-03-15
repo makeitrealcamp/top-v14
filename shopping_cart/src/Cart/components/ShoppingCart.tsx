@@ -7,14 +7,33 @@ import { CartContext } from '../context/CartContext';
 import { useCartActions } from '../hooks/useCartActionsRedux';
 import { CartState } from '../types/initialState';
 import { CartProductsList } from './CartProductsList';
+import { useParams, useNavigate, useLocation } from 'react-router-dom';
+import axios from 'axios';
+import { Product } from '../../shared/types/productType';
+import { productDTO } from '../../Checkout/utils/productDTO';
 
 export const ShoppingCart = () => {
   // const { cartState: { products, totalAmount, totalItems } } = useContext(CartContext);
   const { cartState } = useCartActions();
-  // const { totalItems, products } = useSelector((state: CartState) => state);
-  console.log('products');
-  console.log(cartState.products);
+
+  const navigate = useNavigate();
   const { totalItems, products, totalAmount } = cartState;
+
+  // const goToCheckout = () => navigate('/checkout');
+  const handleCheckout = async (products: Product[]) => {
+    const items = productDTO(products);
+
+    try {
+      const { data } = await axios.post('http://localhost:4000/checkout', {
+        items,
+      });
+      console.log(data);
+      // navigate(data.urlRedirect, { replace: true });
+      window.location.href = data.urlRedirect;
+    } catch (error) {
+      console.log(error);
+    }
+  };
 
   return (
     <Container
@@ -41,6 +60,7 @@ export const ShoppingCart = () => {
           flexDirection: 'row-reverse',
         }}>
         <Button
+          onClick={() => handleCheckout(products)}
           sx={{
             cursor: 'pointer',
             color: 'green',

@@ -11,6 +11,7 @@ import userRoutes from './users/routes/userRoutes';
 import tasksRoutes from './tasks/routes/taskRouter';
 import projectsRoutes from './projects/routes/projectsRouter';
 import authRoutes from './auth/router/authRouter';
+import checkoutRoutes from './checkout/router/paymentRoute';
 
 dotenv.config();
 
@@ -25,6 +26,7 @@ app.use(tasksRoutes);
 app.use(projectsRoutes);
 app.use(userRoutes);
 app.use(authRoutes);
+app.use(checkoutRoutes);
 
 // app.set('port', process.env.PORT)
 
