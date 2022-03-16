@@ -58,7 +58,7 @@ export const LoginForm = () => {
             <Error>{'password must be at least 5 characters long'} </Error>
           )}
 
-          <Button type='submit'>Login</Button>
+          <button type='submit'>Login</button>
           <p>
             Don&apos;t have an account? Signup&nbsp;
             <span></span>
