@@ -47,7 +47,7 @@ describe('cart reducer', () => {
     expect(state.totalItems).toEqual(1);
   });
   it('should remove an element to the cart', () => {
-    const products = generateProducts(5, 4);
+    const products = generateProducts(15, 4);
     const initialState = {
       products,
       totalAmount: 0,
@@ -58,7 +58,7 @@ describe('cart reducer', () => {
       type: 'REMOVE_FROM_CART',
       payload: products[0].id,
     });
-    expect(state.products).toHaveLength(4);
+    expect(state.products).toHaveLength(14);
     expect(state.totalAmount).toEqual(totalPrice(products.slice(1)));
     expect(state.totalItems).toEqual(totalProducts(products.slice(1)));
   });

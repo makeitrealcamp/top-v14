@@ -1,5 +1,5 @@
 export type CreateToken = {
-  userId: strin;
+  userId: string;
 };
 
 export type TokenResponse = {
