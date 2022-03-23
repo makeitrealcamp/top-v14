@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import { Wrapper } from '../../shared/Wrapper';
 import { LoginFormContainer } from '../components/LoginForm/LoginFormContainer';
+import { GoogleOauth } from '../components/Oauth/GoogleOauth';
 
 export const Login = () => {
   return (
@@ -20,6 +21,7 @@ export const Login = () => {
             <LoginFormContainer />
           </LoginFormWrapper>
         </div>
+        <GoogleOauth />
       </FormWrapper>
     </Wrapper>
   );

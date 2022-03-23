@@ -15,6 +15,7 @@ import {
   loginUserSchema,
   signUpUserSchema,
 } from '../utils/userSchemaValidator';
+import { oauthController } from '../controllers/oauthController';
 
 const router: Router = Router();
 
@@ -33,5 +34,7 @@ router
 
 router.route('/recovery').post(recoveryPasswordController);
 router.route('/recovery/:id/:token').post(updatePasswordController);
+
+router.route('/oauth/google').get(oauthController);
 
 export default router;
