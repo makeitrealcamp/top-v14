@@ -12,7 +12,7 @@ interface GoogleUserResult {
   locale: string;
 }
 
-export const getGoogleUser = async ({
+export const getGoogleUserService = async ({
   id_token,
   access_token,
 }: {
@@ -20,7 +20,7 @@ export const getGoogleUser = async ({
   access_token: string;
 }): Promise<GoogleUserResult> => {
   try {
-    const res = await axios.get<GoogleUserResult>(
+    const { data } = await axios.get<GoogleUserResult>(
       `https://www.googleapis.com/oauth2/v1/userinfo?alt=json&access_token=${access_token}`,
       {
         headers: {
@@ -28,7 +28,8 @@ export const getGoogleUser = async ({
         },
       }
     );
-    return res.data;
+
+    return data;
   } catch (error: any) {
     logger.error('Error  fetching Google user', {
       instance: 'services',

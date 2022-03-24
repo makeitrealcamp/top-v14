@@ -2,6 +2,8 @@ import { NextFunction, Request, Response } from 'express';
 import { ApplicationError } from '../../shared/customErrors/ApplicationError';
 import { LoginUser } from '../../users/entity/types/User';
 import { authLoginService } from '../services';
+import { oauthGoogleService } from '../services/oauthGoogleService';
+// import qs from 'qs';
 
 export const oauthController = async (
   req: Request<{}, {}, LoginUser>,
@@ -9,9 +11,13 @@ export const oauthController = async (
   next: NextFunction
 ) => {
   try {
-    // const token = await authLoginService(req.body);
-    res.send('ok');
-    res.redirect(config.get('origin'));
+    const { code } = req.query;
+    let tokens;
+    if (code) {
+      tokens = await oauthGoogleService(code);
+    }
+    res.status(200).json({ data: tokens });
+    // .redirect('http://localhost:3000/dashboard');
   } catch (error: any) {
     next(new ApplicationError(401, `${error.message}`));
   }

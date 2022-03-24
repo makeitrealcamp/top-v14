@@ -8,7 +8,7 @@ export interface User {
   createdAt: Date;
   editedAt: Date | null;
   avatar?: string;
-  valid: boolean;
+  valid?: boolean;
 }
 
 export type UserIdType = {
