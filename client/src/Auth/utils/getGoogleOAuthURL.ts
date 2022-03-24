@@ -12,8 +12,8 @@ export const getGoogleOAuthURL = () => {
       'https://www.googleapis.com/auth/userinfo.email',
     ].join(' '),
   };
-  console.log(options);
+  // console.log(options);
   const qs = new URLSearchParams(options);
-  console.log(`${rootUrl}?${qs.toString()}`);
+  // console.log(`${rootUrl}?${qs.toString()}`);
   return `${rootUrl}?${qs.toString()}`;
 };

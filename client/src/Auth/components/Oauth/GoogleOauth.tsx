@@ -4,7 +4,8 @@ import { getGoogleOAuthURL } from '../../utils/getGoogleOAuthURL';
 
 export const GoogleOauth = () => {
   const oauth = async () => {
-    await axios.get(getGoogleOAuthURL());
+    // await axios.get(getGoogleOAuthURL());
+    console.log(getGoogleOAuthURL());
   };
   return (
     <>
