@@ -16,8 +16,10 @@ export const oauthController = async (
     if (code) {
       tokens = await oauthGoogleService(code);
     }
-    res.status(200).json({ data: tokens });
-    // .redirect('http://localhost:3000/dashboard');
+    // res.status(200).json({ data: tokens });
+    res.set('x-token', tokens?.authToken);
+    res.set('r-token', tokens?.refreshToken);
+    res.redirect('http://localhost:3000/dashboard');
   } catch (error: any) {
     next(new ApplicationError(401, `${error.message}`));
   }
