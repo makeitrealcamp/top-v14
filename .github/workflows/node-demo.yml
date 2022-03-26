@@ -17,7 +17,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - run: cd server
+      - name: Run a one-line script
+          run: cd server
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v2
         with:
