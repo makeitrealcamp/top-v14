@@ -18,9 +18,11 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Run cd server
-        run: echo $(pwd)
-        run: cd .. 
-        run: cd server
+        run: | 
+        echo $(pwd) 
+        ls
+        cd .. 
+        cd server
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v2
         with:
