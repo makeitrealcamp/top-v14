@@ -6,7 +6,7 @@ import {
   waitFor,
 } from '@testing-library/react';
 
-import { server, rest } from '../../../__tests__/testServer';
+import { server, rest } from '../../../__testsServerConf__/testServer';
 
 import { LoginForm } from './LoginForm';
 
