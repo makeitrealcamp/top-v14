@@ -21,8 +21,7 @@ jobs:
         run: |
           echo $(pwd) 
           ls
-          cd .. 
-          cd server
+          cd Server
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v2
         with:
