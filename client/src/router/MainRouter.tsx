@@ -3,6 +3,7 @@ import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import { AuthContext } from '../Auth/context/AuthContext';
 import { Login } from '../Auth/pages/Login';
 import { SignUp } from '../Auth/pages/SignUp';
+import { Chat } from '../Chat/Chat';
 import { Dashboard } from '../Dashboard/pages/Dashboard';
 import Home from '../pages/Home';
 import { Navigation } from '../shared/Navigation/Navigation';
@@ -14,10 +15,10 @@ export const MainRoutes = () => {
 
   return (
     <Router>
-      {<Navigation isLoggedIn={user} />}
+      {/* {<Navigation isLoggedIn={user} />} */}
       <Routes>
         <Route path='/' element={<Home />} />
-
+        <Route path='/chat' element={<Chat />} />
         {/* <Route path='about' element={<About />} /> */}
 
         <Route path='signup' element={<SignUp />} />
