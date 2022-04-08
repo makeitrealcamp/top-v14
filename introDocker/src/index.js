@@ -7,10 +7,13 @@ const axios = require('axios');
 dotenv.config();
 const app = express();
 
+createDbConnection(`${process.env.MONGO_URI}`);
 
 const redisCLient = client.createClient({
-  host: '127.0.0.1',
-  port: 6379,
+  socket: {
+    host: process.env.REDIS_HOST,
+    port: process.env.REDIS_PORT
+  }
 });
 
 (async () => {
@@ -23,7 +26,6 @@ const redisCLient = client.createClient({
   console.log(value)
 })();
 
-// createDbConnection(`${process.env.MONGO_URI}`);
 
 //first approach
 app.get('/posts', async (req, res) => {
