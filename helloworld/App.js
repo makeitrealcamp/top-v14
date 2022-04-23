@@ -1,34 +1,11 @@
-import { useState } from 'react';
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, Button, TextInput, ScrollView, FlatList } from 'react-native';
-import { NavigationContainer } from '@react-navigation/native';
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import Home from './screens/Home';
-import Settings from './screens/Settings';
-import Login from './screens/Login';
-import Register from './screens/Register';
 
-const Stack = createNativeStackNavigator();
+import { AuthProvider } from './context/AuthContext';
+import { MainRouter } from './Routes/MainRouter';
 
 export default function App() {
   return (
-    <NavigationContainer>
-      <Stack.Navigator>
-        <Stack.Screen name="Home" component={Home} />
-        <Stack.Screen name="Settings" component={Settings} />
-        <Stack.Screen name="Login" component={Login} />
-        <Stack.Screen name="Register" component={Register} />
-      </Stack.Navigator>
-    </NavigationContainer>
+    <AuthProvider>
+      <MainRouter />
+    </AuthProvider>
   );
 }
-
-const styles = StyleSheet.create({
-  mainContainer: {
-    flex: 1,
-    paddingHorizontal: 20,
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-
-});
