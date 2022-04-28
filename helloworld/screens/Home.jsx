@@ -12,6 +12,8 @@ export default function Home({ navigation }) {
           (
             <>
               <Button title="Go to Settings" onPress={() => navigation.navigate('Settings')} />
+              <Button title="Go to Images" onPress={() => navigation.navigate('Images')} />
+              <Button title="Go to Notifications" onPress={() => navigation.navigate('Notifications')} />
               <Button title="logout" onPress={logout} />
             </>
           )

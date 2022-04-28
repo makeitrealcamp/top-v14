@@ -6,7 +6,6 @@ export default function Register({ }) {
     <View style={styles.container}>
       <RegisterForm />
     </View>
-
   );
 }
 
@@ -30,5 +29,4 @@ const styles = StyleSheet.create({
     marginTop: 6,
     textAlign: 'center',
   },
-
 });
