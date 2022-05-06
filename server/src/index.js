@@ -5,6 +5,7 @@ const { typeDefs } = require('./schema/schema');
 const Category = require('./resolvers/Category.resolver.js');
 const Product = require('./resolvers/Product.resolver.js');
 const { Query } = require('./resolvers/Query.resolver.js');
+const Mutation = require('./resolvers/Mutations.js');
 
 //Types String, Int, Float, Boolean ID, 
 console.log(Category);
@@ -15,7 +16,8 @@ const server = new ApolloServer({
   resolvers: {
     Category,
     Product,
-    Query
+    Query,
+    Mutation
   },
   context: {
     categories,
